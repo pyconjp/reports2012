@@ -6,6 +6,8 @@
 PyCon Taiwan 2012 参加レポート
 ==========================================================
 
+.. image:: http://tw.pycon.org/site_media/static/img/logo2.png
+
 Contents:
 
 .. toctree::
