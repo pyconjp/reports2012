@@ -14,11 +14,17 @@ Twitter： http://twitter.com/#!/t2y
 
 ブログ： http://d.hatena.ne.jp/t2y-1979/
 
-西本さん
-========
-(写真)
+西本卓也（にしもとたくや）
+========================
+.. image:: https://si0.twimg.com/profile_images/1395671364/DSCF0525.JPG
 
-(プロフィール)
+`NVDA日本語チーム <http://sourceforge.jp/projects/nvdajp/>`_ 代表。
+
+大学教員を経て個人事業者として独立。音声合成や音声認識、視覚や聴覚に障害がある人を支援する情報技術に興味を持つ。世界で注目されているオープンソースのスクリーンリーダー（画面読み上げソフト）NVDA日本語版の開発メンバー。共著書に「バージョン管理システム(CVS)の導入と活用（ソフトバンク）」がある。
+
+Twitter： `@24motz <http://twitter.com/#!/24motz>`_
+
+ブログ： http://d.nishimotz.com/
 
 鈴木たかのり（すずきたかのり）
 ==============================
