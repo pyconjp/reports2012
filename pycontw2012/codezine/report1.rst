@@ -4,9 +4,18 @@
 
 PyCon JP 2012 広報担当の保坂です。
 
-6月9日(土), 10日(日) に台湾の `中央研究院 人文社會科學館 <http://hssb.committee.sinica.edu.tw/>`_ にて PyCon Taiwan が開催されました。
+去る6月9日(土), 10日(日) に台湾の `中央研究院 人文社會科學館 <http://hssb.committee.sinica.edu.tw/>`_ にて PyCon Taiwan が開催されました。
 筆者は PyCon JP のメンバーとともに PyCon Taiwan に参加し、 PyCon JP の宣伝を行うなどしてきました。
 ここでは PyCon Taiwan の出張レポートとして PyCon JP レポート番外編として PyCon Taiwan を紹介します。
+
+
+今回の出張の目的について
+========================
+
+昨年開催した PyCon JP 2011 では、台湾から二名 (`Sinker`_, `Hychen`_) が参加し、セッションスピーカーとして発表してくれました。
+そこで今回 PyCon Taiwan 2012 に PyCon JP 代表として有志が参加し、日台間の Pythonista のより活発な交流がなされるようになれば、と筆者含め8名が参加してまいりました。
+
+交流に加え、今年開催する PyCon JP 2012 の紹介をする時間を PyCon Taiwan 運営チームから頂けたので、 PyCon JP 2012 の宣伝をするという目的もあります。
 
 
 PyCon Taiwan について
@@ -39,7 +48,7 @@ PyCon Taiwan は PyCon JP やその他の地域の PyCon と同様に Python プ
 .. todo::
 
    参加者数・セッション数を埋める
-   会につての説明
+   会についての説明
 
 
 日本からの参加者
@@ -92,14 +101,6 @@ PyCon Taiwan は PyCon JP やその他の地域の PyCon と同様に Python プ
    出発前のメンバーの様子
 
 
-今回の出張の目的について
-========================
-
-PyCon JP 2012 座長の寺田です。
-
-ここでは座長である私から今回の PyCon Taiwan 2012 出張の目的・意義について説明します。
-
-
 出張スケジュール
 ================
 
@@ -135,17 +136,30 @@ PyCon JP 2012 座長の寺田です。
 一日目は朝6時に羽田空港国際線ターミナル集合、7時30分発の飛行機で台湾に飛ぶというスケジュールでした。
 フライト時間はおよそ2:30です。台湾のタイムゾーンは GMT+8 (日本は GMT+9) であるため、台湾の現地時間で 10時頃に到着しました。
 
+空港で諸々の手続きを済ませ、一日目のホテルに荷物を預け、昼食を取った後に Mozilla Taiwan に向かいました。
+
 
 Mozilla Taiwan 訪問
 -------------------
 
 13:30過ぎに(台北101近く) Mozilla Taiwan を訪問しました。
 
-Sinker & Bob Chao に会った。
-B2G という Gecko ベースのモバイルOSがある。
-で、それを Galaxy S II にインストールした実機を見せてもらった。
+Mozilla Taiwan では Mr.Boss こと `Bob Chao`_ 氏に迎えられました。
+`Bob Chao`_ 氏は座長である寺田さんの知り合いということで、今回 Mozilla Taiwan を訪問することになりました。
 
-Sinker は PyCon JP 2011 の数ヶ月後に Mozilla Taiwan に転職
+Mozilla Taiwan では、 `Bob Chao`_ 氏との歓談の予定だったのですが、ここで一つサプライズがありました。
+昨年の PyCon JP 2011 に参加した `Sinker`_ 氏がオフィスにいたのです。 `Sinker`_ 氏は PyCon JP 2011 の数ヶ月後に Mozilla Taiwan に転職したということでした。
+
+この後 `Bob Chao`_ 氏と `Sinker`_ 氏を交えて自己紹介をし歓談が始まりました。
+話の中では Python よりも JavaScript の話が多く(Mozilla ですし)、同行者の中で JavaScript に長けた `@rokujyouhitoma`_ や `@monjudoh`_ などが積極的に話をしていました。
+
+話の中で Mozilla が開発しているモバイルデバイス向け OS である `Boot to Gecko <https://wiki.mozilla.org/B2G>`_ (以下 `B2G`_) を見せてもらえました。
+`B2G`_ は既に実機の上で動かせる程度には開発されていて、 Samsung のスマートフォン Galaxy SII の上で動く状態になっていました。
+`B2G`_ は近い内に誰でも利用できるような状態にで配布されるようになるということでした。
+興味のある方は `サイト <https://wiki.mozilla.org/B2G>`_ をチェックしてみると良いのではないでしょうか。
+
+以上のような話の後に、皆で集合写真を撮影し Mozilla Taiwan を後にしました。
+
 
 .. figure:: _static/mozilla-taiwan-entrance.jpg
    :width: 640px
@@ -195,9 +209,11 @@ Sinker は PyCon JP 2011 の数ヶ月後に Mozilla Taiwan に転職
 Sinker/Hychen と会ったよとか
 ----------------------------
 
-`鼎泰豐`_ (Din Tai Fung) で Sinker, Bob Chao, Hychen と夕食。
+一日目の夜は Mozilla Taiwan で会った `Bob Chao`_ 氏と `Sinker`_ 氏に加え、PyCon JP 2011 のもう一人の参加者である `Hychen` 氏を加えて `鼎泰豐`_ (Din Tai Fung) 食事を楽しみました。
 
-Sinker-Li と Hychen は前回 PyCon JP 2011 の参加者
+.. todo::
+
+   もうちょいなんか書こう
 
 .. figure:: _static/dintaifung-sinker.jpg
    :width: 640px
@@ -230,6 +246,16 @@ Sinker-Li と Hychen は前回 PyCon JP 2011 の参加者
 PyCon Taiwan 一日目
 -------------------
 
+PyCon Taiwan 一日目です。
+
+PyCon Taiwan の会場である `中央研究院`_ は、台湾における最高の学術研究機関です。
+`中央研究院`_ の敷地はとても広く、タクシーで会場まで移動したのですが、どの建物で開催されるのかを確認しなかったため、危うく迷うところでした。
+
+会場である人文所國際會議廳(International Conference Hall)にたどり着き、セッションスピーカーとして受付を済ませました。
+
+PyCon Taiwan の会場は、会議場さながらの大変広い会場で、全席電源完備かつ無線LANも飛んでいるなど、カンファレンス参加者としてはとても快適な会場でした。
+
+
 .. figure:: _static/pycontw-registration.*
    :width: 640px
 
@@ -239,17 +265,36 @@ PyCon Taiwan 一日目
 .. figure:: _static/pycontw-hall1.*
    :width: 640px
 
-   会場前方
+   壇上
 
 
 .. figure:: _static/pycontw-hall2.*
    :width: 640px
 
-   会場後方
+   来場者席
 
 
 セッション内容
 --------------
+
+基調講演は `Travis Oliphant`_ 氏による「Large-scale array-oriented computing with Python」です。
+`Travis Oliphant`_ 氏は `NumPy`_ や `SciPy`_ の開発者として知られており、 NumPy や SciPy の高速化の仕組みの説明や、 NumPy のコードを LLVM でコンパイルしてさらに高速に実行する `numba <https://github.com/ContinuumIO/numba>`_ といった技術の紹介をしていました。
+
+この日のセッション内容としては、基調講演の `NumPy`_, `SciPy`_ をはじめ、イベントシミュレーションのためのモジュールである `SimPy <http://simpy.sourceforge.net/>`_, `GIS <http://ja.wikipedia.org/wiki/%E5%9C%B0%E7%90%86%E6%83%85%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0>`_ (地理情報システム), `NLTK <http://nltk.org/>`_ による自然言語処理, `Matplotlib <http://matplotlib.sourceforge.net/>`_ によるグラフの描画処理など学術的な内容のセッションが多かったように思います。中央研究院という研究機関での開催ということも関係あるのかもしれません。
+
+午前・午後ともにセッションの合間には軽食のための休憩時間が30分設けられ、食事をしながら来場者同士での交流が行われていました。
+PyCon JP でもティータイムとして休憩時間を挟むなどしていましたが、立食ではなく学食を使って席がある状態での休憩時間でしたので、特定の人と交流することはできますが、様々な人との交流という意味では立食形式というのもよいのかもしれません。
+
+`プログラムスケジュール <http://tw.pycon.org/2012/program/>`_ を見ていただくとわかるのですが、セッションとセッションの合間に休憩を挟まず、3セッション連続で講演するといったようなスケジュールとなっていました。
+これは
+
+- 一つのセッションの時間が30分と短い
+- トラック数が一つしかなく、部屋を移動することがない
+
+といった理由によって可能となっていると思います。
+三連続セッションの後にティータイムとして30分の休憩を設けているので、各セッション間に10分休憩を挟むのとでトータルの時間は変わりませんが、30分というまとまった時間が休憩時間として存在するという意味は、参加者同士が交流するという点では大きいと思います。
+このような詰め詰めのスケジュールは、複数トラックが並列して開催され、移動時間が発生する PyCon JP では若干厳しそうです。
+
 
 .. figure:: _static/pycontw-keynote1.*
    :width: 640px
@@ -310,8 +355,8 @@ Yung-Yu Chen (PyCon TW 座長) に会って PyCon TW の運営についてお話
    握手を交わす日台 PyCon の両座長 `@terapyon`_ (右) と `Yung-Yu Chen`_ 氏(左)
 
 
-PyCon TW 二日目
----------------
+PyCon Taiwan 二日目
+-------------------
 
 
 .. figure:: _static/pycontw2-keynote.*
@@ -330,7 +375,7 @@ PyCon JP の宣伝セッション
 
 
 .. figure:: _static/pyconjp-promote-stage.*
-   :width: 640px
+   :width: 480px
 
    PyCon JP ステージ上の筆者
    
@@ -424,13 +469,20 @@ PyCon JP 宣伝
 
 皆様の応募をお待ちしております。
 
+.. _`寺田`: http://twitter.com/terapyon
 .. _`@terapyon`: http://twitter.com/terapyon
+.. _`清水川`: http://twitter.com/shimizukawa
 .. _`@shimizukawa`: http://twitter.com/shimizukawa
+.. _`鈴木たかのり`: http://twitter.com/takanory
 .. _`@takanory`: http://twitter.com/takanory
+.. _`もりもと`: http://twitter.com/t2y
 .. _`@t2y`: http://twitter.com/t2y
+.. _`池`: http://twitter.com/rokujyouhitoma
 .. _`@rokujyouhitoma`: http://twitter.com/rokujyouhitoma
 .. _`@jbking`: http://twitter.com/jbking
+.. _`西本`: http://twitter.com/24motz
 .. _`@24motz`: http://twitter.com/24motz
+.. _`文殊堂`: http://twitter.com/monjudoh
 .. _`@monjudoh`: http://twitter.com/monjudoh
 
 .. _`Sinker`: https://www.facebook.com/profile.php?id=750311951
@@ -442,5 +494,10 @@ PyCon JP 宣伝
 .. _`B2G`: https://wiki.mozilla.org/B2G
 .. _`鼎泰豐`: http://www.dintaifung.com.tw/jp/area_a_list.asp?AreaCountryNO=20
 
+.. _`中央研究院`: http://www.sinica.edu.tw/
+
 .. _`Travis Oliphant`: http://twitter.com/teoliphant
 .. _`James Tauber`: http://twitter.com/jtauber
+
+.. _NumPy: http://numpy.scipy.org/
+.. _SciPy: http://www.scipy.org/
