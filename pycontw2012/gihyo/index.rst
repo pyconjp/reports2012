@@ -17,3 +17,18 @@ Contents:
    day1
    day2
    author
+
+写真
+----
+記事に使用してください。
+
+- `寺田撮影 Day 0, 1 <http://www.facebook.com/media/set/?set=a.10150895015733719.416071.520583718&type=3>`_
+- `寺田撮影 Day 2 <http://www.facebook.com/media/set/?set=a.10150898079023719.416514.520583718&type=3>`_
+- `寺田撮影 その他 <http://www.facebook.com/media/set/?set=a.10150898087963719.416517.520583718&type=3>`_
+- `清水川撮影 <http://www.flickr.com/photos/shimizukawa/7171092929/in/set-72157630022116349/>`_
+- `ほさか撮影 <https://plus.google.com/photos/111021918302550652188/albums/5752434975972142545>`_
+- `たかのり撮影 Day 0 <http://www.facebook.com/media/set/?set=a.467624649917573.119235.100000101258873&type=3>`_
+- `たかのり撮影 Day 1 <http://www.facebook.com/media/set/?set=a.467626986584006.119236.100000101258873&type=3>`_
+- `たかのり撮影 Day 2 <http://www.facebook.com/media/set/?set=a.467630316583673.119237.100000101258873&type=3>`_
+- `たかのり撮影 Day 3 <http://www.facebook.com/media/set/?set=a.467631993250172.119238.100000101258873&type=3>`_
+
