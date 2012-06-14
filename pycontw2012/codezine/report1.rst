@@ -87,18 +87,13 @@ PyCon Taiwan は PyCon JP やその他の地域の PyCon と同様に Python プ
      * NVDA 日本語チーム代表
    - * (文殊堂)
      * `@monjudoh`_
-     * (PyCon TW は参加せず)
+     * (PyCon Taiwan は参加せず)
 
 
 .. figure:: _static/start-members.jpg
    :width: 640px
 
-   出発前のメンバーの様子(一部)
-
-
-.. todo::
-
-   出発前のメンバーの様子
+   羽田空港ロビーでの出発前のメンバーの様子(一部)
 
 
 出張スケジュール
@@ -136,7 +131,7 @@ PyCon Taiwan は PyCon JP やその他の地域の PyCon と同様に Python プ
 一日目は朝6時に羽田空港国際線ターミナル集合、7時30分発の飛行機で台湾に飛ぶというスケジュールでした。
 フライト時間はおよそ2:30です。台湾のタイムゾーンは GMT+8 (日本は GMT+9) であるため、台湾の現地時間で 10時頃に到着しました。
 
-空港で諸々の手続きを済ませ、一日目のホテルに荷物を預け、昼食を取った後に Mozilla Taiwan に向かいました。
+空港で諸々の手続きを済ませ、一日目のホテルである `中源大飯店`_ に荷物を預け、昼食を取った後に Mozilla Taiwan に向かいました。
 
 
 Mozilla Taiwan 訪問
@@ -154,8 +149,8 @@ Mozilla Taiwan では、 `Bob Chao`_ 氏との歓談の予定だったのです�
 話の中では Python よりも JavaScript の話が多く(Mozilla ですし)、同行者の中で JavaScript に長けた `@rokujyouhitoma`_ や `@monjudoh`_ などが積極的に話をしていました。
 
 話の中で Mozilla が開発しているモバイルデバイス向け OS である `Boot to Gecko <https://wiki.mozilla.org/B2G>`_ (以下 `B2G`_) を見せてもらえました。
-`B2G`_ は既に実機の上で動かせる程度には開発されていて、 Samsung のスマートフォン Galaxy SII の上で動く状態になっていました。
-`B2G`_ は近い内に誰でも利用できるような状態にで配布されるようになるということでした。
+`B2G`_ は既に実機の上で動かせる程度には開発されていて、 Samsung のスマートフォン Galaxy S II の上で動く状態になっていました。
+`B2G`_ は近い内に誰でも利用できるような状態で配布されるということでした。
 興味のある方は `サイト <https://wiki.mozilla.org/B2G>`_ をチェックしてみると良いのではないでしょうか。
 
 以上のような話の後に、皆で集合写真を撮影し Mozilla Taiwan を後にしました。
@@ -173,7 +168,7 @@ Mozilla Taiwan では、 `Bob Chao`_ 氏との歓談の予定だったのです�
    JavaScript について語り合う `@rokujyouhitoma`_ (中央) と `Bob Chao`_ 氏 (左)
 
 
-.. figure:: _static/mozilla-taiwan-all.jpg
+.. figure:: _static/mozilla-taiwan-all.jpg 
    :width: 640px
 
    記念の集合写真
@@ -295,6 +290,15 @@ PyCon JP でもティータイムとして休憩時間を挟むなどしてい�
 三連続セッションの後にティータイムとして30分の休憩を設けているので、各セッション間に10分休憩を挟むのとでトータルの時間は変わりませんが、30分というまとまった時間が休憩時間として存在するという意味は、参加者同士が交流するという点では大きいと思います。
 このような詰め詰めのスケジュールは、複数トラックが並列して開催され、移動時間が発生する PyCon JP では若干厳しそうです。
 
+セッション内容に関しては、一日目と二日目の基調講演は海外ゲストということで英語での講演でした。
+それ以外のセッションに関しては基本的に現地語で発表が行われていたため、我々 PyCon JP 側では若干ついていけない場面もありました。
+とはいえ、講演内容はともかくスライドに関しては技術用語はそのまま英語ですし、漢字からニュアンスをなんとなく読み取ることで雰囲気はつかめたと思います。
+
+セッションを聞く傍ら、 skype で日本側メンバーと「このスライドはこんな意味なんじゃない?」とか「前端と後端はフロントエンドとバックエンドって意味じゃないの?」などと推測しあっていたというのも理解の一助になりました。
+
+この日は、最後に LT(Lighting-Talks) のセッションがありました。
+セッション内容はスライドを見て理解するだけの時間があったのですが、 LT はさすがにそんな余裕もなく内容を受け取れなかったように思います。
+
 
 .. figure:: _static/pycontw-keynote1.*
    :width: 640px
@@ -311,10 +315,22 @@ PyCon JP でもティータイムとして休憩時間を挟むなどしてい�
 昼食
 ----
 
+昼には弁当が用意され、昼食をとるようになっていました。
+筆者等は PyCon Taiwan 主催側の計らいにより、「VIP Room」と書かれた部屋で昼食をとらせてもらいました。
+
+「VIP Room」は主催側の一部スタッフとその日のセッションスピーカーのために用意された部屋であるらしく、セッションスピーカーやスタッフとともに昼食の時間を過ごしました。
+
+このような「VIP Room」はスピーカー同士の交流を深めるといった意味ではとても意味のあるものであると思います。
+PyCon JP でもこのようなセッションスピーカー向けの部屋というものは用意したほうがいいのではないかと思いました。
+
+昼食後に主催側の人達と話す時間がありました。
+その時間で日本から持参したおみやげ(手ぬぐい: Traditional Japanese Towel と紹介しました)を座長である `Yung-Yu Chen`_ 氏に渡したり、翌日の宣伝セッションのために中国語での挨拶の言葉を教えてもらうなどしました。
+
+
 .. figure:: _static/pycontw-vip-towel.*
    :width: 480px
 
-   お土産のタオルを受け取って喜ぶ `Yung-Yu Chen`_ 氏
+   お土産の手ぬぐいを受け取って喜ぶ `Yung-Yu Chen`_ 氏
 
 
 .. figure:: _static/pycontw-vip-teach.*
@@ -326,17 +342,64 @@ PyCon JP でもティータイムとして休憩時間を挟むなどしてい�
 .. figure:: _static/pycontw-vip-takanory.*
    :width: 640px
 
-   一日目の発表者である女子大生を PyCon JP に誘う `@takanory`_
-   
+   一日目の発表者である `Mosky Liu`_ さんを PyCon JP に誘う `@takanory`_
+
+
+PyCon Taiwan 後
+---------------
+
+二日目の宿泊は `中央研究院`_ 内にある宿泊施設です。
+二人部屋で一泊 2400 台湾ドル(日本円換算で 7200円くらい)というとてもリーズナブルな価格である割にアメニティなどは一通り揃っているなどかなりお得な感じを受けました。
+繁華街にでるのに若干不便ではありますが、そもそも商業用の施設ではないということもあるのでしょうし、値段だけを見れば破格ですのでこれといった不満もありませんでした。
+
+夜は `饒河街観光夜市`_ に向かい、ナイトマーケットで食べ歩き観光を楽しんできました。
+ナイトマーケットは商店街のような路地に、屋台がたくさん並んでいる祭りの縁日のような場所です。
+食べ物や衣類、おもちゃなどの様々な屋台があり、このような光景が毎晩繰り広げられているのですから大したものです。
+
+.. figure:: _static/nightmarket-gate.*
+   :width: 640px
+
+   `饒河街観光夜市`_ の入り口
+
+
+.. figure:: _static/nightmarket-food.*
+   :width: 640px
+
+   名物らしいマンゴーかき氷
+
+
+.. figure:: _static/nightmarket-food2.*
+   :width: 640px
+
+   謎の屋台が並び、縁日のよう
 
 
 三日目: 6/10(日)
 ================
 
-PyCon TW 座長へのインタビュー
------------------------------
+PyCon Taiwan 座長へのインタビュー
+---------------------------------
 
-Yung-Yu Chen (PyCon TW 座長) に会って PyCon TW の運営についてお話を聞くなど。
+PyCon Taiwan の二日目です。
+
+朝食は `中央研究院`_ 内にあるカフェテラスでとりました。
+この日の朝は朝食の後に PyCon Taiwan の座長である `Yung-Yu Chen`_ 氏に時間をつくってもらい、インタビューを行いました。
+
+インタビューでは PyCon Taiwan や 台湾における Python コミュニティについての話を聞くことができました。
+筆者が印象に残っているのは以下のような内容です。
+
+- PyCon Taiwan はコミュニティのためのコミュニティを目指している
+- `中央研究院`_ は台湾のオープンソース関係のカンファレンスを開く際によく使われる
+- 台湾にもローカルな Python のコミュニティは存在するが、ツールやライブラリに特化したようなコミュニティはない (日本の例: `sphinx-users.jp <http://sphinx-users.jp/`_)
+- 台湾の人達は英語が話せるので積極的に開発元の ML などで開発者とコミュニケーションをとるが、その分ローカルなコミュニティが活発ではない。良いことではあるが、悪いところでもある。
+
+PyCon の開催動機としては日本も台湾も基本的に同じようなスタンスのようです。
+しかし、コミュニティに関しては国が違えば事情も違うようです。
+日本においては英語が堪能な人が少ないために、日本語に特化したローカルなコミュニティが活発です。
+しかし、その分メインストリームへのコントリビュートがあまりないという状態ではあるため、良いことと悪いことはトレードオフなのだなと感じます。
+
+最後に日台 PyCon の座長同士で握手を交わし、 PyCon Taiwan 二日目の会場に向かいました。
+
 
 .. figure:: _static/pycontw-interview-all.*
    :width: 640px
@@ -346,7 +409,7 @@ Yung-Yu Chen (PyCon TW 座長) に会って PyCon TW の運営についてお話
 .. figure:: _static/pycontw-interview-yungyu.*
    :width: 480px
 
-   PyCon TW について語る `Yung-Yu Chen`_ 氏
+   PyCon Taiwan について語る `Yung-Yu Chen`_ 氏
 
 
 .. figure:: _static/pycontw-interview-handshake.*
@@ -358,6 +421,16 @@ Yung-Yu Chen (PyCon TW 座長) に会って PyCon TW の運営についてお話
 PyCon Taiwan 二日目
 -------------------
 
+PyCon Taiwan では、一日目と二日目両方で基調講演を行っていました。
+二日目の講演者は、 Web Application Framework の `Django`_ やそのプラグインである `Pinax`_ の開発者である `James Tauber`_ 氏です。
+以前は二日目の講演者は `James Tauber`_ 氏ではなかったのですが、開催の二週間前に予定されていた講演者が病気になってしまったということで急遽二日目の講演者として講演することになったようです。
+
+講演のタイトルは「Python and the Web」です。
+内容としては CGI から始まる Web 開発の歴史を俯瞰するようなもので、最後のほうでは Pylamid/Pylons, flask, Django などの各種フレームワークの紹介いったような感じです。
+広く浅く様々な技術について触れる内容でしたので、基調講演らしい講演だったのではないでしょうか。
+
+二日目のセッション内容としては Python で Web アプリの挙動を記述する `Pyjamas(Pyjs) <http://pyjs.org/>`_ や `Azure <http://www.windowsazure.com/ja-jp/>`_ の上で Python を動かすといったような Web やその周辺の内容が多く、一日目ほど固い内容ではなかったため、わかりやすかったです。
+
 
 .. figure:: _static/pycontw2-keynote.*
    :width: 640px
@@ -368,6 +441,26 @@ PyCon Taiwan 二日目
 PyCon JP の宣伝セッション
 -------------------------
 
+二日目の昼前、今回のツアーの目的である「PyCon JP の宣伝」のセッションがありました。
+筆者はその発表者として PyCon Taiwan に参加していますので、壇上に立ち、発表しました。
+
+発表内容としては
+
+- PyCon JP 2011 の振り返り
+- PyCon JP 2012 の紹介
+- 会場である `産業技術大学院大学 <http://aiit.ac.jp/>`_ とその周辺の紹介
+- お礼
+
+といったようなものです。
+
+英語での発表はもちろん初めてで、このセッションの前までずっと脳内でシミュレーションをするなどしていました。
+その甲斐あってか(?) 発表中に狙ったところで笑いを取れたなど、なかなかうまく行ったように思います。
+
+これを機に PyCon JP 2012 に台湾からの参加者が増えると良いなと思っています。
+
+スライドは `こちら <http://shomah4a.net/pycontw_slide/>`_ にあります。
+また、講演の様子は YouTube に `あげられて <http://www.youtube.com/watch?v=Q1RohyUiAQw>`_ いるようです。
+
 .. figure:: _static/pyconjp-promote-all.*
    :width: 640px
 
@@ -377,17 +470,18 @@ PyCon JP の宣伝セッション
 .. figure:: _static/pyconjp-promote-stage.*
    :width: 480px
 
-   PyCon JP ステージ上の筆者
-   
+   PyCon JP ステージ上の筆者   
 
 
 帰路
 ----
 
+宣伝セッションの後は一日目同様に VIP Room で昼食をとり、飛行機の時間の関係で午後のセッションに参加せずに帰路に着きました。
+
+
 
 まとめ
 ======
-
 
 台湾雑感
 ========
@@ -420,9 +514,10 @@ PyCon JP の宣伝セッション
 
 この環境が250台湾ドル(日本円にしておよそ750円)ですので、とてもお手軽であるといえます。
 
-.. todo::
-
-   SIM カードの写真
+.. figure:: _static/sim.*
+   :width: 320px
+   
+   空港で購入した SIM カード
 
 食事環境
 --------
@@ -450,6 +545,12 @@ Easy Card は簡単に言うと Suica/Pasmo などのプリペイド式のカー
 最初に  500台湾ドルを払って購入し、デポジット100台湾ドルを除くと残りは400台湾ドルですが、公共交通機関を使うだけであればそんなに使いません。(電車の最低運賃は20台湾ドル、バスの運賃は15台湾ドル)
 ですので、おそらくコンビニなどでの買い物で使わない限りは短期の滞在では400台湾ドル分を使い切るのは難しいのではないでしょうか。
 
+.. figure:: _static/easy-card.*
+   :width: 480px
+
+   Easy Card
+   
+
 .. todo::
 
    Easy Card の写真
@@ -461,7 +562,7 @@ PyCon JP 宣伝
 
 最後になりましたが、ここで PyCon JP 2012 についてのお話です。
 
-9月15, 16, 17 に開催する PyCon JP ですが、PyCon JP は六月いっぱい Call for Proposals(CFP) として皆様から発表内容を募集しています。
+9月15, 16, 17 に開催する PyCon JP ですが、六月いっぱい Call for Proposals(CFP) として皆様から発表内容を募集しています。
 
 我こそは! という発表内容をお持ちの方は是非応募して下さい。
 「自信がないけれど大丈夫だろうか…」といった方や「初めてなので不安が…」といった方でも、怖じ気付く必要はありません。
@@ -490,14 +591,21 @@ PyCon JP 宣伝
 .. _`Hychen`: https://www.facebook.com/hychen
 .. _`Yung-Yu Chen`: https://www.facebook.com/yungyuc
 .. _`Bob Chao`: https://www.facebook.com/bobchao
+.. _`Mosky Liu`: https://www.facebook.com/mosky.liu
 
 .. _`B2G`: https://wiki.mozilla.org/B2G
+
+.. _`中源大飯店`: http://www.nc-hotel.com.tw/
 .. _`鼎泰豐`: http://www.dintaifung.com.tw/jp/area_a_list.asp?AreaCountryNO=20
 
 .. _`中央研究院`: http://www.sinica.edu.tw/
+
+.. _`饒河街観光夜市`: http://www.taipeitravel.net/frontsite/jp/food/foodListAction.do?method=doStoreDetail&iscancel=true&menuId=1040601&storeSerNo=32011051800000584
 
 .. _`Travis Oliphant`: http://twitter.com/teoliphant
 .. _`James Tauber`: http://twitter.com/jtauber
 
 .. _NumPy: http://numpy.scipy.org/
 .. _SciPy: http://www.scipy.org/
+.. _Django: https://www.djangoproject.com/
+.. _Pinax: http://pinaxproject.com/
