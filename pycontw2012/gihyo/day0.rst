@@ -4,11 +4,11 @@
 
 PyCon Taiwanについて
 ====================
-`PyCon Taiwan 2012 <http://tw.pycon.org/2012/>`_ は世界中で開催されている
-`PyCon <http://pycon.org/>`_ (Python Conference)のひとつで、2012年に初めて開催されます。
-日本でも `PyCon JP 2012 <http://2012.pycon.jp/>`_ が9月中旬に開催され、現在講演内容を募集中です。
+`Python Conference(PyCon) <http://pycon.org/>`_ は世界中で開催されています。
+`PyCon Taiwan <http://tw.pycon.org/2012/>`_ はそのうちのひとつで、2012年に初めて開催されました。
+日本では2回目となる `PyCon JP 2012 <http://2012.pycon.jp/>`_ が9月中旬に開催さる予定で、現在 `講演内容を募集中 <http://2012.pycon.jp/cfp.html>`_ しています。
 
-PyCon Taiwan 2012 の開催概要は以下のようになります。
+PyCon Taiwan 2012 の開催概要は以下のような内容でした。
 
 :期間: 2012年6月9日、10日の2日間
 :構成: 2つの基調講演を含むシングルトラック
