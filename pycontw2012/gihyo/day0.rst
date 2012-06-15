@@ -2,9 +2,9 @@
  Day 0
 =======
 
-PyCon Taiwanについて
-====================
-`Python Conference(PyCon) <http://pycon.org/>`_ は世界中で開催されています。
+PyCon Taiwan について
+=====================
+`Python Conference (PyCon) <http://pycon.org/>`_ は世界中で開催されています。
 `PyCon Taiwan <http://tw.pycon.org/2012/>`_ はそのうちのひとつで、2012年に初めて開催されました。
 日本では2回目となる `PyCon JP 2012 <http://2012.pycon.jp/>`_ が9月中旬に開催さる予定で、現在 `講演内容を募集中 <http://2012.pycon.jp/cfp.html>`_ しています。
 
@@ -110,8 +110,8 @@ JavaScript、HTML など既存のウェブアプリケーションの技術を�
 
 (もりもと担当)
 
-NVDA関連ミーティング
-====================
+NVDA 関連ミーティング
+=====================
 (西本担当)
 
 台湾レポート
