@@ -31,4 +31,5 @@ Contents:
 - `たかのり撮影 Day 1 <http://www.facebook.com/media/set/?set=a.467626986584006.119236.100000101258873&type=3>`_
 - `たかのり撮影 Day 2 <http://www.facebook.com/media/set/?set=a.467630316583673.119237.100000101258873&type=3>`_
 - `たかのり撮影 Day 3 <http://www.facebook.com/media/set/?set=a.467631993250172.119238.100000101258873&type=3>`_
+- `もりもと撮影 <https://picasaweb.google.com/101792267493160072581/PyConTaiwan2012>`_
 
