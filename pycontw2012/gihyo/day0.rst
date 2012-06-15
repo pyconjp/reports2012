@@ -78,8 +78,39 @@ PyCon Taiwan へ参加するためにかかった費用は次の通りです。�
 
 また飛行機は羽田空港−松山空港を選んだんですが、どちらも中心部からのアクセスが(成田、桃園に比べて)よく、さらに羽田空港の国際線ターミナルは空いていたので移動は快適でした。
 
-Mozilla Taiwan訪問
-==================
+Mozilla Taiwan 訪問
+===================
+
+午後から寺田さんの知人であり `Mozilla Taiwan <http://moztw.org/>`_ でコミュニティマネージャーを務める Bob Chao 氏を訪問しました。
+そこでは `PyCon JP 2011 に発表者として参加した Thinker Lee 氏 <http://2011.pycon.jp/program/talks#scribboo-with-embedded-python>`_ も働いていました。
+Mozilla Taiwan は、2011年10月19日に設立されたばかりで、現在は開発者が25人、その他のスタッフが10人といった35人程度の組織のようです。
+
+.. figure:: _static/thinker_and_bob.jpg
+   :width: 320
+   :alt: Thinker Lee 氏 (左) と Bob Chao 氏 (右)
+
+   Thinker Lee 氏 (左) と Bob Chao 氏 (右)
+
+オフィスの休憩スペースでお互いの自己紹介を始め、それから1時間程度、ざっくばらんに歓談しました。
+最初のうちは、双方ぎこちなかったものの、そこは開発者ならでは、スマートフォンを取り出して彼らの開発している
+`Boot to Gecko (B2G) <http://www.mozilla.org/en-US/b2g/>`_ のデモを見せてもらい、話題に欠くことなく盛り上がりました。
+
+.. warning::
+
+    もん様に B2G の感想を教えてもらう
+
+..
+    私たちの中の JavaScript に秀でた開発者は Mozilla Taiwan に来ないかとスカウトされる場面もありました。
+
+後述しますが、その日のディナーも彼らと一緒に楽しみました。
+急な訪問にも関わらず、暖かく迎えて頂いた Bob Chao 氏と Thinker Lee 氏に感謝します。
+
+.. figure:: _static/all_at_mozilla_taiwan.jpg
+   :width: 320
+   :alt: Mozilla Taiwan での集合写真
+
+   Mozilla Taiwan での集合写真
+
 (もりもと担当)
 
 NVDA関連ミーティング
