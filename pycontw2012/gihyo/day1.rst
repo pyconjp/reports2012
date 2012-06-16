@@ -25,102 +25,132 @@
 
    国際会議場
 
-Keynote
-=======
-- Large-scale array-oriented computing with Python
-- `Travis E. Oliphant <http://tw.pycon.org/2012/speaker/#travis_oliphant>`_
-- Python どれくら使ってる?
-- My Roots 海洋のセンサー
-- Science led to Python
-- 波の画像処理とか
-- 1996 年(1.4)からpythonを使い始めた
-- Numpy, SciPy の歴史
-- Jim Fultonなんだ!!
-- Why Python for Technical Computing
+PyCon Taiwan
+============
+(PyCon Taiwan全体のことについて書く)
+- 受付?
+- タイムテーブル
+- BoF
+- 2回のTea Break
+- Lunch
 
-array-oriented
---------------
-- 配列の計算してみる
-- 再起よりはIterative
-- でもそれより numpy, scipy が速い
-- Life game: 処理はやい
-- Immediate mode だとtemporaryをたくさんとるよ
+Keynote Speech 1
+================
+(西本さんorもりもとさん)
 
-- Blaze というインプロジェクト
-- NumPy + Mamba = Numba: お金頂戴
-- `NumFOCUS Foundation <http://numfocus.org/>`_
-- Small device で numpy とか→まぁ計画はないよね
+- スピーカー: `Travis Oliphant <http://technicaldiscovery.blogspot.com/>`_
+- スライド: `Large-scale array-oriented computing with Python <http://www.slideshare.net/pycontw/largescale-arrayoriented-computing-with-python>`_
 
-Clime: Simply CLI-iize Your Program!
-====================================
-- Mosky: http://www.facebook.com/mosky.liu
+.. - Large-scale array-oriented computing with Python
+.. - `Travis E. Oliphant <http://tw.pycon.org/2012/speaker/#travis_oliphant>`_
+.. - Python どれくら使ってる?
+.. - My Roots 海洋のセンサー
+.. - Science led to Python
+.. - 波の画像処理とか
+.. - 1996 年(1.4)からpythonを使い始めた
+.. - Numpy, SciPy の歴史
+.. - Jim Fultonなんだ!!
+.. - Why Python for Technical Computing
+
+.. array-oriented
+.. --------------
+.. - 配列の計算してみる
+.. - 再起よりはIterative
+.. - でもそれより numpy, scipy が速い
+.. - Life game: 処理はやい
+.. - Immediate mode だとtemporaryをたくさんとるよ
+
+.. - Blaze というインプロジェクト
+.. - NumPy + Mamba = Numba: お金頂戴
+.. - `NumFOCUS Foundation <http://numfocus.org/>`_
+.. - Small device で numpy とか→まぁ計画はないよね
+
+Clime: Simply CLI-ize Your Program!
+===================================
+- スピーカー: Mosky: http://www.facebook.com/mosky.liu
+- スライド: `Clime: Simply CLI-ize Your Program! <https://docs.google.com/presentation/pub?id=12hNvoRf0ogHFA9zrnjYycBI1b9ROWVyy5v1ArjtjVpY>`_
+
 - https://github.com/moskied/clime
 - http://pypi.python.org/pypi/clime
 - http://docs.mosky.tw/clime/
 - コメントに書いてあるものを使って勝手にコマンドラインで呼べるようにしてくれる
 - かわいいは正義
 - ハッ
+
+.. figure:: _static/mosky.jpg
+   :width: 320
+   :alt: Mosky Liu さん
+
+   Mosky Liu さん
+
 - http://www.pinkoi.com/page/pinkoier
 
-Even Faster Django
-==================
-- MongoDB使う→Southいらない
-- Jinja2 を使う
-- Django-BigPipe(jquery-bigpipe)
-- Genie Dev Team
+.. figure:: _static/pinkoi.jpg
+   :width: 320
+   :alt: Pinkoi Want You!
 
-Panoramic Video in Environmental Monitoring
-===========================================
-- Jay William Johnson
-- Ladybug API があるので、ctypes でつないで Python でアプリケーション作った
+   Pinkoi Want You!
 
-NLTK
-====
-- http://www.ezpao.com/
+.. Even Faster Django
+.. ==================
+.. - MongoDB使う→Southいらない
+.. - Jinja2 を使う
+.. - Django-BigPipe(jquery-bigpipe)
+.. - Genie Dev Team
 
-気になったセッション
-====================
-(それぞれで書く)
+.. Panoramic Video in Environmental Monitoring
+.. ===========================================
+.. - Jay William Johnson
+.. - Ladybug API があるので、ctypes でつないで Python でアプリケーション作った
+
+.. NLTK
+.. ====
+.. - http://www.ezpao.com/
+
+.. 気になったセッション
+.. ====================
+.. (それぞれで書く)
 
 Lightning Talks
 ===============
+(西本さんかもりもとさん)
 
-All-In-One Scientific Research With SageTeX
--------------------------------------------
-- Hsin-Yu Ko
-- コードとドキュメントをどうするか
-- http://www.sagemath.org/doc/tutorial/index.html
+.. All-In-One Scientific Research With SageTeX
+.. -------------------------------------------
+.. - Hsin-Yu Ko
+.. - コードとドキュメントをどうするか
+.. - http://www.sagemath.org/doc/tutorial/index.html
 
-fabric-deployment tool
-----------------------
-- jslee
-- Yahoo では yinst という perl の deployment tool 使ってた
-- 今は fabric 使ってるよ
+.. fabric-deployment tool
+.. ----------------------
+.. - jslee
+.. - Yahoo では yinst という perl の deployment tool 使ってた
+.. - 今は fabric 使ってるよ
 
-Simple Way Adding GUI to Python Scripts
----------------------------------------
-- hychen
-- I wrote a script
-- zenity
-- https://github.com/hychen/vsgui
+.. Simple Way Adding GUI to Python Scripts
+.. ---------------------------------------
+.. - hychen
+.. - I wrote a script
+.. - zenity
+.. - https://github.com/hychen/vsgui
 
-PySX, a playstation emulator in python
---------------------------------------
-- Tzer-Jen Wei
-- 変態
+.. PySX, a playstation emulator in python
+.. --------------------------------------
+.. - Tzer-Jen Wei
+.. - 変態
 
-Osube - Represent You
----------------------
-- Scott Lambert
-- osube.com
-- Comming soon
-- 動画を作って共有する
-- Django ベース
-- OSUBE Cafe があるよ meetup してね
+.. Osube - Represent You
+.. ---------------------
+.. - Scott Lambert
+.. - osube.com
+.. - Comming soon
+.. - 動画を作って共有する
+.. - Django ベース
+.. - OSUBE Cafe があるよ meetup してね
 
-PYTHON AND STARTUP
-------------------
-- Tom Chen: yychen
+.. PYTHON AND STARTUP
+.. ------------------
+.. - Tom Chen: yychen
 
 PyCon Taiwanの雰囲気
 ====================
