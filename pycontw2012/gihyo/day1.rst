@@ -35,12 +35,165 @@ PyCon Taiwan
 - 2回のTea Break
 - Lunch
 
-Keynote Speech 1
-================
-(西本さんorもりもとさん)
+Keynote: Large-scale array-oriented computing with Python
+=========================================================
 
-- スピーカー: `Travis Oliphant <http://technicaldiscovery.blogspot.com/>`_
-- スライド: `Large-scale array-oriented computing with Python <http://www.slideshare.net/pycontw/largescale-arrayoriented-computing-with-python>`_
+最初の基調講演は `Travis Oliphant 氏 <http://technicaldiscovery.blogspot.com/>`_ による、
+科学技術分野の Python 実績や用途、関連プロジェクト、今後の展望について紹介したものでした。
+彼は `SciPy <http://www.scipy.org/>`_ や `NumPy <http://numpy.scipy.org/>`_ の開発者であり、
+`Guide to NumPy <http://www.tramy.us/guidetoscipy.html>`_ (パブリックドメインで公開) の著者です。
+もともとは科学者でしたが、科学系ソフトウェアの開発者に転向したようです。
+
+.. figure:: _static/travis_oliphant.jpg
+   :width: 320
+   :alt: Travis Oliphant 氏 
+
+   Travis Oliphant 氏 
+
+以下に彼の経歴や発表スライドが公開されています。
+
+- Travis Oliphant 氏の経歴: `Keynote Speakers <http://tw.pycon.org/2012/speaker/>`_
+- 発表スライド: `Large-scale array-oriented computing with Python <http://www.slideshare.net/pycontw/largescale-arrayoriented-computing-with-python>`_
+
+What is wrong with Python?
+--------------------------
+
+.. figure:: _static/keynote1_what_is_wrong_with_python.jpg
+   :width: 320
+   :alt: Python の悪いところ
+
+   Python の悪いところ
+
+この前のスライドで Python の良いところを説明していました。
+Python の良いところは、調べればたくさん見つけられるので、ここでは悪いところのみを紹介します。
+自分が取り組んでいるプロジェクトやソフトウェアの良いところ、
+悪いところを認識しておくのは、適材適所を選択したり、活用する上で重要なことだと思います。
+
+スライドでは以下のようにあります。
+
+* パッケージングがまだ万全というわけじゃない (distribute, pip, distutils2 が期待通りではない)
+* 匿名ブロック (Anonymous Block) がない
+* CPython ランタイムは、古くなってしまったので改良が必要 (GIL, グローバル変数、動的コンパイル対応)
+* "import hooks" 以外に言語を拡張する仕組みがない (軽量 DSL が必要とする)
+* 複数のランタイムの煩わしさ
+* 配列指向 (array-oriented) と NumPy を完全に理解している Python 開発者が少ない
+
+いくつか納得する項目もあるものの、いま正に改善しようと取り組んでいる項目もあります。
+
+.. warning::
+   
+  * 匿名ブロック (Anonymous Block) がない
+
+  あとで travis に聞いてみる！
+  ここで言う匿名ブロックとは `with 文 <http://www.python.org/dev/peps/pep-0343/>`_ ではなく、lambda block のようなもの？
+
+|
+
+  "import hooks" 以外に言語を拡張する仕組みがない (軽量 DSL が必要とする)
+
+Python 3.1 から追加された `importlib <http://docs.python.org/dev/library/importlib.html>`_ で解決しようとしています。
+importlib は、Python の import 文の実装を提供し、Python のランタイムに依らず、様々な API とフックを提供することで拡張を簡単にします。
+
+Array-Oriented Computing
+------------------------
+
+配列指向 (Array-Oriented) を解法例として、フィボナッチ数列を求める実装とそのベンチマーク結果を紹介していました。
+
+* イテレーティブな実装
+
+.. code-block:: python
+
+    def fib1(N):
+        """
+        >>> fib1(10)
+        [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+        """
+        result = [0, 1]
+        for k in range(2, N):
+            result.append(result[k - 1] + result[k - 2])
+        return result
+
+* Formula を使った実装
+
+.. code-block:: python
+
+    from numpy import roots, arange
+
+    r1, r2 = roots([1, -1, -1])
+    C = 1.0 / (r1 - r2)
+
+    def fib2a(N):
+        """
+        >>> fib2a(10)
+        array([  0.,   1.,   1.,   2.,   3.,   5.,   8.,  13.,  21.,  34.])
+        """
+        n = arange(N, dtype=float)
+        return C * (r1 ** n - r2 ** n)
+
+* LFilter を使った実装
+
+.. code-block:: python
+
+    from scipy import array
+    from scipy.signal import lfilter
+    from numpy import zeros
+
+    b = array([1.0])
+    a = array([1., -1, -1])
+    zi = array([0, 1.0])
+
+    def fib3a(N):
+        """
+        >>> fib3a(10)
+        array([  0.,   1.,   1.,   2.,   3.,   5.,   8.,  13.,  21.,  34.])
+        """
+        y, zf = lfilter(b, a, zeros(N, dtype=float), zi=zi)
+        return y
+
+これらの実装によるベンチーマーク結果です。
+
+.. figure:: _static/keynote1_array-oriented_approaches.jpg
+   :width: 320
+   :alt: 配列指向の実装によるベンチマーク比較
+
+   配列指向の実装によるベンチマーク比較
+
+筆者は、SciPy/NumPy に明るくないので Formula や LFilter を使った実装のアルゴリズムを理解できていませんが、
+イテレーティブな実装よりも高速に動作するというのが衝撃的でした。
+試しに私の環境でも IPython で計測してみました。スライドのベンチマークと同じような結果が得られました。
+
+.. code-block:: python
+
+    In [11]: timeit -n 3 iterative_fib.fib1(1000)
+    3 loops, best of 3: 752 us per loop
+
+    In [12]: timeit -n 3 using_formula.fib2a(1000)
+    3 loops, best of 3: 348 us per loop
+
+    In [13]: timeit -n 3 using_lfilter.fib3a(1000)
+    3 loops, best of 3: 54.6 us per loop
+
+関連プロジェクト
+----------------
+
+その他にも NumPy の良いところ、悪いところ、Zen of NumPy といった NumPy の特徴や、
+`ndarray <http://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.html>`_ オブジェクトによる配列指向の応用や考え方を説明されていました。
+発表の中で触れられた SciPy/NumPy に関連するプロジェクトを紹介します。
+
+* Blaze プロジェクト
+
+  次世代 NumPy と `PyTables <http://www.pytables.org/moin/PyTables>`_ による `out-of-core <http://en.wikipedia.org/wiki/Out-of-core_algorithm>`_ な仕組みや分散テーブルを提供する
+
+* `Numba <https://github.com/ContinuumIO/numba>`_ プロジェクト
+
+  LLVM で Python のバイトコードをコンパイルして NumPy のランタイムを最適化する 
+
+* `pandas <http://pandas.pydata.org/>`_
+
+  高速、且つ汎用的なデータ生成／解析のためのライブラリやそのツール
+
+
+(西本さんorもりもとさん)
 
 .. - Large-scale array-oriented computing with Python
 .. - `Travis E. Oliphant <http://tw.pycon.org/2012/speaker/#travis_oliphant>`_
