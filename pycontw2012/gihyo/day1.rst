@@ -25,16 +25,6 @@
 
    PyCon Taiwan 会場の国際会議場
 
-PyCon Taiwan
-============
-(PyCon Taiwan全体のことについて書く)
-
-- 受付?
-- タイムテーブル
-- BoF
-- 2回のTea Break
-- Lunch
-
 Keynote: Large-scale array-oriented computing with Python
 =========================================================
 
@@ -192,50 +182,35 @@ Array-Oriented Computing
 
   高速、且つ汎用的なデータ生成／解析のためのライブラリやそのツール
 
-
-(西本さんorもりもとさん)
-
-.. - Large-scale array-oriented computing with Python
-.. - `Travis E. Oliphant <http://tw.pycon.org/2012/speaker/#travis_oliphant>`_
-.. - Python どれくら使ってる?
-.. - My Roots 海洋のセンサー
-.. - Science led to Python
-.. - 波の画像処理とか
-.. - 1996 年(1.4)からpythonを使い始めた
-.. - Numpy, SciPy の歴史
-.. - Jim Fultonなんだ!!
-.. - Why Python for Technical Computing
-
-.. array-oriented
-.. --------------
-.. - 配列の計算してみる
-.. - 再起よりはIterative
-.. - でもそれより numpy, scipy が速い
-.. - Life game: 処理はやい
-.. - Immediate mode だとtemporaryをたくさんとるよ
-
-.. - Blaze というインプロジェクト
-.. - NumPy + Mamba = Numba: お金頂戴
-.. - `NumFOCUS Foundation <http://numfocus.org/>`_
-.. - Small device で numpy とか→まぁ計画はないよね
-
 Clime: Simply CLI-ize Your Program!
 ===================================
-- スピーカー: Mosky: http://www.facebook.com/mosky.liu
-- スライド: `Clime: Simply CLI-ize Your Program! <https://docs.google.com/presentation/pub?id=12hNvoRf0ogHFA9zrnjYycBI1b9ROWVyy5v1ArjtjVpY>`_
-
-- https://github.com/moskied/clime
-- http://pypi.python.org/pypi/clime
-- http://docs.mosky.tw/clime/
-- コメントに書いてあるものを使って勝手にコマンドラインで呼べるようにしてくれる
-- かわいいは正義
-- ハッ
+- スピーカー: `Mosky <http://www.facebook.com/mosky.liu>`_
+- スライド: `20120609 Clime @ PyCon - Google ドキュメント <https://docs.google.com/presentation/pub?id=12hNvoRf0ogHFA9zrnjYycBI1b9ROWVyy5v1ArjtjVpY#slide=id.g11698afd_2_46>`_
 
 .. figure:: _static/mosky.jpg
    :width: 320
-   :alt: Mosky Liu さん
+   :alt: Mosky さん
 
-   Mosky Liu さん
+   Mosky さん
+
+Keynote のあとはティータイムをはさんで1枠30分の通常のセッションが始まります。
+一つ目の発表は Mosky さんの作っているライブラリ `Clime <http://pypi.python.org/pypi/clime>`_ の紹介でした。
+
+Mosky さんは現在台北の大学に通っている大学生でもあり、
+`Pinkoi <http://www.pinkoi.com/>`_ という企業でインターンとして働いているそうです。
+Pinkoi は台湾のデザイナーが作った商品を販売するためのプラットフォームのようで、バックエンドには Python が使われているそうです(`Etsy <http://www.etsy.com/>`_ の台湾版のようなものらしいです)。
+Mosky さんは他にも `Ubuntu-tw <http://www.ubuntu-tw.org/>`_ のメンバーだったり、
+`COSCUP <http://coscup.org/2012/en/>`_ という台湾の OSC (Open Source Conferecen)のようなイベントのスタッフだったりと、精力的に OSS 関連の活動をしているようです。若いのにすごいなーと感心しました。
+
+本題の Clime 説明ですが、Clime は CLI-ize ME の略で様々な Python の関数を CLI(Command Line Interface)で呼び出せるようにするというものです。
+
+- Github: https://github.com/moskied/clime
+- PyPI: http://pypi.python.org/pypi/clime
+- ドキュメント: http://docs.mosky.tw/clime/
+
+- コメントに書いてあるものを使って勝手にコマンドラインで呼べるようにしてくれる
+- かわいいは正義
+- ハッ
 
 - http://www.pinkoi.com/page/pinkoier
 
@@ -347,6 +322,16 @@ Tea Break では軽食やケーキ、ベジタリアンの方向けのものま�
    :alt: 日本からのおみやげに喜ぶ Yung-Yu Chen 氏
 
    日本からのおみやげに喜ぶ Yung-Yu Chen 氏
+
+Day 1 の終了後は BoF (Birds of a Feather)という形式のユーザー同士の集まりが開催されました。
+BoF は中国語のみのため私達は参加しませんでしたが、教育ツールとしての Python 、Python での Web 開発、Python の台湾グループの立ち上げなどについて、夜遅くまで活発に議論が行われていたようです。
+BoF の内容については `PyCon.TW/2012/BoF - PyTUG wiki <http://wiki.python.org.tw/PyCon.TW/2012/BoF>`_ のページに中国語ですがまとまっています。
+
+.. figure:: _static/bof.jpg
+   :width: 320
+   :alt: BoF の様子
+
+   BoF の様子
 
 PyCon Taiwan 1日目終了
 ======================
