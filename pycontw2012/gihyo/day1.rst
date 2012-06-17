@@ -42,8 +42,8 @@ Keynote: Large-scale array-oriented computing with Python
 
 以下に彼の経歴や発表スライドが公開されています。
 
-- Travis Oliphant 氏の経歴: `Keynote Speakers <http://tw.pycon.org/2012/speaker/>`_
-- 発表スライド: `Large-scale array-oriented computing with Python <http://www.slideshare.net/pycontw/largescale-arrayoriented-computing-with-python>`_
+- `Travis Oliphant 氏の経歴 <http://tw.pycon.org/2012/speaker/#travis_oliphant>`_
+- `Slide: Large-scale array-oriented computing with Python <http://www.slideshare.net/pycontw/largescale-arrayoriented-computing-with-python>`_
 
 What is wrong with Python?
 --------------------------
