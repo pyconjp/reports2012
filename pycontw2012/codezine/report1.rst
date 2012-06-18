@@ -131,7 +131,7 @@ PyCon Taiwan は PyCon JP や世界各地で開催されている PyCon と同�
 一日目: 6/8(金)
 ===============
 
-一日目は朝6時に羽田空港国際線ターミナル集合、7時30分発の飛行機で台湾に飛ぶというスケジュールでした。
+一日目は朝6時に羽田空港国際線ターミナル集合、7時10分発の飛行機で台湾に飛ぶというスケジュールでした。
 フライト時間はおよそ三時間半です。台湾のタイムゾーンは GMT+8 (日本は GMT+9) であるため、台湾の現地時間で 10時過ぎに到着しました。
 
 空港で諸々の手続きを済ませ、一日目のホテルである `中源大飯店`_ に荷物を預け、昼食を取った後に Mozilla Taiwan に向かいました。
@@ -142,7 +142,7 @@ Mozilla Taiwan 訪問
 
 13:30過ぎに(台北101近く) Mozilla Taiwan を訪問しました。
 
-Mozilla Taiwan では Mr.Boss こと `Bob Chao`_ 氏に迎えられました。
+Mozilla Taiwan ではコミュニティマネージャの `Bob Chao`_ 氏に迎えられました。
 `Bob Chao`_ 氏は座長である寺田さんの知り合いということで、今回 Mozilla Taiwan を訪問することになりました。
 
 Mozilla Taiwan では、 `Bob Chao`_ 氏との歓談の予定だったのですが、ここで一つサプライズがありました。
@@ -605,7 +605,7 @@ PyCon JP 宣伝
 
 最後になりましたが、ここで `PyCon JP 2012`_ についてのお話です。
 
-9月15, 16, 17 に開催する PyCon JP ですが、六月いっぱい Call for Proposals(CFP) として皆様から発表内容を募集しています。
+9月15, 16, 17日 に開催する PyCon JP ですが、6月いっぱい Call for Proposals(CFP) として皆様から発表内容を募集しています。
 
 我こそは! という発表内容をお持ちの方は是非応募して下さい。
 「自信がないけれど大丈夫だろうか…」といった方や「初めてなので不安が…」といった方でも、怖じ気付く必要はありません。
@@ -631,10 +631,10 @@ CFP の応募は `こちらのフォーム <http://2012.pycon.jp/cfp.html>`_ か
 .. _`文殊堂`: http://twitter.com/monjudoh
 .. _`@monjudoh`: http://twitter.com/monjudoh
 
-.. _`Sinker`: https://www.facebook.com/profile.php?id=750311951
-.. _`Sinker-Li`: https://www.facebook.com/profile.php?id=750311951
-.. _`Hychen`: https://www.facebook.com/hychen
-.. _`Yung-Yu Chen`: https://www.facebook.com/yungyuc
+.. _`Sinker`: https://www.facebook.com/thinker.li.5
+.. _`Sinker-Li`: https://www.facebook.com/thinker.li.5
+.. _`Hychen`: https://twitter.com/hychen
+.. _`Yung-Yu Chen`: https://twitter.com/yungyuc
 .. _`Bob Chao`: https://www.facebook.com/bobchao
 .. _`Mosky Liu`: https://www.facebook.com/mosky.liu
 
