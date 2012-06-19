@@ -107,6 +107,80 @@ We love YOU and Python.
 
 - どうもありがとうございました。
 
+Keynote: Python and the Web
+===========================
+
+2日目の基調講演は `James Tauber 氏 <http://jtauber.com/>`_ による、
+Python と Web が歩んできた歴史について振り返るものでした。
+彼は `Django <http://jtauber.com/django/>`_ のコア開発者であり `Pinax <http://jtauber.com/pinax/>`_ のリード開発者です。
+1993年からオープンソース開発や Web の技術に携わり、1998年から Python を使っているそうです。
+
+.. figure:: _static/james_tauber.jpg
+   :width: 320
+   :alt: James Tauber 氏
+
+   James Tauber 氏
+
+以下に彼の経歴や発表スライドが公開されています。
+
+- `James Tauber 氏の経歴 <http://tw.pycon.org/2012/speaker/#james_tauber>`_
+- `Slide: Python and the Web <http://www.slideshare.net/pycontw/python-and-the-web>`_
+
+Python と Web
+-------------
+
+1990 年代からの Web と Python の発展、そのときに誕生した技術を順を追って紹介しました。
+いまも残り続けているもの、いまとなっては懐かしいものもありました。
+
+  "Programs are meant to be read by humans and only incidentally for computers to execute" by Don Knuth
+
+  "プログラムは人間が読めるように書かかれるものであり、たまたまコンピューターが実行できるに過ぎない"
+
+.. warning::
+
+   誰かこの引用について話してた内容を覚えてたら何か書いて (> <)
+   覚えてなかったらあとで削除する
+
+Python では、
+
+- Zope/Plone
+- WSGI
+- MVC
+- TurboGears
+
+という流れから最近の Web アプリケーションフレームワークに言及していました。
+
+レイヤーの役割
+--------------
+
+上位レイヤーの移植性と下位レイヤーの再利用性について説明しながら Tim Peter 氏の言葉を引用しました。
+
+  "We read Knuth so you don't have to" by Tim Peters [#f1]_
+
+  "Knuth は我々が読んだ、あなたは読まなくて良い"
+
+Knuth 博士が `The Art of Computer Programming <http://en.wikipedia.org/wiki/The_Art_of_Computer_Programming>`_  で、ソートと検索について、そのアルゴリズムや博士の技術的見解について800ページ近くのページを割いていますが、
+Python ユーザーは、そういったことを気にしなくて良いという意図を表しています。
+
+Python におけるソートのプラクティスは、
+`ソート HOW TO <http://www.python.jp/doc/release/howto/sorting.html>`_ で
+Decorate-Sort-Undecorate パターンとして紹介されています。
+
+.. [#f1] `Familiar and Unfamiliar Quotations <http://norvig.com/quotations.html>`_
+
+アイディアから具体化する
+------------------------
+
+Pinax は、Django 上に構築された、さらに上位のフレームワークで Django アプリを
+より再利用しやすくしたり、どのサイトでも使うような共通処理を提供することを目的としています。
+発表の中では、自分たちのサイトの特徴部分により注力して開発できると説明されていました。
+
+  "What you do for a living is not be creative, what you do is ship" by Seth Godin [#f2]_
+
+  "生活のためにやってることはクリエイティブではないから、そうなりたいならプロダクトをリリースしなさい"
+
+.. [#f2] `Quieting the lizard brain <http://sethgodin.typepad.com/seths_blog/2010/01/quieting-the-lizard-brain.html>`_
+
 Keynote
 =======
 - Python and the Web
