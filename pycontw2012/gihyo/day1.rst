@@ -184,8 +184,8 @@ Array-Oriented Computing
 
 Clime: Simply CLI-ize Your Program!
 ===================================
-- スピーカー: `Mosky <http://www.facebook.com/mosky.liu>`_
-- スライド: `20120609 Clime @ PyCon - Google ドキュメント <https://docs.google.com/presentation/pub?id=12hNvoRf0ogHFA9zrnjYycBI1b9ROWVyy5v1ArjtjVpY#slide=id.g11698afd_2_46>`_
+Keynote のあとはティータイムをはさんで1枠30分の通常のセッションが始まります。
+ここでは一つ目の発表 Mosky さんによる `Clime <http://pypi.python.org/pypi/clime>`_ のセッショんを紹介します。
 
 .. figure:: _static/mosky.jpg
    :width: 320
@@ -193,26 +193,75 @@ Clime: Simply CLI-ize Your Program!
 
    Mosky さん
 
-Keynote のあとはティータイムをはさんで1枠30分の通常のセッションが始まります。
-一つ目の発表は Mosky さんの作っているライブラリ `Clime <http://pypi.python.org/pypi/clime>`_ の紹介でした。
+以下に Mosky さんの発表スライドが公開されています。
+
+- スライド: `20120609 Clime @ PyCon <https://docs.google.com/presentation/pub?id=12hNvoRf0ogHFA9zrnjYycBI1b9ROWVyy5v1ArjtjVpY#slide=id.g11698afd_2_46>`_
 
 Mosky さんは現在台北の大学に通っている大学生でもあり、
 `Pinkoi <http://www.pinkoi.com/>`_ という企業でインターンとして働いているそうです。
-Pinkoi は台湾のデザイナーが作った商品を販売するためのプラットフォームのようで、バックエンドには Python が使われているそうです(`Etsy <http://www.etsy.com/>`_ の台湾版のようなものらしいです)。
-Mosky さんは他にも `Ubuntu-tw <http://www.ubuntu-tw.org/>`_ のメンバーだったり、
+Pinkoi は台湾のデザイナーが作った商品を販売するためのプラットフォームのようで、バックエンドには Python が使われています。サイトを見てみると `Etsy <http://www.etsy.com/>`_ の台湾版のようなもののようで、デザイナーとかが作成したハンドメイドのプロダクトを売買するマーケットのようです。
+
+彼女は他にも `Ubuntu-tw <http://www.ubuntu-tw.org/>`_ のメンバーだったり、
 `COSCUP <http://coscup.org/2012/en/>`_ という台湾の OSC (Open Source Conferecen)のようなイベントのスタッフだったりと、精力的に OSS 関連の活動をしているようです。若いのにすごいなーと感心しました。
 
 本題の Clime 説明ですが、Clime は CLI-ize ME の略で様々な Python の関数を CLI(Command Line Interface)で呼び出せるようにするというものです。
 
-- Github: https://github.com/moskied/clime
-- PyPI: http://pypi.python.org/pypi/clime
-- ドキュメント: http://docs.mosky.tw/clime/
+ある日 ``initdb.py``, ``cleardb.py`` を呼び出すために ``db.py init``, ``db.py clear`` とできるようにしようと
+`argparse <http://www.python.jp/doc/release/library/argparse.html>`_
+を使おうと思ったけど挫折した Mosky さんは、 ``db.py init``, ``db.py clear`` すると **db.py** のなかの **init()**, **clear()** を呼び出すという方法がよいのではないかと考えて Clime を作成に着手したそうです。
 
-- コメントに書いてあるものを使って勝手にコマンドラインで呼べるようにしてくれる
-- かわいいは正義
-- ハッ
+Clime は
+`clime 0.1.4 : Python Package Index <http://pypi.python.org/pypi/clime>`_
+で公開されているので、 ``pip install clime`` 等でインストール可能です。
+使い方は簡単で、以下の様な指定された文字列を指定された回数来る返す簡単なメソッドを作成します。3行目に **clime** を import しているのがポイントです。
 
-- http://www.pinkoi.com/page/pinkoier
+.. code-block:: python
+   :emphasize-lines: 3
+
+   # filename: repeat.py
+
+   import clime.now
+
+   def repeat(string, time=2):
+       '''repeat string n times
+
+       options:
+           -n N, --time N  repeat N times.
+       '''
+
+       print string * time
+
+これだけで、 repeat.py をコマンドラインで実行できるようになります。
+**docstring** に書いてある内容がヘルプで読み出せるのも非常に便利そうです。
+
+.. code-block:: sh
+
+   $ python repeat.py twice
+   twicetwice
+
+   $ python repeat.py -n3 thrice
+   thricethricethrice
+
+   $ python repeat.py --help
+   usage: [--time N | -n N] STRING
+      or: repeat [--time N | -n N] STRING
+
+   $ python repeat.py repeat --help
+   usage: [--time N | -n N] STRING
+      or: repeat [--time N | -n N] STRING
+
+   repeat string n times
+
+   options:
+       -n N, --time N  repeat N times.
+
+以上です。シンプルですが、作成したコードを簡単にコマンドライン引数対応するにはなかなか面白い選択肢だなと感じました。
+
+コードは Github の `moskied/clime <https://github.com/moskied/clime>`_ で管理されており、ドキュメントも 
+`Clime v0.1.4 documentation <http://docs.mosky.tw/clime/>`_
+で公開されていてものすごいきちんとしています。後述するランチの時に同行した池さんが「素晴らしいプロダクトなのでぜひ継続して開発してほしい」と伝えたところ「Github にコードはあるので、協力待ってます!!」と返していました。興味を持たれた方はぜひコードを見てみてください。
+
+いくつかのセッション発表にあったのですが、自身が所属する会社で人材募集していますよというスライドが入っていました。Mosky さんも `Pinkoi Want You! <http://www.pinkoi.com/page/pinkoier>`_ という形で紹介をしていました。詳細ページに行くと中国語で全然読めませんでしたが、人材募集が活発なのは非常に言いことだなーと思いました。
 
 .. figure:: _static/pinkoi.jpg
    :width: 320
@@ -220,29 +269,11 @@ Mosky さんは他にも `Ubuntu-tw <http://www.ubuntu-tw.org/>`_ のメンバ�
 
    Pinkoi Want You!
 
-.. Even Faster Django
-.. ==================
-.. - MongoDB使う→Southいらない
-.. - Jinja2 を使う
-.. - Django-BigPipe(jquery-bigpipe)
-.. - Genie Dev Team
-
-.. Panoramic Video in Environmental Monitoring
-.. ===========================================
-.. - Jay William Johnson
-.. - Ladybug API があるので、ctypes でつないで Python でアプリケーション作った
-
-.. NLTK
-.. ====
-.. - http://www.ezpao.com/
-
-.. 気になったセッション
-.. ====================
-.. (それぞれで書く)
+余談ですが、彼女はスライドをめくる時に「ハッ」「ハッ」と言っていて、日本からの参加者で受けていました。実際には「阿(ア)」らしく「◯◯なんですよね」の語尾の「ね」みたいに言い方をやわらげるときに使うそうです。台湾でプレゼンテーションするときにはぜひご活用ください。
 
 Lightning Talks
 ===============
-(西本さんかもりもとさん)
+(西本さん)
 
 .. All-In-One Scientific Research With SageTeX
 .. -------------------------------------------
