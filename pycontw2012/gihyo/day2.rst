@@ -21,17 +21,17 @@ Yung-Yu Chen (`@yungyuc <http://twitter.com/yungyuc>`_)氏に時間をとって�
    1/10 くらいは python.
    Java の方が多い
 
-2つ目の理由は Sinker [#]_ が 2011 に開催したアンカンファレンス [#]_ です。
+2つ目の理由は Thinker [#]_ が 2011 に開催したアンカンファレンス [#]_ です。
 アンカンファレンスで Python についてのセッショんを呼びかけたところ 100 人程度が参加してくれました。
 2008年にも Python について呼びかけましたが、そのときは50〜70人が集まったと記憶しています。
 
 Python について話しをしたい人たちがいると感じたので、知り合いでミーティングを行い PyCon Taiwan の開催を決意しました。
 US で行われている PyCon のように Python に関わるいろいろな人達の出会いの場となることを期待しています。
 
-.. [#] Sinker: PyCon JP で日本にも来日して発表を行なった台湾の Python 開発者。
+.. [#] Thinker: PyCon JP で日本にも来日して発表を行なった台湾の Python 開発者。
 .. [#] アンカンファレンス: (アンカンファレンスの説明)
 
-.. Secondary: Sinker 2011 Unconference をやった。2011 100 people.
+.. Secondary: Thinker 2011 Unconference をやった。2011 100 people.
    2008 50-70 くらい。
 
    Unofficial meeting をやった。
