@@ -283,6 +283,12 @@ Dinner
 
    HTC ショップ
 
+.. figure:: _static/htc_device.jpg
+   :height: 320
+   :alt: 購入した HTC 端末
+
+   購入した HTC 端末
+
 PyCon JP 2012のお知らせ
 =======================
 (たかのり担当)
