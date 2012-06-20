@@ -21,17 +21,17 @@ Yung-Yu Chen (`@yungyuc <http://twitter.com/yungyuc>`_)氏に時間をとって�
    1/10 くらいは python.
    Java の方が多い
 
-2つ目の理由は Sinker [#]_ が 2011 に開催したアンカンファレンス [#]_ です。
+2つ目の理由は Thinker [#]_ が 2011 に開催したアンカンファレンス [#]_ です。
 アンカンファレンスで Python についてのセッショんを呼びかけたところ 100 人程度が参加してくれました。
 2008年にも Python について呼びかけましたが、そのときは50〜70人が集まったと記憶しています。
 
 Python について話しをしたい人たちがいると感じたので、知り合いでミーティングを行い PyCon Taiwan の開催を決意しました。
 US で行われている PyCon のように Python に関わるいろいろな人達の出会いの場となることを期待しています。
 
-.. [#] Sinker: PyCon JP で日本にも来日して発表を行なった台湾の Python 開発者。
+.. [#] Thinker: PyCon JP で日本にも来日して発表を行なった台湾の Python 開発者。
 .. [#] アンカンファレンス: (アンカンファレンスの説明)
 
-.. Secondary: Sinker 2011 Unconference をやった。2011 100 people.
+.. Secondary: Thinker 2011 Unconference をやった。2011 100 people.
    2008 50-70 くらい。
 
    Unofficial meeting をやった。
@@ -107,13 +107,74 @@ We love YOU and Python.
 
 - どうもありがとうございました。
 
-Keynote
-=======
-- Python and the Web
-- James Tauber(@jtauber)
-- Pinax の人
-- Eldarion という会社で Django ベースとかでサービスを提供している
-- python と web の歴史は似ている
+Keynote: Python and the Web
+===========================
+
+2日目の基調講演は `James Tauber 氏 <http://jtauber.com/>`_ による、
+Python と Web が歩んできた歴史について振り返るものでした。
+彼は `Django <http://jtauber.com/django/>`_ のコア開発者であり `Pinax <http://jtauber.com/pinax/>`_ のリード開発者です。
+1993年からオープンソース開発や Web の技術に携わり、1998年から Python を使っているそうです。
+
+.. figure:: _static/james_tauber.jpg
+   :width: 320
+   :alt: James Tauber 氏
+
+   James Tauber 氏
+
+以下に彼の経歴や発表スライドが公開されています。
+
+- `James Tauber 氏の経歴 <http://tw.pycon.org/2012/speaker/#james_tauber>`_
+- `Slide: Python and the Web <http://www.slideshare.net/pycontw/python-and-the-web>`_
+
+Python と Web
+-------------
+
+1990 年代からの Web と Python の発展、そのときに誕生した技術を順を追って紹介しました。
+どこかで聞いたことがあるような、Knuth 博士の言葉も引用されていました。
+
+  "Programs are meant to be read by humans and only incidentally for computers to execute" by Don Knuth
+
+  "プログラムは人間が読めるように書かかれるものであり、たまたまコンピューターが実行できるに過ぎない"
+
+Python に関しては、
+
+- Zope/Plone
+- WSGI
+- MVC
+- TurboGears
+
+という技術動向の流れから最近の Web アプリケーションフレームワークに言及していました。
+
+レイヤーの役割
+--------------
+
+上位レイヤーの移植性と下位レイヤーの再利用性について説明しながら Tim Peter 氏の言葉を引用しました。
+
+  "We read Knuth so you don't have to" by Tim Peters [#f1]_
+
+  "Knuth は我々が読んだ、あなたは読まなくて良い"
+
+Knuth 博士が `The Art of Computer Programming <http://en.wikipedia.org/wiki/The_Art_of_Computer_Programming>`_  で、ソートと検索について、そのアルゴリズムや博士の技術的見解について800ページ近くのページを割いていますが、
+Python ユーザーは、そういったことを気にしなくて良いという意図を表しています。
+
+Python におけるソートのプラクティスは、
+`ソート HOW TO <http://www.python.jp/doc/release/howto/sorting.html>`_ で
+Decorate-Sort-Undecorate パターンとして紹介されています。
+
+.. [#f1] `Familiar and Unfamiliar Quotations <http://norvig.com/quotations.html>`_
+
+アイディアから具体化する
+------------------------
+
+Pinax は、Django 上に構築された、さらに上位のフレームワークで Django アプリを
+より再利用しやすくしたり、どのサイトでも使うような共通処理を提供することを目的としています。
+発表の中では、自分たちのサイトの特徴部分により注力して開発できると説明されていました。
+
+  "What you do for a living is not be creative, what you do is ship" by Seth Godin [#f2]_
+
+  "生活のためにやってることはクリエイティブではないから、そうなりたいならプロダクトをリリースしなさい"
+
+.. [#f2] `Quieting the lizard brain <http://sethgodin.typepad.com/seths_blog/2010/01/quieting-the-lizard-brain.html>`_
 
 python
 ------
@@ -198,6 +259,35 @@ Closing
 
 Dinner
 ======
+
+
+台北電脳街
+==========
+
+`MRT <http://ja.wikipedia.org/wiki/台北捷運>`_ という台北の地下鉄に乗り、
+`忠孝新生駅 <http://ja.wikipedia.org/wiki/忠孝新生駅>`_ を降りるとすぐに電気街があります。
+日本の秋葉原に相当する場所のようですが、規模はあまり大きくありません。
+小さな PC パーツショップや量販店が並んでいました。
+
+.. figure:: _static/electric_city.jpg 
+   :width: 320
+   :alt: 電脳街の一角
+
+   電脳街の一角
+
+保坂さんは、HTC ショップでスマートフォン端末を購入しました。せっかく台湾へ来たので現地で購入するのも楽しいですね。
+
+.. figure:: _static/htc.jpg 
+   :width: 320
+   :alt: HTC ショップ
+
+   HTC ショップ
+
+.. figure:: _static/htc_device.jpg
+   :height: 320
+   :alt: 購入した HTC 端末
+
+   購入した HTC 端末
 
 PyCon JP 2012のお知らせ
 =======================

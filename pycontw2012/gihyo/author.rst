@@ -15,7 +15,7 @@ Twitter： http://twitter.com/#!/t2y
 ブログ： http://d.hatena.ne.jp/t2y-1979/
 
 西本卓也（にしもとたくや）
-========================
+==========================
 .. image:: https://si0.twimg.com/profile_images/1395671364/DSCF0525.JPG
 
 `NVDA日本語チーム <http://sourceforge.jp/projects/nvdajp/>`_ 代表。
@@ -40,4 +40,5 @@ Twitter： `@24motz <http://twitter.com/#!/24motz>`_
 写真はうちのフェレットくろちゃんとくりちゃんです。
 
 Twitter： `@takanory <http://twitter.com/#!/takanory>`_
+
 ブログ： http://takanory.net/takalog/
