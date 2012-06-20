@@ -27,7 +27,7 @@
 
 Keynote: Large-scale array-oriented computing with Python
 =========================================================
-
+もりもとです。
 最初の基調講演は `Travis Oliphant 氏 <http://technicaldiscovery.blogspot.com/>`_ による、
 科学技術分野の Python 実績や用途、関連プロジェクト、今後の展望について紹介したものでした。
 彼は `SciPy <http://www.scipy.org/>`_ や `NumPy <http://numpy.scipy.org/>`_ の開発者であり、
@@ -87,7 +87,7 @@ importlib は、Python の import 文の実装を提供し、Python のランタ
 Array-Oriented Computing
 ------------------------
 
-配列指向 (Array-Oriented) を解法例として、フィボナッチ数列を求める実装とそのベンチマーク結果を紹介していました。
+配列指向 (Array-Oriented) の解法例として、フィボナッチ数列を求める実装とそのベンチマーク結果を紹介していました。
 
 * イテレーティブな実装
 
@@ -184,6 +184,7 @@ Array-Oriented Computing
 
 Clime: Simply CLI-ize Your Program!
 ===================================
+鈴木たかのりです。
 Keynote のあとはティータイムをはさんで1枠30分の通常のセッションが始まります。
 ここでは一つ目の発表 Mosky さんによる `Clime <http://pypi.python.org/pypi/clime>`_ のセッショんを紹介します。
 
@@ -199,7 +200,7 @@ Keynote のあとはティータイムをはさんで1枠30分の通常のセッ
 
 Mosky さんは現在台北の大学に通っている大学生でもあり、
 `Pinkoi <http://www.pinkoi.com/>`_ という企業でインターンとして働いているそうです。
-Pinkoi は台湾のデザイナーが作った商品を販売するためのプラットフォームのようで、バックエンドには Python が使われています。サイトを見てみると `Etsy <http://www.etsy.com/>`_ の台湾版のようなもののようで、デザイナーとかが作成したハンドメイドのプロダクトを売買するマーケットのようです。
+Pinkoi は台湾のデザイナーが作った商品を販売するためのプラットフォームのようで、バックエンドには Python が使われています。サイトを見てみると `Etsy <http://www.etsy.com/>`_ の台湾版という感じ、台湾のデザイナーとかが作成したハンドメイドのプロダクトを売買するマーケットのようです。
 
 彼女は他にも `Ubuntu-tw <http://www.ubuntu-tw.org/>`_ のメンバーだったり、
 `COSCUP <http://coscup.org/2012/en/>`_ という台湾の OSC (Open Source Conferecen)のようなイベントのスタッフだったりと、精力的に OSS 関連の活動をしているようです。若いのにすごいなーと感心しました。
@@ -211,9 +212,9 @@ Pinkoi は台湾のデザイナーが作った商品を販売するためのプ�
 を使おうと思ったけど挫折した Mosky さんは、 ``db.py init``, ``db.py clear`` すると **db.py** のなかの **init()**, **clear()** を呼び出すという方法がよいのではないかと考えて Clime を作成に着手したそうです。
 
 Clime は
-`clime 0.1.4 : Python Package Index <http://pypi.python.org/pypi/clime>`_
-で公開されているので、 ``pip install clime`` 等でインストール可能です。
-使い方は簡単で、以下の様な指定された文字列を指定された回数来る返す簡単なメソッドを作成します。3行目に **clime** を import しているのがポイントです。
+`PyPI(Python Package Index) で公開 <http://pypi.python.org/pypi/clime>`_
+されているので、 ``pip install clime`` 等でインストール可能です。
+使い方は簡単で、以下の様な指定された文字列を指定された回数繰り返す簡単なメソッドを作成します。3行目に **clime** を import しているのがポイントです。
 
 .. code-block:: python
    :emphasize-lines: 3
@@ -269,7 +270,7 @@ Clime は
 
    Pinkoi Want You!
 
-余談ですが、彼女はスライドをめくる時に「ハッ」「ハッ」と言っていて、日本からの参加者で受けていました。実際には「阿(ア)」らしく「◯◯なんですよね」の語尾の「ね」みたいに言い方をやわらげるときに使うそうです。台湾でプレゼンテーションするときにはぜひご活用ください。
+余談ですが、彼女はスライドをめくる時に「ハッ」「ハッ」と言っていて、日本からの参加者でウケていました。実際には「阿(ア)」らしく「◯◯なんですよね」の語尾の「ね」みたいに言い方をやわらげるときに使うそうです。台湾でプレゼンテーションするときにはぜひご活用ください。
 
 Lightning Talks
 ===============
@@ -314,7 +315,8 @@ Lightning Talks
 
 PyCon Taiwanの雰囲気
 ====================
-来場者へのおみやげは紙袋に入って配られました。
+再び、鈴木たかのりです。
+PyCon Taiwan では来場者へのおみやげはロゴ入りの紙袋に入って配られました。
 中身はプログラムガイドの冊子とステッカーが2枚入っていました。
 PyCon Taiwan の `TAIPEI 101 <http://www.taipei-101.com.tw/index_jp.htm>`_ と蛇をかけ合わせたロゴはとてもステキだと思います。ただ、ステッカーは少しサイズが大きすぎるので、自分の MacBook Air には貼らずにお土産にしました。
 
@@ -356,7 +358,7 @@ Tea Break では軽食やケーキ、ベジタリアンの方向けのものま�
 
 Day 1 の終了後は BoF (Birds of a Feather)という形式のユーザー同士の集まりが開催されました。
 BoF は中国語のみのため私達は参加しませんでしたが、教育ツールとしての Python 、Python での Web 開発、Python の台湾グループの立ち上げなどについて、夜遅くまで活発に議論が行われていたようです。
-BoF の内容については `PyCon.TW/2012/BoF - PyTUG wiki <http://wiki.python.org.tw/PyCon.TW/2012/BoF>`_ のページに中国語ですがまとまっています。
+BoF の内容については `PyCon.TW/2012/BoF - PyTUG wiki <http://wiki.python.org.tw/PyCon.TW/2012/BoF>`_ のページに中国語でまとめられています。
 
 .. figure:: _static/bof.jpg
    :width: 320
@@ -381,9 +383,9 @@ Center of Academic Activities(中央研究院學術活動中心)はホテルの�
    Academia Sinica の宿泊施設
 
 私はホテルのレストランでは食べず、昨日に引き続き夜市(ナイトマーケット)に出かけました。
-この日行ったのは `饒河街観光夜市 <http://www.taipeinavi.com/food/229/>`_ です。Academia Sinica から少し距離があり、バスに乗って30分ほど揺られて到着しました。ちなみにバスは結構スピードも出すし揺れます。
+この日行ったのは `饒河街観光夜市 <http://www.taipeinavi.com/food/229/>`_ です。Academia Sinica から少し距離があり、バスに乗って30分ほど揺られて到着しました。ちなみにバスは東京に比べてスピードを出しますし結構揺れます。
 
-Android の Google マップで検索すると、Academia Sinica から夜市に行くための乗り降りするバス停、バスの系統番号まで表示されて右も左も分からない私でも安心して移動することができました。便利すぎます。
+Android の Google マップで検索すると、Academia Sinica から夜市に行くための乗り降りするバス停、バスの系統番号まで表示されて右も左も分からない私でも安心して移動することができました(`夜市へのバスルート <https://maps.google.com/maps?saddr=%E6%8C%87%E5%AE%9A%E3%81%AE%E5%9C%B0%E7%82%B9&daddr=%E5%85%AB%E5%BE%B7%E8%B7%AF%E5%9B%9B%E6%AE%B5&hl=ja&ie=UTF8&ll=25.04898,121.599684&spn=0.051554,0.090895&sll=25.043732,121.594105&sspn=0.025778,0.045447&geocode=FT4afgEdCqo_Bw%3BFeA7fgEdvCA_Bw&dirflg=r&ttype=now&noexp=0&noal=0&sort=def&mra=ltm&t=m&z=14&start=0>`_)。便利すぎます。
 
 .. figure:: _static/bus.jpg
    :width: 320
@@ -415,9 +417,9 @@ Android の Google マップで検索すると、Academia Sinica から夜市に
 
    ところどころおかしな日本語
 
-この日私が使ったお金は以下のとおりです。
-ナイトマーケットにしか出かけていないので全然減っていません。
-しかもナイトマーケットよりもその後のセブンイレブンの方がお金を使っているという謎な事態になりました。
+この日私が使ったお金はこんな感じです。
+夜市にしか出かけていないので全然減っていません。
+しかも夜市での買い食いよりも、その後のセブンイレブンの方がお金を使っているという事態になりました。
 
 .. list-table::
    :header-rows: 1
@@ -453,4 +455,4 @@ Android の Google マップで検索すると、Academia Sinica から夜市に
 
 次回予告
 ========
-さて、次回は PyCon Taiwan 2日目の様子をお届けします。ついに PyCon Taiwan 参加の最大の目的である PyCon JP の宣伝プレゼンが行われます。
+さて、次回は PyCon Taiwan 2日目の様子をお届けします。ついに日本から PyCon Taiwan に参加した最大の目的である「PyCon JP の宣伝プレゼン」が行われます。
