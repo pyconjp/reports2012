@@ -289,75 +289,91 @@ Lightning Talks
 
 西本です。一日目の最後は閃電秀 (Lightning Talks) です。
 
-* All-In-One Scientific Research With SageTeX by Hsin-Yu Ko 
+(もうちょっと文章を...)
 
-  スライド `Main by kosinyj <http://www.slideshare.net/kosinyj/main-13277848>`_
+* All-In-One Scientific Research With SageTeX
+
+  - スピーカー: Hsin-Yu Ko 
+  - スライド: `Main by kosinyj <http://www.slideshare.net/kosinyj/main-13277848>`_
 
   `数式処理システム Sage <http://www.sagemath.org/>`_ (Sagemath) はいわゆる Mathematica のようなソフトウェアですが、Python を基盤としてオープンソースで開発されているのが特徴です。Sage のコードを LaTeX に埋め込む SageTeX という機能もあり、これを使えば計算結果やグラフを直接 LaTeX 文書に取り込むことができます。つまり「研究から論文作成まで」オールインワンの科学研究環境を実現できるわけです。
 
-* fabric – deployment tool by jslee
+* fabric – deployment tool
 
-  SSH で複数のマシンにデプロイを行うソフトウェア fabric の紹介です。Yahoo! ではかつて yinst という独自のツールが使われていましたが、現在は fabric を使っているそうです。
+  - スピーカー: jslee
 
-* Simple Way Adding GUI to Python Scripts by hychen 
+  SSH で複数のマシンにデプロイを行うソフトウェア `fabric http://docs.fabfile.org/>`_ の紹介です。Yahoo! Taiwan ではかつて yinst という perl ベースの独自ツールが使われていましたが、現在は fabric を使っているそうです。
 
-  スライド `讓 Python Script 擁有圖形化介面的簡單方法 <http://www.slideshare.net/pycontw/pycontw2012-lt>`_
+* Simple Way Adding GUI to Python Scripts
 
-  ビデオ `PyConTW 2012 LT: VSGUI (very simple GUI) - Hychen <http://www.youtube.com/watch?v=WBqFVYdm-BE>`_
+  - スピーカー: hychen
+  - スライド `讓 Python Script 擁有圖形化介面的簡單方法 <http://www.slideshare.net/pycontw/pycontw2012-lt>`_
+  - ビデオ `PyConTW 2012 LT: VSGUI (very simple GUI) - Hychen <http://www.youtube.com/watch?v=WBqFVYdm-BE>`_
 
-  シェルスクリプトを介してコマンドラインから GTK+ ダイアログボックスを表示するツール Zenity を、Python から簡単に使えるようにする `VSGUI <https://github.com/hychen/vsgui>`_ というツールの紹介です。
+  PyCon JP 2011 でも発表してくれた hychen 氏による発表です。
+  シェルスクリプトを介してコマンドラインから GTK+ ダイアログボックスを表示するツール `Zenity <http://ja.wikipedia.org/wiki/Zenity>`_ を、Python から簡単に使えるようにする `VSGUI <http://pypi.python.org/pypi/vsgui>`_ という自作ツールの紹介でした。
 
-* PySX, a playstation emulator in python by Tzer-Jen Wei
+  以下の簡単なコードで、ファイル選択ダイアログの GUI を表示することができます。
 
-  `スライド <http://www.slideshare.net/weijr/pysx-presentation-at-pycontw>`_
+.. code-block:: python
 
-* Osube - Represent You by Scott Lambert
+   from vsgui.api import *
+   ret = ask_filepath(directory='/tmp')
+   info(ret)
 
-  モバイルビデオに関するスタートアップ企業 `オスビー <http://osube.com/>`_ の紹介です。Django ベースで開発をしているそうです。
+.. figure:: _static/vsgui.jpg
+   :width: 320
+   :alt: vsgui で生成されたファイル選択ダイアログ
 
-.. * Hardware certification with Python by 陳田富
-..
-..  話を聞けませんでした。ごめんなさい。
+   vsgui で生成されたファイル選択ダイアログ
 
-科学技術からゲームまで、ツール紹介からビジネスまで、話題の幅が広い LT でした。
+* PySX, a playstation emulator in python
 
+  - スピーカー: Tzer-Jen Wei
+  - スライド `Pysx presentation at Pycontw by weijr | SlideShare <http://www.slideshare.net/weijr/pysx-presentation-at-pycontw>`_
 
-.. All-In-One Scientific Research With SageTeX
-.. -------------------------------------------
-.. - Hsin-Yu Ko
-.. - コードとドキュメントをどうするか
-.. - http://www.sagemath.org/doc/tutorial/index.html
+  PySX という Python で動作するプレイステーションのエミュレーターの紹介です。
+  すでに プレイステーションのエミュレーターはこの世に存在するのに、あえて
+  Python で実装し直すという、ある意味変態的なプロジェクトです。
 
-.. fabric-deployment tool
-.. ----------------------
-.. - jslee
-.. - Yahoo では yinst という perl の deployment tool 使ってた
-.. - 今は fabric 使ってるよ
+  実際に PC 上でプレイステーションが起動する様子を見せてくれました。
+  まだ、そのくらいしか動作していないそうです。
 
-.. Simple Way Adding GUI to Python Scripts
-.. ---------------------------------------
-.. - hychen
-.. - I wrote a script
-.. - zenity
-.. - https://github.com/hychen/vsgui
+.. figure:: _static/pysx.jpg
+   :width: 320
+   :alt: プレイステーションの起動画面
 
-.. PySX, a playstation emulator in python
-.. --------------------------------------
-.. - Tzer-Jen Wei
-.. - 変態
+   プレイステーションの起動画面
 
-.. Osube - Represent You
-.. ---------------------
-.. - Scott Lambert
-.. - osube.com
-.. - Comming soon
-.. - 動画を作って共有する
-.. - Django ベース
-.. - OSUBE Cafe があるよ meetup してね
+* Osube - Represent You
+
+  - スピーカー: Scott Lambert
+
+  モバイルビデオに関するスタートアップ企業 `Osube <http://osube.com/>`_ の紹介です。
+  Osube は PyCon Taiwan のスポンサー企業でもあります。
+  まだサービスはリリースされていませんが、バックエンドは Django で開発をしているそうです。
+
+.. figure:: _static/osube.jpg
+   :width: 320
+   :alt: osube のアーキテクチャ
+
+   osube のアーキテクチャ
+
+   また、台湾のオフィスには Osube Cafe というスペースがあり、meetup イベントなどに是非使ってくださいと言っていました。
+
+* Python and Startup
+
+  - スピーカー: yychen
+  - スライド: `Python and Startup by pycontw <http://www.slideshare.net/pycontw/python-and-startup>`_
+
+  Django と MongoDB などを使ってサービスを立ち上げた話しをしていました。
+  https://www.house123.com.tw/ という不動産取引のためのサービスのようです。
 
 .. PYTHON AND STARTUP
 .. ------------------
 .. - Tom Chen: yychen
+
+科学技術からゲームまで、ツール紹介からビジネスまで、話題の幅が広い LT でした。
 
 PyCon Taiwanの雰囲気
 ====================
