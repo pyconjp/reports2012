@@ -378,9 +378,11 @@ Lightning Talks
 PyCon Taiwanの雰囲気
 ====================
 再び、鈴木たかのりです。
-PyCon Taiwan では来場者へのおみやげはロゴ入りの紙袋に入って配られました。
-中身はプログラムガイドの冊子とステッカーが2枚入っていました。
-PyCon Taiwan の `TAIPEI 101 <http://www.taipei-101.com.tw/index_jp.htm>`_ と蛇をかけ合わせたロゴはとてもステキだと思います。ただ、ステッカーは少しサイズが大きすぎるので、自分の MacBook Air には貼らずにお土産にしました。
+ここではセッショん以外の PyCon Taiwan の雰囲気について紹介したいと思います。
+
+PyCon Taiwan では入場時におみやげのグッズがロゴ入りの紙袋に入って配られました。
+中身はプログラムガイド(カラー)の冊子とステッカーが2枚入っていました。
+PyCon Taiwan の `TAIPEI 101 <http://www.taipei-101.com.tw/index_jp.htm>`_ と蛇をかけ合わせたロゴはとてもステキだと思います。ただ、ステッカーは少しサイズが大きすぎるので、自分の MacBook Air には貼らずに日本へのお土産にしました。
 
 .. figure:: _static/pycon-tw-goods.jpg
    :width: 320
@@ -397,7 +399,8 @@ Tea Break では軽食やケーキ、ベジタリアンの方向けのものま�
 
    Tea Break の様子
 
-また、ランチタイムにはお弁当が出るんですが、私たちは発表者やスタッフが使用する VIP ROOM で一緒に食事をさせてもらいました。
+また、ランチタイムには魚、鶏、豚などのお弁当が出ます。一般の参加者はカフェテリアのような場所で食事をとっていたようです。
+私たちは発表者やスタッフが使用する VIP ROOM で一緒に食事をさせてもらいました。
 そのおかげで台湾のスタッフやスピーカーと交流できて、非常に濃密な時間を過ごすことができました。
 
 .. figure:: _static/bento.jpg
@@ -418,8 +421,9 @@ Tea Break では軽食やケーキ、ベジタリアンの方向けのものま�
 
    日本からのおみやげに喜ぶ Yung-Yu Chen 氏
 
-Day 1 の終了後は BoF (Birds of a Feather)という形式のユーザー同士の集まりが開催されました。
-BoF は中国語のみのため私達は参加しませんでしたが、教育ツールとしての Python 、Python での Web 開発、Python の台湾グループの立ち上げなどについて、夜遅くまで活発に議論が行われていたようです。
+Day 1 の終了後は BoF (Birds of a Feather)という形式のユーザー同士の集まりが開催されました。ノンアルコールでピザをつまんだりして活発に議論をしていたようです。台湾のみなさんは私とは違って真面目ですね!!
+
+BoF は中国語のみのため私達は参加しませんでしたが、教育ツールとしての Python 、Python での Web 開発、Python の台湾グループの立ち上げなどについて、夜遅くまで議論が行われました。
 BoF の内容については `PyCon.TW/2012/BoF - PyTUG wiki <http://wiki.python.org.tw/PyCon.TW/2012/BoF>`_ のページに中国語でまとめられています。
 
 .. figure:: _static/bof.jpg
@@ -436,7 +440,7 @@ Center of Academic Activities(中央研究院學術活動中心)はホテルの�
 ホテルの部屋は非常に広く快適で、無線LANにも繋がります。
 また、学術関係の宿泊施設らしく机が二つあり、コンセントもたくさんついていて、私達のような人種には非常に便利でした。
 
-他の人はホテルに併設してある中華レストランで食べたそうですが、安くて普通においしかったそうです。
+日本から行った他のメンバーはホテルに併設してある中華レストランで夕食を食べたそうですが、安くて普通においしかったそうです。
 
 .. figure:: _static/guestroom.jpg
    :width: 320
@@ -444,10 +448,18 @@ Center of Academic Activities(中央研究院學術活動中心)はホテルの�
 
    Academia Sinica の宿泊施設
 
-私はホテルのレストランでは食べず、昨日に引き続き夜市(ナイトマーケット)に出かけました。
-この日行ったのは `饒河街観光夜市 <http://www.taipeinavi.com/food/229/>`_ です。Academia Sinica から少し距離があり、バスに乗って30分ほど揺られて到着しました。ちなみにバスは東京に比べてスピードを出しますし結構揺れます。
+.. figure:: _static/day1-dinner.jpg
+   :width: 320
+   :alt: 謎の可愛らしいディスプレイのレストラン
 
-Android の Google マップで検索すると、Academia Sinica から夜市に行くための乗り降りするバス停、バスの系統番号まで表示されて右も左も分からない私でも安心して移動することができました(`夜市へのバスルート <https://maps.google.com/maps?saddr=%E6%8C%87%E5%AE%9A%E3%81%AE%E5%9C%B0%E7%82%B9&daddr=%E5%85%AB%E5%BE%B7%E8%B7%AF%E5%9B%9B%E6%AE%B5&hl=ja&ie=UTF8&ll=25.04898,121.599684&spn=0.051554,0.090895&sll=25.043732,121.594105&sspn=0.025778,0.045447&geocode=FT4afgEdCqo_Bw%3BFeA7fgEdvCA_Bw&dirflg=r&ttype=now&noexp=0&noal=0&sort=def&mra=ltm&t=m&z=14&start=0>`_)。便利すぎます。
+   謎の可愛らしいディスプレイのレストラン
+
+私はホテルのレストランでは食べず、昨日に引き続き夜市(ナイトマーケット)に出かけました。
+この日行ったのは `饒河街観光夜市 <http://www.taipeinavi.com/food/229/>`_ です。Academia Sinica から少し距離があり、バスに乗って30分ほど移動する必要があります。ちなみにバスは東京に比べてスピードを出しますし結構揺れて少し気持ちが悪くなりました。
+
+どうやっていくのか調べるために Android の Google マップで検索すると、Academia Sinica から夜市に行くための乗り降りするバス停、バスの系統番号まで表示されました。
+右も左も分からない私でも安心して移動することができ、便利すぎてびっくりしました
+(`夜市へのバスルート <https://maps.google.com/maps?saddr=%E6%8C%87%E5%AE%9A%E3%81%AE%E5%9C%B0%E7%82%B9&daddr=%E5%85%AB%E5%BE%B7%E8%B7%AF%E5%9B%9B%E6%AE%B5&hl=ja&ie=UTF8&ll=25.04898,121.599684&spn=0.051554,0.090895&sll=25.043732,121.594105&sspn=0.025778,0.045447&geocode=FT4afgEdCqo_Bw%3BFeA7fgEdvCA_Bw&dirflg=r&ttype=now&noexp=0&noal=0&sort=def&mra=ltm&t=m&z=14&start=0>`_)。
 
 .. figure:: _static/bus.jpg
    :width: 320
@@ -463,9 +475,9 @@ Android の Google マップで検索すると、Academia Sinica から夜市に
 
 .. figure:: _static/yatai.jpg
    :width: 320
-   :alt: 夕食はこの屋台で食べました
+   :alt: 夕食は猪脚麺線(具に豚足の入った細い麺)
 
-   夕食はこの屋台で食べました
+   夕食は猪脚麺線(具に豚足の入った細い麺)
 
 .. figure:: _static/ice.jpg
    :width: 320
