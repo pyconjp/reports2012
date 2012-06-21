@@ -274,7 +274,41 @@ Clime は
 
 Lightning Talks
 ===============
-(西本さん)
+
+西本です。一日目の最後は閃電秀 (Lightning Talks) です。
+
+* All-In-One Scientific Research With SageTeX by Hsin-Yu Ko 
+
+  スライド `Main by kosinyj <http://www.slideshare.net/kosinyj/main-13277848>`_
+
+  `数式処理システム Sage <http://www.sagemath.org/>`_ (Sagemath) はいわゆる Mathematica のようなソフトウェアですが、Python を基盤としてオープンソースで開発されているのが特徴です。Sage のコードを LaTeX に埋め込む SageTeX という機能もあり、これを使えば計算結果やグラフを直接 LaTeX 文書に取り込むことができます。つまり「研究から論文作成まで」オールインワンの科学研究環境を実現できるわけです。
+
+* fabric – deployment tool by jslee
+
+  SSH で複数のマシンにデプロイを行うソフトウェア fabric の紹介です。Yahoo! ではかつて yinst という独自のツールが使われていましたが、現在は fabric を使っているそうです。
+
+* Simple Way Adding GUI to Python Scripts by hychen 
+
+  スライド `讓 Python Script 擁有圖形化介面的簡單方法 <http://www.slideshare.net/pycontw/pycontw2012-lt>`_
+
+  ビデオ `PyConTW 2012 LT: VSGUI (very simple GUI) - Hychen <http://www.youtube.com/watch?v=WBqFVYdm-BE>`_
+
+  シェルスクリプトを介してコマンドラインから GTK+ ダイアログボックスを表示するツール Zenity を、Python から簡単に使えるようにする `VSGUI <https://github.com/hychen/vsgui>`_ というツールの紹介です。
+
+* PySX, a playstation emulator in python by Tzer-Jen Wei
+
+  `スライド <http://www.slideshare.net/weijr/pysx-presentation-at-pycontw>`_
+
+* Osube - Represent You by Scott Lambert
+
+  モバイルビデオに関するスタートアップ企業 `オスビー <http://osube.com/>`_ の紹介です。Django ベースで開発をしているそうです。
+
+.. * Hardware certification with Python by 陳田富
+..
+..  話を聞けませんでした。ごめんなさい。
+
+科学技術からゲームまで、ツール紹介からビジネスまで、話題の幅が広い LT でした。
+
 
 .. All-In-One Scientific Research With SageTeX
 .. -------------------------------------------
