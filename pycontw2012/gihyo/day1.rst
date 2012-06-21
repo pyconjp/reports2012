@@ -302,7 +302,7 @@ Lightning Talks
 
   - スピーカー: jslee
 
-  SSH で複数のマシンにデプロイを行うソフトウェア `fabric http://docs.fabfile.org/>`_ の紹介です。Yahoo! Taiwan ではかつて yinst という perl ベースの独自ツールが使われていましたが、現在は fabric を使っているそうです。
+  SSH で複数のマシンにデプロイを行うソフトウェア `fabric <http://docs.fabfile.org/>`_ の紹介です。Yahoo! Taiwan ではかつて yinst という perl ベースの独自ツールが使われていましたが、現在は fabric を使っているそうです。
 
 * Simple Way Adding GUI to Python Scripts
 
