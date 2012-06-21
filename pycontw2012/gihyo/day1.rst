@@ -63,32 +63,31 @@ Python の良いところは、調べればたくさん見つけられるので�
 自分が取り組んでいるプロジェクトやソフトウェアの良いところ、
 悪いところを認識しておくのは、適材適所を選択したり、活用する上で重要なことだと思います。
 
-スライドでは以下のようにあります。
+スライドから引用しながら補足します。いくつか納得する項目もあるものの、いま正に改善しようと取り組んでいる項目もあります。
 
 * パッケージングがまだ万全というわけじゃない (distribute, pip, distutils2 が期待通りではない)
+
+  Python 3.3 から `packaging (distutils2) <http://docs.python.org/dev/library/packaging.html#module-packaging>`_ ライブラリが導入予定でしたが、
+  現時点の開発状況を鑑みて 3.4 に延期しようという話題が開発者メーリングリストで行われています。まだもう少し時間がかかりそうです。
+
 * 匿名ブロック (Anonymous Block) がない
+
+  "Anonymous Block" で調べると `PEP 343 The "with" Statement <http://www.python.org/dev/peps/pep-0343/>`_ が出てくるのですが、
+  ここで言う匿名ブロックとは、lambda ブロックのような、ファーストクラスオブジェクトのブロックではないかと疑問に思いました。
+
 * CPython ランタイムは、古くなってしまったので改良が必要 (GIL, グローバル変数、動的コンパイル対応)
 * "import hooks" 以外に言語を拡張する仕組みがない (軽量 DSL が必要とする)
+
+  Python 3.1 から追加された `importlib <http://docs.python.org/dev/library/importlib.html>`_ で解決しようとしています。
+  importlib は Python の import 文の実装を提供し、Python のランタイムに依らず、様々な API とフックを提供することで拡張を簡単にします。
+
 * 複数のランタイムの煩わしさ
+
+  `PyPy <http://pypy.org/>`_ の人気が出て来て、Cross-Python というキーワードもちらほら聞くようになりました。
+  従来からの `Jython <http://www.jython.org/>`_, `IronPython <http://ironpython.codeplex.com/>`_ に加え、
+  Python 3 への移行も着実に進む中、いまが過渡期なので仕方ないですね。
+
 * 配列指向 (array-oriented) と NumPy を完全に理解している Python 開発者が少ない
-
-いくつか納得する項目もあるものの、いま正に改善しようと取り組んでいる項目もあります。
-
-(ここはどうしたいの?)
-
-.. warning::
-   
-  * 匿名ブロック (Anonymous Block) がない
-
-  あとで travis に聞いてみる！
-  ここで言う匿名ブロックとは `with 文 <http://www.python.org/dev/peps/pep-0343/>`_ ではなく、lambda block のようなもの？
-
-|
-
-  "import hooks" 以外に言語を拡張する仕組みがない (軽量 DSL が必要とする)
-
-Python 3.1 から追加された `importlib <http://docs.python.org/dev/library/importlib.html>`_ で解決しようとしています。
-importlib は Python の import 文の実装を提供し、Python のランタイムに依らず、様々な API とフックを提供することで拡張を簡単にします。
 
 Array-Oriented Computing
 ------------------------
@@ -188,7 +187,9 @@ Array-Oriented Computing
 
   高速、且つ汎用的なデータ生成／解析のためのライブラリやそのツール
 
-(なんか締めの一文を入れてください)
+筆者は、業務アプリや Web アプリの開発を主にしてきたので、こういった科学技術分野の動向は全く分かりません。
+しかし、ソーシャル化による集合知や Big Data 解析といった話題が、今後より一般的になるにつれて関わることも増えてきそうな気がします。
+そんなとき、Python でプログラミングできることを想像すると、新しい分野に対しても挑戦する意欲がわいてきます。
 
 Clime: Simply CLI-ize Your Program!
 ===================================
