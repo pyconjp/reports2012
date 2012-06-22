@@ -76,7 +76,7 @@ Python の良いところは、調べればたくさん見つけられるので�
   ここで言う匿名ブロックとは、lambda ブロックのような、ファーストクラスオブジェクトのブロックではないかと疑問に思いました。
 
 * CPython ランタイムは、古くなってしまったので改良が必要 (GIL, グローバル変数、動的コンパイル対応)
-* "import hooks" 以外に言語を拡張する仕組みがない (軽量 DSL が必要とする)
+* 軽量 DSL を作るために必要な言語拡張の仕組みが "import hooks" しかない
 
   Python 3.1 から追加された `importlib <http://docs.python.org/dev/library/importlib.html>`_ で解決しようとしています。
   importlib は Python の import 文の実装を提供し、Python のランタイムに依らず、様々な API とフックを提供することで拡張を簡単にします。
