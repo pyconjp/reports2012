@@ -2,75 +2,76 @@
  Day 2
 =======
 
+この日は `PyCon Taiwan 2012 <http://tw.pycon.org/2012/>`_ の2日目(最終日)です。
+前日に宿泊した Center of Academic Activities(中央研究院學術活動中心)から一日がはじまりました。
+
+.. figure:: _static/cafe-sinica.jpg
+   :width: 320
+   :alt: Cafe Sinica 外観
+
+   Cafe Sinica 外観
+
+.. figure:: _static/breakfast.jpg
+   :width: 320
+   :alt: 朝食
+
+   朝食
+
 PayCon Taiwanの運営者へのインタビュー
 =====================================
-2日目の朝食後に PyCon Taiwan の chairperson(座長)の
+鈴木たかのりです。
+朝食後に Cafe の外で PyCon Taiwan の chairperson(座長)である
 Yung-Yu Chen (`@yungyuc <http://twitter.com/yungyuc>`_)氏に時間をとってもらい、インタビューを行いました。
 インタビューには PyCon Taiwan スタッフの Timtan 氏にも同席頂きました。
 
+.. figure:: _static/interview.jpg
+   :width: 320
+   :alt: インタビューの様子
+
+   インタビューに答える Yung-Yu Chen氏(奥)と Timtan氏(右)
+
 - 今回、なぜ PyCon Taiwan を開催しようと思ったんですか?
 
-大きく2つの理由があります。
+  大きく2つの理由があります。
 
-1つ目は台湾で Python コミュニティを広く認知してもらいたいと思っているからです。
-台湾では多くの人が OSS コミュニティに関わったりしていますが、そのうち 1/10 くらいの人が python を使っていると思います。Java に比べると少ないのが現状です。
+  1つ目は台湾で Python コミュニティを広く認知してもらいたいと思っているからです。
+  台湾では多くの人が OSS コミュニティに関わったりしていますが、そのうち 1/10 くらいの人が python を使っていると思います。Java に比べると少ないのが現状です。
 
-.. Industory I start 
-   mostly inside 
-   lot of people in python. OSS community.
-   1/10 くらいは python.
-   Java の方が多い
+  2つ目の理由は Thinker [#]_ が 2011 に開催したアンカンファレンス [#]_ です。
+  アンカンファレンスで Python についてのセッショんを呼びかけたところ 100 人程度が参加してくれました。
+  2008年にも Python について呼びかけましたが、そのときは50〜70人が集まったと記憶しています。
 
-2つ目の理由は Thinker [#]_ が 2011 に開催したアンカンファレンス [#]_ です。
-アンカンファレンスで Python についてのセッショんを呼びかけたところ 100 人程度が参加してくれました。
-2008年にも Python について呼びかけましたが、そのときは50〜70人が集まったと記憶しています。
+  Python について話しをしたい人たちがいると感じたので、知り合いでミーティングを行い PyCon Taiwan の開催を決意しました。
+  US で行われている PyCon のように Python に関わるいろいろな人達の出会いの場とな  ることを期待しています。
 
-Python について話しをしたい人たちがいると感じたので、知り合いでミーティングを行い PyCon Taiwan の開催を決意しました。
-US で行われている PyCon のように Python に関わるいろいろな人達の出会いの場となることを期待しています。
-
-.. [#] Thinker: PyCon JP で日本にも来日して発表を行なった台湾の Python 開発者。
+.. [#] Thinker: PyCon JP で日本にも来日して発表を行なった台湾の Python 開発者。Day 0 で Mozilla Taiwan で再会しました
 .. [#] アンカンファレンス: (アンカンファレンスの説明)
-
-.. Secondary: Thinker 2011 Unconference をやった。2011 100 people.
-   2008 50-70 くらい。
-
-   Unofficial meeting をやった。
-
-   PyCon US
-   いろんな人達に会えるので、やった。
-
-   Academia Sinica にお金は払っているが co-organizer してくれているので安い。
-
-.. - The goal of PyCon Taiwan.
 
 - 今後 PyCon Taiwan が目指すゴールはどういったものですか?
 
-継続すること、より大きくなっていくことです。
-また、継続するためには主催者が燃え尽きないことが大事であると考えています。
-主催者は頑張り過ぎない必要があると思います。メンバーがお互い協力しあって会を運営する必要があると考えています。
+  継続すること、より大きくなっていくことです。
+  また、継続するためには主催者が燃え尽きないことが大事であると考えています。
+  主催者は頑張り過ぎない必要があると思います。メンバーがお互い協力しあって会を運営する必要があると考えています。
 
-Python では○◯といいますがこれはプログラミングだけではなく、PyCon イベントの進め方についても共通した考え方だと思っています。
+  Python には "There's Only One Way To Do It." [#]_ というスローガンがありますが、これはプログラミングだけではなく PyCon イベントの進め方についても共通していると思います。
+  (確かに、PyCon JP スタッフも同様のことを考えていると思いました)
 
-今後、PyCon Taiwan が Pythonic way となることを期待してます。
-(pythonic way とは)
+  今後、PyCon Taiwan が Pythonic way [#]_ となることを期待してます。
 
-.. 1 thing. sustend(つづけて大きくすること)
-   nobody should be burn out.
-
-   organize effort.
-   organize member collaborating.
-   Python やるならやり方はひと通りだよね。これはプログラムだけじゃなくて。
-
-   PyCon Taiwa が Pythonic way となることを期待している。
+.. [#] `TOOWTDI <http://wiki.python.org/moin/TOOWTDI>`_: 日本語に訳すと「やり方は一つしかない」といった意味になります。
+   `There's More Than One Way To Do It. <http://d.hatena.ne.jp/keyword/TMTOWTDI>`_ という Perl のスローガンに対するジョークの応答して作られたそうですが、Python
+   の性格を端的に表しています
+.. [#] `The Zen of Python <http://www.python.jp/Zope/articles/misc/zen>`_
+   に代表される python 的な考え方のことです
 
 - 参加者とその内訳を教えてください
 
-全体で260名程度が参加登録してくれました。チケットの制限は250の予定でしたが最終的にこのようになりました。
-海外からの参加者は10〜15人程度だと思われます。また台湾在住のオーストラリアの方も参加してくれているようです。
-2つのスポンサーが今回つきましたが、スポンサーのボスも台湾人ではありません。
+  全体で260名程度が参加登録してくれました。チケットの制限は250の予定でしたが最終的にこのようになりました。
+  海外からの参加者は10〜15人程度だと思われます。また台湾在住のオーストラリアの方も参加してくれているようです。
+  2つのスポンサーが今回つきましたが、スポンサーのボスも台湾人ではありません。
 
-スタッフは当日スタッフも含めて30名程度です。メインスタッフは5〜10人くらいのチームリーダーがいました。
-Peter はスポンサー企業のボスですが、もともと予定していた Keynote スピーカーが2週間前に病気にかかり急遽参加できなくなたときに、 Peter のつてで代役を無事探すことができました。
+  スタッフは当日スタッフも含めて30名程度です。メインスタッフは5〜10人くらいのチームリーダーがいました。
+  Peter はスポンサー企業のボスですが、もともと予定していた Keynote スピーカーが2週間前に病気にかかり急遽参加できなくなたときに、 Peter のつてで代役を無事探すことができました。
 
 .. - How many participants(from taiwan, outside taiwan).
 
@@ -82,9 +83,9 @@ Peter はスポンサー企業のボスですが、もともと予定してい�
 
 - 台湾の Python コミュニティについて教えてください
 
-台湾は Python を使用しているユーザは多いがコミュニティはありません。
-Python を使って仕事はしているが、メインのしごとは OSS やコンピュータサイエンスであるという人が多いです。
-今回の PyCon Taiwan をきっかけに Python ユーザの横のつながりができ、台湾の Python 事情が変わることを期待しています。
+  台湾は Python を使用しているユーザは多いがコミュニティはありません。
+  Python を使って仕事はしているが、メインのしごとは OSS やコンピュータサイエンスであるという人が多いです。
+  今回の PyCon Taiwan をきっかけに Python ユーザの横のつながりができ、台湾の Python 事情が変わることを期待しています。
 
 .. - How about Taiwan python community.
    - 水面下で動いている
@@ -100,16 +101,24 @@ Python を使って仕事はしているが、メインのしごとは OSS や�
 
 - 最後の日本の Pythonista にメッセージをお願いします。
 
-We love YOU and Python.
+  We love YOU and Python.
 
 .. - How about python/perl/ruby and other language in Taiwan.
    - Message to Pythonista in Japan.
 
 - どうもありがとうございました。
 
+インタビューを終えた後も日本と台湾の PyCon 事情などについて歓談などをし、楽しい時間を過ごしました。早起きしてインタビューをした甲斐がありました。
+
+.. figure:: _static/shake-hands.jpg
+   :width: 320
+   :alt: 台湾と日本の PyCon 座長の握手
+
+   台湾と日本の PyCon 座長の握手
+
 Keynote: Python and the Web
 ===========================
-
+もりもとです。
 2日目の基調講演は `James Tauber 氏 <http://jtauber.com/>`_ による、
 Python と Web が歩んできた歴史について振り返るものでした。
 彼は `Django <http://jtauber.com/django/>`_ のコア開発者であり `Pinax <http://jtauber.com/pinax/>`_ のリード開発者です。
@@ -176,31 +185,31 @@ Pinax は、Django 上に構築された、さらに上位のフレームワー�
 
 .. [#f2] `Quieting the lizard brain <http://sethgodin.typepad.com/seths_blog/2010/01/quieting-the-lizard-brain.html>`_
 
-python
-------
-- pandas, music21, sphinx, PyPI, crate.io
+.. python
+   ------
+   - pandas, music21, sphinx, PyPI, crate.io
 
-Web
----
-- HTML とかから
-- 画像
-- SSI, CGI
-- PHP
-- LAMP
-- Jabascript
-- JSON
-- github とかからAPIでとりだしてページを表示
+   Web
+   ---
+   - HTML とかから
+   - 画像
+   - SSI, CGI
+   - PHP
+   - LAMP
+   - Jabascript
+   - JSON
+   - github とかからAPIでとりだしてページを表示
 
-Python and web
---------------
-- Zope/Plone: Full stack
-- WISG(ウィズギー): CGIっぽいやつ
-  Pythonic way
-- Flask は小さいのにはいいけどね
-- Django: out of the box
-- Instagram, Pinterest
+   Python and web
+   --------------
+   - Zope/Plone: Full stack
+   - WISG(ウィズギー): CGIっぽいやつ
+     Pythonic way
+   - Flask は小さいのにはいいけどね
+   - Django: out of the box
+   - Instagram, Pinterest
 
-最近4年Pinaxやっている
+   最近4年Pinaxやっている
 
 Pyjamas
 =======
@@ -247,8 +256,12 @@ QtQuick GUI Programming with PySide
 - PySide
 - PySide v.s. PyQt
 
-What Can Meta class Do For You?
+What Can Meta Class Do For You?
 ===============================
+鈴木たかのりです。
+
+`What can meta class do for you? <http://www.slideshare.net/hychen/what-can-meta-class-do-for-you-pycon-taiwan-2012>`_
+
 - hychen
 - Singleton, Countable, Class Verification などの例を使って Meta Class プログラミングについて説明
 
@@ -263,7 +276,7 @@ Dinner
 
 台北電脳街
 ==========
-
+もりもとです。
 `MRT <http://ja.wikipedia.org/wiki/台北捷運>`_ という台北の地下鉄に乗り、
 `忠孝新生駅 <http://ja.wikipedia.org/wiki/忠孝新生駅>`_ を降りるとすぐに電気街があります。
 日本の秋葉原に相当する場所のようですが、規模はあまり大きくありません。
