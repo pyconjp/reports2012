@@ -290,8 +290,8 @@ Lightning Talks
 
 西本です。一日目の最後は閃電秀 (Lightning Talks) です。
 
-LT だけではありませんが、PyCon TW の発表の多くは中国語による講演でした。しかし、たとえ話が聞き取れなくても、何について話しているのか分かれば、自分の知識で補完したりその場でネット検索したりして、なんとか話についていけます。
-PyCon TW では中国語の発表でもスライドが英語で書かれていて、中国語が聞き取れない私にはとても助かりました。それから、中国語の講演の途中に出てくる英語のキーワードが英語らしい発音であることが多く、聞き取りやすいと感じました。
+LT だけではありませんが、PyCon Taiwan の発表の多くは中国語による講演でした。しかし、たとえ話が聞き取れなくても、何について話しているのか分かれば、自分の知識で補完したりその場でネット検索したりして、なんとか話についていけます。
+PyCon Taiwan では中国語の発表でもスライドが英語で書かれていて、中国語が聞き取れない私にはとても助かりました。それから、中国語の講演の途中に出てくる英語のキーワードが英語らしい発音であることが多く、聞き取りやすいと感じました。
 
 * All-In-One Scientific Research With SageTeX
 
@@ -317,17 +317,17 @@ PyCon TW では中国語の発表でもスライドが英語で書かれてい�
 
   以下の簡単なコードで、ファイル選択ダイアログの GUI を表示することができます。
 
-.. code-block:: python
+  .. code-block:: python
 
-   from vsgui.api import *
-   ret = ask_filepath(directory='/tmp')
-   info(ret)
+     from vsgui.api import *
+     ret = ask_filepath(directory='/tmp')
+     info(ret)
 
-.. figure:: _static/vsgui.jpg
-   :width: 320
-   :alt: vsgui で生成されたファイル選択ダイアログ
+  .. figure:: _static/vsgui.jpg
+     :width: 320
+     :alt: vsgui で生成されたファイル選択ダイアログ
 
-   vsgui で生成されたファイル選択ダイアログ
+     vsgui で生成されたファイル選択ダイアログ
 
 * PySX, a playstation emulator in python
 
@@ -341,11 +341,11 @@ PyCon TW では中国語の発表でもスライドが英語で書かれてい�
   実際に PC 上でプレイステーションが起動する様子を見せてくれました。
   まだ、そのくらいしか動作していないそうです。
 
-.. figure:: _static/pysx.jpg
-   :width: 320
-   :alt: プレイステーションの起動画面
+  .. figure:: _static/pysx.jpg
+     :width: 320
+     :alt: プレイステーションの起動画面
 
-   プレイステーションの起動画面
+     プレイステーションの起動画面
 
 * Osube - Represent You
 
@@ -355,13 +355,13 @@ PyCon TW では中国語の発表でもスライドが英語で書かれてい�
   Osube は PyCon Taiwan のスポンサー企業でもあります。
   まだサービスはリリースされていませんが、バックエンドは Django で開発をしているそうです。
 
-.. figure:: _static/osube.jpg
-   :width: 320
-   :alt: osube のアーキテクチャ
+  .. figure:: _static/osube.jpg
+     :width: 320
+     :alt: osube のアーキテクチャ
 
-   osube のアーキテクチャ
+     osube のアーキテクチャ
 
-   また、台湾のオフィスには Osube Cafe というスペースがあり、meetup イベントなどに是非使ってくださいと言っていました。
+  また、台湾のオフィスには Osube Cafe というスペースがあり、meetup イベントなどに是非使ってくださいと言っていました。
 
 * Python and Startup
 
@@ -370,10 +370,6 @@ PyCon TW では中国語の発表でもスライドが英語で書かれてい�
 
   Django と MongoDB などを使ってサービスを立ち上げた話しをしていました。
   https://www.house123.com.tw/ という不動産取引のためのサービスのようです。
-
-.. PYTHON AND STARTUP
-.. ------------------
-.. - Tom Chen: yychen
 
 科学技術からゲームまで、ツール紹介からビジネスまで、話題の幅が広い LT でした。
 
