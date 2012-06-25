@@ -73,7 +73,7 @@ Python の良いところは、調べればたくさん見つけられるので�
 * 匿名ブロック (Anonymous Block) がない
 
   "Anonymous Block" で調べると `PEP 343 The "with" Statement <http://www.python.org/dev/peps/pep-0343/>`_ が出てくるのですが、
-  ここで言う匿名ブロックとは、lambda ブロックのような、ファーストクラスオブジェクトのブロックではないかと疑問に思いました。
+  ここで言う匿名ブロックとは、 `Python コードや AST に対する lambda ブロックのようなものを意図しています <https://twitter.com/teoliphant/status/217087659187769344>`_ 。
 
 * CPython ランタイムは、古くなってしまったので改良が必要 (GIL, グローバル変数、動的コンパイル対応)
 * 軽量 DSL を作るために必要な言語拡張の仕組みが "import hooks" しかない
