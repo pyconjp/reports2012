@@ -228,10 +228,25 @@ Windows Azure
 =============
 - Windows Azure 上で Python で開発できるよ
 
-日本からの発表
-==============
-- PyCon JP Promotion -- An Introduction to Python Community in Japan 
-- `Shoma Hosaka <http://pycon.tw/2012/speaker/#shoma_hosaka>`_
+Welcome To PyCon JP
+===================
+鈴木たかのりです。
+さて、2日目のランチの前にはいよいよ PyCon JP スタッフの
+`保坂 翔馬 <http://twitter.com/shomah4a>`_ による発表です。
+タイトルの通り「PyCon JP へようこそ」と題して、2012年の9月に開催される
+`PyCon JP 2012 <http://2012.pycon.jp/>`_ の紹介を行いました。
+
+.. figure:: /_static/shoma.jpg
+   :width: 320
+   :alt: 保坂 翔馬氏
+
+   保坂 翔馬氏
+
+以下に発表スライドと清水川さんが撮影したビデオが公開されています。
+
+- `Welcome to PyCon JP <http://shomah4a.net/pycontw_slide/>`_
+- `Welcome To PyCon JP - YouTube <http://www.youtube.com/watch?v=lSjzUc9GhbQ>`_
+
 - I hate Java!!
 - メンバーの紹介
 
