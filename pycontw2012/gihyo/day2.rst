@@ -213,22 +213,22 @@ Pinax は、Django 上に構築された、さらに上位のフレームワー�
 
    最近4年Pinaxやっている
 
-Pyjamas
-=======
-- Rasiel Chang
-- `pyjamas - Python Web Widget Set and python-to-javascript compiler: make your own AJAX framework - Google Project Hosting <http://code.google.com/p/pyjamas/>`_
-- python を書いて js と html を生成する GWT みたいなもの
-- Single page のアプリケーションには向いているが、普通のweb pageには向いてない
+.. Pyjamas
+.. =======
+.. - Rasiel Chang
+.. - `pyjamas - Python Web Widget Set and python-to-javascript compiler: make your own AJAX framework - Google Project Hosting <http://code.google.com/p/pyjamas/>`_
+.. - python を書いて js と html を生成する GWT みたいなもの
+.. - Single page のアプリケーションには向いているが、普通のweb pageには向いてない
 
-toki
-====
-- ネットワークゲームのログ解析とか分析のバックエンドについて
-- Twisted, Django, MongoDB とか使ってる
-- ログは Mongo DB に。スキーマないしログ形式の変更に柔軟に対応できる
+.. toki
+.. ====
+.. - ネットワークゲームのログ解析とか分析のバックエンドについて
+.. - Twisted, Django, MongoDB とか使ってる
+.. - ログは Mongo DB に。スキーマないしログ形式の変更に柔軟に対応できる
 
-Windows Azure
-=============
-- Windows Azure 上で Python で開発できるよ
+.. Windows Azure
+.. =============
+.. - Windows Azure 上で Python で開発できるよ
 
 Welcome To PyCon JP
 ===================
@@ -240,9 +240,9 @@ Welcome To PyCon JP
 
 .. figure:: /_static/shoma.jpg
    :width: 320
-   :alt: 保坂 翔馬氏
-
-   保坂 翔馬氏
+   :alt: 保坂 翔馬さん
+   
+   PyCon JP を代表して発表を行う保坂 翔馬さん
 
 以下に発表スライドと清水川さんが撮影したビデオが公開されています。
 
@@ -259,28 +259,34 @@ Welcome To PyCon JP
 
 この発表を行った成果だと思いますが、先日終了した演題募集には台湾からも数名が申し込んでくれたようです。PyCon JP 2012 当日にも台湾をはじめ、世界中から Pythonista が集まって相互に交流できることを楽しみにしています。
 
-また、来年の PyCon Taiwan をはじめ海外の PyCon 等のイベントに、どんどん日本からも発表をしに行ってほしいなと感じました。と偉そうに書いてますが、私も英語発表をやったことはないんですが。
+.. figure:: /_static/more-people.jpg
+   :width: 320
+   :alt: More pople joins from Taiwan
+   
+   More pople joins from Taiwan
 
-PyKinect
-========
-- ericsk
-- Kinect for Windows
-- PyKinect How-to
-- References
+また、来年の PyCon Taiwan をはじめ海外の PyCon 等のイベントに、どんどん日本からも発表をしに行ってほしいと感じました。と偉そうに書いてますが、私も英語発表をやったことはないんですが。
 
-CyberLink Meets Python
-======================
-- Honder Tzou
+.. PyKinect
+.. ========
+.. - ericsk
+.. - Kinect for Windows
+.. - PyKinect How-to
+.. - References
 
-QtQuick GUI Programming with PySide
-===================================
-- Garylee
-- `Qt Quick <http://qt.nokia.com/products-jp/qt-quick/>`_
-- Qt ベース
-- QMLで定義
-- Qt Designerとか
-- PySide
-- PySide v.s. PyQt
+.. CyberLink Meets Python
+.. ======================
+.. - Honder Tzou
+
+.. QtQuick GUI Programming with PySide
+.. ===================================
+.. - Garylee
+.. - `Qt Quick <http://qt.nokia.com/products-jp/qt-quick/>`_
+.. - Qt ベース
+.. - QMLで定義
+.. - Qt Designerとか
+.. - PySide
+.. - PySide v.s. PyQt
 
 What Can Meta Class Do For You?
 ===============================
