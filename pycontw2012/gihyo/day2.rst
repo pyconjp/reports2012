@@ -334,7 +334,22 @@ PyLottery のソースコードは
 
 Dinner
 ======
+鈴木たかのりです。
+PyCon Taiwan の終了後、最期まで残っていた私と西本さんは
+Taiwan スタッフの誘いを受けて Dinner Party にご一緒させてもらいました。
+場所は宿泊施設と同じ建物にあるレストラン金華樓です。
 
+.. figure:: _static/dinner.jpg
+   :width: 320
+   :alt: 中華料理
+
+   中華料理
+
+.. figure:: _static/dinner-party.jpg
+   :width: 320
+   :alt: PyCon Taiwan スタッフとの会食
+
+   PyCon Taiwan スタッフとの会食
 
 台北電脳街
 ==========
@@ -365,7 +380,7 @@ Dinner
    :height: 320
    :alt: 購入した HTC 端末
 
-   購入した HTC 端末
+   購入し HTC 端末
 
 PyCon JP 2012のお知らせ
 =======================
