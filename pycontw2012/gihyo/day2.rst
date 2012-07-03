@@ -299,8 +299,36 @@ What Can Meta Class Do For You?
 
 Closing
 =======
-- プレゼントが配られた
-- 日本から持っていったプレゼントも配布された
+Closing ではまず最初に20名程度の PyCon Taiwan スタッフが壇上に上がり、拍手で讃えられました。
+
+次はお待ちかねのプレゼントタイムです。
+PyLottery という `PyGame <http://www.pygame.org/news.html>`_ を使用したプログラムで、PyCon Taiwan ロゴの蛇がボールを食べると番号が表示されるという抽選プログラムを使用しました。
+PyLottery のソースコードは
+`yungyuc / pylottery / overview — Bitbucket <https://bitbucket.org/yungyuc/pylottery>`_
+で公開されています。
+
+.. figure:: /_static/pylottery.jpg
+   :width: 320
+   :alt: PyLottery
+   
+   PyLottery
+
+抽選で当たった人は PyCon Taiwan Tシャツなどをもらっていましたが、日本からおみやげみ持っていった手ぬぐいやTシャツなどもプレゼントとして使用されました。
+受け取った人が喜んでくれるといいんですが。
+
+.. figure:: /_static/bushido.jpg
+   :width: 320
+   :alt: 武士道Tシャツもプレゼント
+   
+   武士道Tシャツもプレゼント
+
+最後に、会期中に撮影した写真で作成されたスライドショーを表示して、2日間に渡った PyCon Taiwan 2012 は成功のうちに終了しました。
+
+.. figure:: /_static/slideshow.jpg
+   :width: 320
+   :alt: スライドショー
+   
+   スライドショー
 
 Dinner
 ======
