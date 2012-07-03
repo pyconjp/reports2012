@@ -5,6 +5,8 @@
 この日は `PyCon Taiwan 2012 <http://tw.pycon.org/2012/>`_ の2日目(最終日)です。
 前日に宿泊した Center of Academic Activities(中央研究院學術活動中心)から一日がはじまりました。
 
+朝食は宿泊施設に併設している `Cafe Sinica <http://sinica.howard-hotels.com/>`_ で食べました。緑に囲まれた素敵なカフェです。
+
 .. figure:: _static/cafe-sinica.jpg
    :width: 320
    :alt: Cafe Sinica 外観
@@ -44,7 +46,7 @@ Yung-Yu Chen (`@yungyuc <http://twitter.com/yungyuc>`_)氏に時間をとって�
   Python について話しをしたい人たちがいると感じたので、知り合いでミーティングを行い PyCon Taiwan の開催を決意しました。
   US で行われている PyCon のように Python に関わるいろいろな人達の出会いの場とな  ることを期待しています。
 
-.. [#] Thinker: PyCon JP で日本にも来日して発表を行なった台湾の Python 開発者。Day 0 で Mozilla Taiwan で再会しました
+.. [#] Thinker: PyCon JP で日本にも来日して発表を行なった台湾の Python 開発者。このレポートの `Day 0 <http://gihyo.jp/news/report/01/pycon-taiwan2012/0000>`_ で Mozilla Taiwan で再会しました
 .. [#] アンカンファレンス: (アンカンファレンスの説明)
 
 - 今後 PyCon Taiwan が目指すゴールはどういったものですか?
@@ -101,7 +103,7 @@ Yung-Yu Chen (`@yungyuc <http://twitter.com/yungyuc>`_)氏に時間をとって�
 
 - 最後の日本の Pythonista にメッセージをお願いします。
 
-  We love YOU and Python.
+  "We love YOU and Python."
 
 .. - How about python/perl/ruby and other language in Taiwan.
    - Message to Pythonista in Japan.
@@ -247,8 +249,17 @@ Welcome To PyCon JP
 - `Welcome to PyCon JP <http://shomah4a.net/pycontw_slide/>`_
 - `Welcome To PyCon JP - YouTube <http://www.youtube.com/watch?v=lSjzUc9GhbQ>`_
 
-- I hate Java!!
-- メンバーの紹介
+`Day 1 のランチの時に <http://gihyo.jp/news/report/01/pycon-taiwan2012/0001?page=4>`_
+保坂さんは台湾の人に「中国語でどんな挨拶したらいいですかね」と聞いて教えてもらって録音もしていたんですが、やはり初めての中国語で長文は難しかったようで、つかみの挨拶は「英語+謝謝」だけになってしまいました。それでも参加者のみなさんからのたくさんの拍手をもらって、非常に暖かい聴衆だなと感じました。
+
+発表の内容としては `PyCon JP 2011 <http://2011.pycon.jp>`_ の実績紹介と `PyCon JP 2012 <http://2012.pycon.jp>`_ の概要説明について話しをしていました。
+資料やビデオを見てもらうとわかりますが、いくつか笑ってもらうポイントを入れていました。だいたい想定通りにウケていて、リハーサルをやってみんなで資料にツッコミ入れていた甲斐がありました。
+
+また、日本からの参加メンバーの紹介では一人ひとり立って挨拶して拍手をもらったりして、ちょっと気恥ずかしかったですが、うれしくもありました。
+
+この発表を行った成果だと思いますが、先日終了した演題募集には台湾からも数名が申し込んでくれたようです。PyCon JP 2012 当日にも台湾をはじめ、世界中から Pythonista が集まって相互に交流できることを楽しみにしています。
+
+また、来年の PyCon Taiwan をはじめ海外の PyCon 等のイベントに、どんどん日本からも発表をしに行ってほしいなと感じました。と偉そうに書いてますが、私も英語発表をやったことはないんですが。
 
 PyKinect
 ========
