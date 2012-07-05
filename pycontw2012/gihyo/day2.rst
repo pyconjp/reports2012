@@ -185,6 +185,8 @@ Pinax は、Django 上に構築された、さらに上位のフレームワー�
 
   "生活のためにやってることはクリエイティブではないから、そうなりたいならプロダクトをリリースしなさい"
 
+(なにかKeynoteの締めみたいなの)
+
 .. [#f2] `Quieting the lizard brain <http://sethgodin.typepad.com/seths_blog/2010/01/quieting-the-lizard-brain.html>`_
 
 .. python
@@ -293,10 +295,23 @@ Welcome To PyCon JP
 What Can Meta Class Do For You?
 ===============================
 鈴木たかのりです。
+ここでは大トリの What Can Meta Class Do For You? というメタクラスに関するセッションについて紹介します。発表者の hychen 氏は
+`PyCon JP 2011 <http://2011.pycon.jp/program/talks#hsin-yi-chen-hychen>`_ でも発表を行なってくれており、
+`前日の Lightning Talks <http://gihyo.jp/news/report/01/pycon-taiwan2012/0001?page=3>`_
+でも発表を行うなど、Taiwan の Python 界を引っ張っている存在のように感じました。
 
-`What can meta class do for you? <http://www.slideshare.net/hychen/what-can-meta-class-do-for-you-pycon-taiwan-2012>`_
+.. figure:: /_static/hychen.jpg
+   :width: 320
+   :alt: hychen 氏
+   
+   hychen 氏
 
-- hychen
+以下に hychen 氏の発表スライドが公開されています。
+
+- `What can meta class do for you? <http://www.slideshare.net/hychen/what-can-meta-class-do-for-you-pycon-taiwan-2012>`_
+
+発表内容はいくつかの例題をメタクラスで実装した例を示して、メタクラス入門といった感じのセッションとなりました。
+
 - Singleton, Countable, Class Verification などの例を使って Meta Class プログラミングについて説明
 
 Closing
