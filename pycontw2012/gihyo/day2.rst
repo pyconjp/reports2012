@@ -312,7 +312,57 @@ What Can Meta Class Do For You?
 
 発表内容はいくつかの例題をメタクラスで実装した例を示して、メタクラス入門といった感じのセッションとなりました。
 
-- Singleton, Countable, Class Verification などの例を使って Meta Class プログラミングについて説明
+最初に概念として Class が Type のインスタンスであることを説明し、Type の代わりに **__metaclass__** に任意のクラスを指定することによって、クラスのふるまいを変えることができるということを解説しました。
+
+次に応用例として、メタクラスを使用してどんなプログラミングができるかを示していました。最初の例では `Singleton パターン <http://ja.wikipedia.org/wiki/Singleton_%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3>`_ をメタクラスで実装しました。
+
+以下のようなデータベース接続するための Class があります。
+
+.. code-block:: python
+
+   class MySQL(object):
+       session_max = 1000
+       __metaclass__ = Singleton
+       def __init__(self):
+           print 'connecting to {0}.format(self.session_max)
+
+この MySQL Class はいくつインスタンスを作成しても、全て同じインスタンスとなります。
+
+.. code-block:: python
+
+   >>> db1 = MySQL()
+   >>> print id(db1)
+   >>> db2 = MySQL()
+   >>> print id(db1)
+   >>> db3 = MySQL()
+   >>> print id(db1)
+
+Singleton メタクラスでは以下のようなコードで定義されています。
+こうすることにより、あるクラスに Singleton パターンを適用したい場合には ``__metaclass__ = Singleton`` と記述するだけで実現できるようになります。
+
+.. code-block:: python
+
+   class Singleton(type):
+       def __init__(cls, name, bases, dic):
+           super(Singleton, cls).__init__(name, bases, dic)
+	   cls.instance = None
+       def __call__(cls, *args, **kwargs):
+           print "please use get_instance fanctuin to get the instance"
+	   return cls.get_instance(*args, **kwargs)
+       def get_instance(cls, *args, **kw):
+           if cls.instance == None:
+	       cls.instance = super(Singleton, cls).__call__(*args, **kw)
+           return cls.instance
+
+他にもいくつかのメタプログラミングの例が示されているのでスライドを参照してみてください。最後にまとめとしてメタプログラミングでできることはたくさんある(無量大数という表現を使っていました)ということを説明していました。
+メタプログラミングはコードが簡潔になるといういい面がある反面、なにが行われているかわかりにくく、理解するのが簡単ではないと語られていました。
+
+最後に Python 開発者の `Shalabh Chaturvedi <http://www.shalabh.com/>`_ 氏の以下の言葉を引用して終わりました。なかなか深い言葉です。
+
+- Q: いつメタクラスを使用するべきですか?
+- A: その時は決してありません(この質問をしている間は)
+
+私にもなんとなくメタクラスのさわりがわかる、とてもよい発表でした。
 
 Closing
 =======
