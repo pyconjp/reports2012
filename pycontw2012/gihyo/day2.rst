@@ -185,7 +185,9 @@ Pinax は、Django 上に構築された、さらに上位のフレームワー�
 
   "生活のためにやってることはクリエイティブではないから、そうなりたいならプロダクトをリリースしなさい"
 
-(なにかKeynoteの締めみたいなの)
+PyCon Japan では Web 系の発表が多いですが、PyCon Taiwan では科学系や研究系の発表が多かったです。
+私が初日の基調講演の配列指向 (array-oriented) という概念が興味深かったように、
+非 Web 開発系の参加者にとっては、Web の要素技術の変遷が新鮮だったのかもしれません。
 
 .. [#f2] `Quieting the lizard brain <http://sethgodin.typepad.com/seths_blog/2010/01/quieting-the-lizard-brain.html>`_
 
