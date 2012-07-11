@@ -111,7 +111,7 @@ Yung-Yu Chen (`@yungyuc <http://twitter.com/yungyuc>`_)氏に時間をとって�
    台湾と日本の PyCon 座長の握手
 
 .. [#] Thinker: PyCon JP で日本にも来日して発表を行なった台湾の Python 開発者。このレポートの `Day 0 <http://gihyo.jp/news/report/01/pycon-taiwan2012/0000>`_ で Mozilla Taiwan で再会しました
-.. [#] アンカンファレンス: (アンカンファレンスの説明)
+.. [#] アンカンファレンス: あらかじめ発表内容が決まっている通常のセッションとは異なり、参加者自身がテーマを出してセッションを作り上げていくものです。似たような形式にオープンスペースというものがあります。
 .. [#] `TOOWTDI <http://wiki.python.org/moin/TOOWTDI>`_: 日本語に訳すと「やり方は一つしかない」といった意味になります。
    `There's More Than One Way To Do It. <http://d.hatena.ne.jp/keyword/TMTOWTDI>`_ という Perl のスローガンに対するジョークの応答して作られたそうですが、Python
    の性格を端的に表しています
@@ -298,6 +298,7 @@ Welcome To PyCon JP
 
 What Can Meta Class Do For You?
 ===============================
+鈴木たかのりです。
 ここでは大トリの What Can Meta Class Do For You? というメタクラスに関するセッションについて紹介します。発表者の hychen 氏は
 `PyCon JP 2011 での発表 <http://2011.pycon.jp/program/talks#hsin-yi-chen-hychen>`_ や、
 `前日の Lightning Talks <http://gihyo.jp/news/report/01/pycon-taiwan2012/0001?page=3>`_
@@ -618,6 +619,7 @@ Dinner のときに台湾スタッフに「おすすめのお土産あります�
 
 PyCon JP 2012のお知らせ
 =======================
+鈴木たかのりです。
 最後に宣伝ですが、私もスタッフとして参加している
 `PyCon JP 2012`_
 が9月中旬に開催されます。今年は期間、参加人数共に昨年より規模を拡大して開催します。
