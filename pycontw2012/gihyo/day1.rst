@@ -9,9 +9,9 @@
 
 .. figure:: _static/academia-sinica.jpg
    :width: 480
-   :alt: 自分社会科学館の外観
+   :alt: 人文社会科学館の外観
 
-   自分社会科学館の外観
+   人文社会科学館の外観
 
 さて入場登録をして会場に入ろうと思った時に事件が発生しました。
 
@@ -63,32 +63,31 @@ Python の良いところは、調べればたくさん見つけられるので�
 自分が取り組んでいるプロジェクトやソフトウェアの良いところ、
 悪いところを認識しておくのは、適材適所を選択したり、活用する上で重要なことだと思います。
 
-スライドでは以下のようにあります。
+スライドから引用しながら補足します。いくつか納得する項目もあるものの、いま正に改善しようと取り組んでいる項目もあります。
 
 * パッケージングがまだ万全というわけじゃない (distribute, pip, distutils2 が期待通りではない)
+
+  Python 3.3 から `packaging (distutils2) <http://docs.python.org/dev/library/packaging.html#module-packaging>`_ ライブラリが導入予定でしたが、
+  現時点の開発状況を鑑みて 3.4 に延期しようという話題が開発者メーリングリストで行われています。まだもう少し時間がかかりそうです。
+
 * 匿名ブロック (Anonymous Block) がない
+
+  "Anonymous Block" で調べると `PEP 343 The "with" Statement <http://www.python.org/dev/peps/pep-0343/>`_ が出てくるのですが、
+  ここで言う匿名ブロックとは、 `Python コードや AST に対する lambda ブロックのようなものを意図しています <https://twitter.com/teoliphant/status/217087659187769344>`_ 。
+
 * CPython ランタイムは、古くなってしまったので改良が必要 (GIL, グローバル変数、動的コンパイル対応)
-* "import hooks" 以外に言語を拡張する仕組みがない (軽量 DSL が必要とする)
+* 軽量 DSL を作るために必要な言語拡張の仕組みが "import hooks" しかない
+
+  Python 3.1 から追加された `importlib <http://docs.python.org/dev/library/importlib.html>`_ で解決しようとしています。
+  importlib は Python の import 文の実装を提供し、Python のランタイムに依らず、様々な API とフックを提供することで拡張を簡単にします。
+
 * 複数のランタイムの煩わしさ
+
+  `PyPy <http://pypy.org/>`_ の人気が出て来て、Cross-Python というキーワードもちらほら聞くようになりました。
+  従来からの `Jython <http://www.jython.org/>`_, `IronPython <http://ironpython.codeplex.com/>`_ に加え、
+  Python 3 への移行も着実に進む中、いまが過渡期なので仕方ないですね。
+
 * 配列指向 (array-oriented) と NumPy を完全に理解している Python 開発者が少ない
-
-いくつか納得する項目もあるものの、いま正に改善しようと取り組んでいる項目もあります。
-
-(ここはどうしたいの?)
-
-.. warning::
-   
-  * 匿名ブロック (Anonymous Block) がない
-
-  あとで travis に聞いてみる！
-  ここで言う匿名ブロックとは `with 文 <http://www.python.org/dev/peps/pep-0343/>`_ ではなく、lambda block のようなもの？
-
-|
-
-  "import hooks" 以外に言語を拡張する仕組みがない (軽量 DSL が必要とする)
-
-Python 3.1 から追加された `importlib <http://docs.python.org/dev/library/importlib.html>`_ で解決しようとしています。
-importlib は Python の import 文の実装を提供し、Python のランタイムに依らず、様々な API とフックを提供することで拡張を簡単にします。
 
 Array-Oriented Computing
 ------------------------
@@ -188,7 +187,9 @@ Array-Oriented Computing
 
   高速、且つ汎用的なデータ生成／解析のためのライブラリやそのツール
 
-(なんか締めの一文を入れてください)
+筆者は、業務アプリや Web アプリの開発を主にしてきたので、こういった科学技術分野の動向は全く分かりません。
+しかし、ソーシャル化による集合知や Big Data 解析といった話題が、今後より一般的になるにつれて関わることも増えてきそうな気がします。
+そんなとき、Python でプログラミングできることを想像すると、新しい分野に対しても挑戦する意欲がわいてきます。
 
 Clime: Simply CLI-ize Your Program!
 ===================================
@@ -289,7 +290,8 @@ Lightning Talks
 
 西本です。一日目の最後は閃電秀 (Lightning Talks) です。
 
-(もうちょっと文章を...)
+LT だけではありませんが、PyCon Taiwan の発表の多くは中国語による講演でした。しかし、たとえ話が聞き取れなくても、何について話しているのか分かれば、自分の知識で補完したりその場でネット検索したりして、なんとか話についていけます。
+PyCon Taiwan では中国語の発表でもスライドが英語で書かれていて、中国語が聞き取れない私にはとても助かりました。それから、中国語の講演の途中に出てくる英語のキーワードが英語らしい発音であることが多く、聞き取りやすいと感じました。
 
 * All-In-One Scientific Research With SageTeX
 
@@ -315,17 +317,17 @@ Lightning Talks
 
   以下の簡単なコードで、ファイル選択ダイアログの GUI を表示することができます。
 
-.. code-block:: python
+  .. code-block:: python
 
-   from vsgui.api import *
-   ret = ask_filepath(directory='/tmp')
-   info(ret)
+     from vsgui.api import *
+     ret = ask_filepath(directory='/tmp')
+     info(ret)
 
-.. figure:: _static/vsgui.jpg
-   :width: 320
-   :alt: vsgui で生成されたファイル選択ダイアログ
+  .. figure:: _static/vsgui.jpg
+     :width: 320
+     :alt: vsgui で生成されたファイル選択ダイアログ
 
-   vsgui で生成されたファイル選択ダイアログ
+     vsgui で生成されたファイル選択ダイアログ
 
 * PySX, a playstation emulator in python
 
@@ -339,11 +341,11 @@ Lightning Talks
   実際に PC 上でプレイステーションが起動する様子を見せてくれました。
   まだ、そのくらいしか動作していないそうです。
 
-.. figure:: _static/pysx.jpg
-   :width: 320
-   :alt: プレイステーションの起動画面
+  .. figure:: _static/pysx.jpg
+     :width: 320
+     :alt: プレイステーションの起動画面
 
-   プレイステーションの起動画面
+     プレイステーションの起動画面
 
 * Osube - Represent You
 
@@ -353,13 +355,13 @@ Lightning Talks
   Osube は PyCon Taiwan のスポンサー企業でもあります。
   まだサービスはリリースされていませんが、バックエンドは Django で開発をしているそうです。
 
-.. figure:: _static/osube.jpg
-   :width: 320
-   :alt: osube のアーキテクチャ
+  .. figure:: _static/osube.jpg
+     :width: 320
+     :alt: osube のアーキテクチャ
 
-   osube のアーキテクチャ
+     osube のアーキテクチャ
 
-   また、台湾のオフィスには Osube Cafe というスペースがあり、meetup イベントなどに是非使ってくださいと言っていました。
+  また、台湾のオフィスには Osube Cafe というスペースがあり、meetup イベントなどに是非使ってくださいと言っていました。
 
 * Python and Startup
 
@@ -369,16 +371,12 @@ Lightning Talks
   Django と MongoDB などを使ってサービスを立ち上げた話しをしていました。
   https://www.house123.com.tw/ という不動産取引のためのサービスのようです。
 
-.. PYTHON AND STARTUP
-.. ------------------
-.. - Tom Chen: yychen
-
 科学技術からゲームまで、ツール紹介からビジネスまで、話題の幅が広い LT でした。
 
 PyCon Taiwanの雰囲気
 ====================
 再び、鈴木たかのりです。
-ここではセッショん以外の PyCon Taiwan の雰囲気について紹介したいと思います。
+ここではセッション以外の PyCon Taiwan の雰囲気について紹介したいと思います。
 
 PyCon Taiwan では入場時におみやげのグッズがロゴ入りの紙袋に入って配られました。
 中身はプログラムガイド(カラー)の冊子とステッカーが2枚入っていました。
