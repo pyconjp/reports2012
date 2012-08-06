@@ -24,11 +24,11 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   01
-   02
-   03
-   04
-   05
+   01_keynote
+   02_program
+   03_handson
+   04_others
+   05_joint
    authors
 
 
