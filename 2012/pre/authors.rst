@@ -14,7 +14,7 @@
     最近はPyPyに興味を持って開発・翻訳などをしたりしている。
 
     `六本木 Linux カーネル読書会 <http://connpass.com/series/134/>`, `Python mini Hack-a-thon <http://connpass.com/series/14/>`_ などを主催している。
-    
+
     趣味は自転車・バイク・ボルダリング
 
     Twitter: `@shomah4a <http://twitter.com/#!/shomah4a>`_
@@ -28,6 +28,14 @@
 
 清水
 ====
+.. image:: https://twimg0-a.akamaihd.net/profile_images/634838871/twitterProfilePhoto.jpg
+
+知人がPythonを扱っていたことからPythonを中心としてプログラミングの勉強を始め、勉強会参加をきっかけにしてPyCon JP運営チームに参加した。学ぶことが多すぎて混乱する毎日を過ごしている。
+
+プログラミング以外では、『保護者のためのあたらしいインターネットの教科書』(中央経済社)に記事を寄稿したり、居合(全剣連三段)や沖縄空手などの武道の稽古を嗜んでいる。
+
+- Twitter: `@takuan_osho <https://twitter.com/takuan_osho>`_
+- ブログ: `プログラマ行進曲 <http://d.hatena.ne.jp/kutakutatriangle/>`_
 
 畠
 ===
