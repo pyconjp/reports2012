@@ -4,21 +4,26 @@
 
 書いた人は書いてけ
 
+.. warning::
+
+   フルネームとふりがなが必要です。
+
 ほさか
 ======
 
 .. image:: http://a0.twimg.com/profile_images/1696612659/bike.jpg
 
-    どこにでもいる普通のプログラマ。
-    主にPython界隈で活動中で、勉強会に出没したり、PyCon JP運営チームに参加するなど。
-    最近はPyPyに興味を持って開発・翻訳などをしたりしている。
+どこにでもいる普通のプログラマ。
+主にPython界隈で活動中で、勉強会に出没したり、PyCon JP運営チームに参加するなど。
+最近はPyPyに興味を持って開発・翻訳などをしたりしている。
 
-    `六本木 Linux カーネル読書会 <http://connpass.com/series/134/>`, `Python mini Hack-a-thon <http://connpass.com/series/14/>`_ などを主催している。
+`六本木 Linux カーネル読書会 <http://connpass.com/series/134/>`_,
+`Python mini Hack-a-thon <http://connpass.com/series/14/>`_ などを主催している。
 
-    趣味は自転車・バイク・ボルダリング
+趣味は自転車・バイク・ボルダリング
 
-    Twitter: `@shomah4a <http://twitter.com/#!/shomah4a>`_
-    ブログ: `プログラマのネタ帳 <http://d.hatena.ne.jp/shomah4a>`_
+- Twitter: `@shomah4a <http://twitter.com/shomah4a>`_
+- ブログ: `プログラマのネタ帳 <http://d.hatena.ne.jp/shomah4a>`_
 
 寺田
 ====
@@ -52,7 +57,7 @@
 
 趣味は吹奏楽とレゴとペンシルパズル。2012年の目標は9月にオープンするマレーシアのレゴランドに行くこと。写真はうちのフェレットくろちゃんとくりちゃんです。
 
-- Twitter： `@takanory <https://twitter.com/#!/takanory>`_
+- Twitter： `@takanory <https://twitter.com/takanory>`_
 - ブログ： http://takanory.net/takalog/
 
 アニキ
