@@ -98,20 +98,17 @@ PyCon JP 2012副座長の清水です。PyCon JP 2012は開催期間が3日間�
 
    Armin Ronacher 氏
 
-.. mitsuhiko氏のプロフィールを書く。
+Armin Ronacher氏はイギリスのロンドン在住のPython開発者です。ドキュメント作成支援ツールの `Sphinx <http://sphinx.pocoo.org>`_ やテンプレートエンジンの `Jinja2 <http://jinja.pocoo.org>`_ などを作成している `Pocooチーム <http://www.pocoo.org>`_ の創立メンバーの一人で、最近の開発実績はマイクロフレームワークの `Flask <http://flask.pocoo.org>`_ があります。現在は `Fireteam <http://fireteam.net>`_ というロンドンのゲームサービス企業で働いています。PyCon USやEuroPythonなど海外のPython関係イベントの講演にも招待されるくらい広範に活動している方です。
 
-Armin Ronacher氏はイギリスのロンドン在住のPython開発者です。ドキュメント作成支援ツールのSphinxやテンプレートエンジンのJinja2などを作成しているPocooチームの創立メンバーの一人で、最近の開発実績はマイクロフレームワークのFlaskがあります。現在はFireteamというロンドンのゲームサービス企業で働いています。PyCon USやEuroPythonなど海外のPythonイベント関係の講演にも招待されるくらい広範に活動している方です。
+Armin Ronacher氏の基調講演は9/15(土)の9:45-10:45に開催されます。Armin Ronacher氏から現在伺っているところでは、基調講演の内容として「興味深く、今までにプレゼンしたことがないテーマを考えている」とのことなので、当日の公演を楽しみにしてもらえればと思います。
 
-.. mitsuhiko氏の講演内容を軽く書く
-
-Armin Ronacher氏から現在伺っているところでは、基調講演の内容として
+余談ですが、海外カンファレンスで直接Armin Ronacher氏に会った人曰く、彼のニックネームである `mitsuhiko <http://twitter.com/mitsuhiko>`_ は、漫画『名探偵コナン』に登場する少年探偵団の円谷光彦というキャラから取っているそうです。当日彼と話すときにこの話題を混ぜてみるのも良いかもしれません。
 
 二日目の基調講演者、小飼弾(`@dankogai <http://twitter.com/dankogai>`_)氏について
 --------------------------------------------------------------------------------
 .. figure:: _static/dankogai.jpg
 
    小飼 弾 氏
-
 
 小飼弾氏についてはご存じの方も多いと思いますが、著名なPerl Mongerとしてだけでなく、投資家やブロガー( ブログ『 `404 Blog Not Found <http://blog.livedoor.jp/dankogai/>`_ 』管理人)としても幅広く精力的に活動している方です。プログラミング言語PerlではEncodeを担当していますが、 `今回の基調講演に向けて書かれたPythonのブログ記事 <http://blog.livedoor.jp/dankogai/archives/51816624.html>`_ 曰く、「日頃空気のようにPerlやJSや時々Rubyで書いている」とおっしゃるとおり、他の言語に対する造詣もあり、ネット上で話題になったプログラミングに関する題材を各言語で書いてみてPerl文化にふさわしいユーモアをコードで表現したりと遊び心を忘れない活動をしています。
 
