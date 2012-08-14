@@ -6,7 +6,9 @@
 
 以前から `演題募集 <http://codezine.jp/article/detail/6644>`_ や `参加者登録開始 <http://codezine.jp/article/detail/6710>`_ のお知らせをしているとおり、 PyCon JP 運営チームでは `PyCon JP 2012 <http://2012.pycon.jp/>`_ を開催します。
 
-`PyCon <http://pycon.org>`_ とは、Pythonユーザが集まり、PythonやPythonを使ったソフトウェアについて情報交換し、交流するためのカンファレンスです。 PyCon JP開催を通してPythonの使い手が一同に集まり、他の分野などの情報や知識や知人を増やす場所とすることが目標です。
+PyCon_ とは、Pythonユーザが集まり、PythonやPythonを使ったソフトウェアについて情報交換し、交流するためのカンファレンスです。 PyCon JP開催を通してPythonの使い手が一同に集まり、他の分野などの情報や知識や知人を増やす場所とすることが目標です。
+
+.. _PyCon: http://pycon.org
 
 .. list-table:: 開催概要
    :widths: 30 70
@@ -52,7 +54,7 @@ PyConの開催意義
 昨年(2011年)1月に `PyCon mini JP <https://sites.google.com/site/pyconminijp>`_ として1トラック1日開催のPyConを国内で初めて行いました。それに続き同8月に本格的なカンファレンスとして3トラックで
 `PyCon JP 2011 <http://2011.pycon.jp/>`_ を開催し大きな反響を得ました。詳しくは、昨年の `開催報告 <http://2011.pycon.jp/reports>`_ を参照ください。
 
-`PyCon <http://pycon.org/>`_ は、アメリカ、ヨーロッパやアジア各国でも開催されています。日本でも同様にPythonistaが集まる会を行いたいと考え、今回で2年目の開催となります。
+PyCon_ は、アメリカ、ヨーロッパやアジア各国でも開催されています。日本でも同様にPythonistaが集まる会を行いたいと考え、今回で2年目の開催となります。
 
 今回は、2日間に拡大し英語トラックの充実などをはかり、海外からの講演者及び来場者が増えてくれることを期待しております。
 

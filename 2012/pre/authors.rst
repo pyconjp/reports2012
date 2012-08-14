@@ -11,7 +11,7 @@
 保坂 翔馬(ホサカ ショウマ)
 ==========================
 
-.. image:: http://a0.twimg.com/profile_images/1696612659/bike.jpg
+.. image:: /_static/shoma.jpg
 
 どこにでもいる普通のプログラマ。
 主にPython界隈で活動中で、勉強会に出没したり、PyCon JP運営チームに参加するなど。
@@ -33,7 +33,7 @@
 
 清水
 ====
-.. image:: https://twimg0-a.akamaihd.net/profile_images/634838871/twitterProfilePhoto.jpg
+.. image:: /_static/osho.jpg
 
 知人がPythonを扱っていたことからPythonを中心としてプログラミングの勉強を始め、勉強会参加をきっかけにしてPyCon JP運営チームに参加した。学ぶことが多すぎて混乱する毎日を過ごしている。
 
@@ -47,7 +47,7 @@
 
 鈴木 たかのり(スズキ タカノリ)
 ==============================
-.. image:: https://si0.twimg.com/profile_images/192722095/kurokuri_reasonably_small.jpg
+.. image:: /_static/takanori.jpg
 
 `BeProud <http://www.beproud.jp/>`_ 所属。
 
