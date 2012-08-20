@@ -34,7 +34,7 @@ App Engine Conference 2012
 
 `App Engine Conference 2012`_ は 9 月 15 日と 17 日の開催です。15 日には App Engine Python 版の新機能についてのセッションを中心として、実際のユーザーの声が聞けるパネルディスカッションのコーナーや、またコミュニティハングアウトと称して、App Engine に関心のある人が集まって懇親できる場も用意しました。17 日の Sprint では、App Engine Python2.7 を使用したハンズオン形式のコードラボを実施予定です。
 
-プログラム詳細については、`App Engine Conference 2012`_ イベントページで確認できます。
+プログラム詳細については `App Engine Conference 2012`_ イベントページで確認できます。
 
 .. _`App Engine Conference 2012`: https://sites.google.com/site/appengineconference2012/
 
