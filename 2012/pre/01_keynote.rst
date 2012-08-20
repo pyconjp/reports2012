@@ -20,6 +20,9 @@ PyCon_ とは、Pythonユーザが集まり、PythonやPythonを使ったソフ�
      - `産業技術大学院大学 <http://aiit.ac.jp/>`_
    * - 参加費
      - 3000円(二日間) スプリントは無料
+   * - テーマ
+     - | つながるPython(日)
+       | Python Connect(英)
    * - 形式
      - | マルチトラック(英語トラック含む)・コミュニティトラック
        | ハンズオン・オープンスペース
@@ -30,9 +33,11 @@ PyCon_ とは、Pythonユーザが集まり、PythonやPythonを使ったソフ�
    * - Twitter ハッシュタグ
      - `#pyconjp <https://twitter.com/#!/search?q=%23pyconjp>`_
 
-前回の3トラック1日開催から今年はさらにパワーアップして最大同時4トラックで2日開催いたします。
-また、 `AppEngine <https://sites.google.com/site/appengineconference2012/>`_, `Django <http://djangoproject.jp/weblog/2012/07/26/django_pyramid_con_jp/>`_ & `Pyramid <http://www.pylonsproject.jp/news/djangopyramidconjp2012kaicuinoozhirase>`_, `Sphinx <http://sphinx-users.jp/event/20120916_sphinxconjp/index.html>`_, `NVDA <http://team.nvda.jp/nvda-workshop-in-japan-%E9%96%8B%E5%82%AC%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/>`_ などのユーザ会による `併設イベント <http://2012.pycon.jp/program/joint.html>`_ も同時開催いたします。
-これらの併設コミュニティの2トラックを合わせて最大同時6トラック2日間の開催となります。
+前回の3トラック1日開催から今年はさらにパワーアップして最大同時4トラックで2日開催します。
+また、 `AppEngine <https://sites.google.com/site/appengineconference2012/>`_, `Django <http://djangoproject.jp/weblog/2012/07/26/django_pyramid_con_jp/>`_ & `Pyramid <http://www.pylonsproject.jp/news/djangopyramidconjp2012kaicuinoozhirase>`_, `Sphinx <http://sphinx-users.jp/event/20120916_sphinxconjp/index.html>`_, `NVDA <http://team.nvda.jp/nvda-workshop-in-japan-%E9%96%8B%E5%82%AC%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/>`_ などのユーザ会による `併設イベント <http://2012.pycon.jp/program/joint.html>`_ も同時開催されます。
+これらのユーザ会によるとても濃いセッションが繰り広げられるでしょう。
+
+これらの併設コミュニティの2トラックを合わせて最大同時6トラック2日間の開催です。
 
 プログラムのタイムテーブルは
 `プログラムページ <http://2012.pycon.jp/program/index.html>`_
@@ -41,13 +46,13 @@ PyCon_ とは、Pythonユーザが集まり、PythonやPythonを使ったソフ�
 この連載ではこれから何回かに分けてそれぞれの担当が今年の PyCon JP の見所を紹介していきます。
 
 
-座長挨拶 (座長)
-================
+座長挨拶
+========
 
 PyCon JP 2012 座長の寺田(`@terapyon <http://twitter.com/terapyon>`_)です。昨年から引き続き座長をつとめております。開催意義やテーマ、新たな試みについて述べたいと思います。
 
 PyConの開催意義
-----------------------
+---------------
 
 昨年(2011年)1月に `PyCon mini JP <https://sites.google.com/site/pyconminijp>`_ として1トラック1日開催のPyConを国内で初めて行いました。それに続き同8月に本格的なカンファレンスとして3トラックで
 `PyCon JP 2011 <http://2011.pycon.jp/>`_ を開催し大きな反響を得ました。詳しくは、昨年の `開催報告 <http://2011.pycon.jp/reports>`_ を参照ください。
@@ -58,7 +63,7 @@ PyCon_ は、アメリカ、ヨーロッパやアジア各国でも開催され�
 
 
 今年のテーマ
---------------
+------------
 
 今年は、「つながるPython」としました。昨年の「出会い系」というものから発展させ、人のつながりはもちろんのこと、様々なコミュニティ同士のつながりなどにも発展させていきたいと思います。
 
@@ -70,7 +75,7 @@ PyCon_ は、アメリカ、ヨーロッパやアジア各国でも開催され�
 - Pythonという言語を通じた横のつながり、コミュニティを超えたつながり
 
 新たな試み
----------------
+----------
 
 昨年に引き続き今年も新たな挑戦を行なっていきます。主なものは下記の通りです。
 来場者への満足度の向上はもちろんのこと、海外で開催されているPyConを見本にして新しい要素を取り入れていきます。
@@ -90,9 +95,9 @@ PyCon_ は、アメリカ、ヨーロッパやアジア各国でも開催され�
 
 開催が来月に迫ったPyCon JP 2012ですが、スタッフ一同協力して、大いに盛り上げていきたいと思います。多くの皆さんの来場をお待ちしております。
 
-基調講演 (清水)
-===============
-PyCon JP 2012副座長の清水です。PyCon JP 2012は開催期間が3日間と長くなったこともあり、基調講演者を2名迎えることに致しました。ここでは各基調講演者と基調講演の内容について簡単に紹介します。
+基調講演
+========
+PyCon JP 2012副座長の清水です。PyCon JP 2012は開催期間が3日間と長くなったこともあり、基調講演者を2名迎えることにしました。ここでは各基調講演者と基調講演の内容について簡単に紹介します。
 
 初日の基調講演者、Armin Ronacher(`@mitsuhiko <http://twitter.com/mitsuhiko>`_)氏について
 ----------------------------------------------------------------------------------------
@@ -118,10 +123,11 @@ Armin Ronacher氏の基調講演は9/15(土)の9:45-10:45に開催されます�
 そんな小飼弾氏の基調講演ですが、9/16(日)の14:00-15:00に開催されます。
 伺っているところでは「PythonとPerlの意外な関係」について話してくださるそうです。Perlという言語の人から見てPythonはどう見えるのか、他では中々聞けない話が聞けると思いますので、楽しみにしてください。
 
-まとめと次回 (ほさか)
-=====================
+まとめと次回
+============
 
 今回は PyCon JP 2012 の開催概要と基調講演の紹介をしました。
+
 次回はプログラム担当によるプログラム紹介を行う予定です。
 CFP で応募された中から選ばれたセッションや、プログラム担当が注目しているセッションなどを取り上げる予定です。
 
