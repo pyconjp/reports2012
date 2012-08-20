@@ -94,8 +94,18 @@ Twitter: `@shimizukawa <http://twitter.com/shimizukawa>`_
 松尾
 ====
 
-セカコミ
-========
+小宮 健 (コミヤ タケシ)
+========================
+.. image:: /_static/tk0miya.jpg
+
+`株式会社タイムインターメディア <http://www.timedia.co.jp/>`_ 所属。
+
+Ruby, Perl, PHP などの経験を経て、最近は Python を使っているギーク見習い。現在 Sphinx-users.jp 会長。
+
+blockdiag, seqdiag などの図作成ツールを開発するかたわら、多種多様な Sphinx 拡張の開発に勤しむ。
+最近の趣味は『継続的デリバリー』の実践。
+
+Twitter: @tk0miya
 
 hirokiky || aodag
 =================
