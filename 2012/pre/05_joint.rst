@@ -11,8 +11,33 @@
 併設イベントを立てた理由 (寺田)
 ===============================
 
-App Engine Conference 2012 (松尾)
-=================================
+App Engine Conference 2012
+==========================
+
+Google App Engineの紹介
+-----------------------
+
+`Google App Engine`_ は Google が提供する、優れた自動スケーリング機能を持つ Web アプリケーションプラットフォームです。App Engine を使うことにより、開発者はインフラストラクチャーの管理をすることなしに、アプリケーションの開発に専念することができるようになります。
+
+2008 年 4 月にプレビューとしてリリースされてから 4 年の間に順調に成長し、現在では 100 万のアクティブなアプリケーションをホストし、1 日に 75 億の Web リクエストを、また月に 2 兆回のデータストアオペレーションを処理するまでになりました。去年の終わりから SLA やプレミアサポートなど、ビジネスでも安心して使えるような体制が整い、さらなる発展が見込まれています。
+
+Google App Engine コミュニティの紹介
+------------------------------------
+
+日本の App Engine コミュニティ(ハッシュタグ #gaeja)は世界的にみても非常に活発で、不定期ですが頻繁に App Engine ja Night というイベントが開催されています。イベントの告知は各種ソーシャルメディアの #gaeja などで行われています。また `Google App Engine Japan グループ`_ では日本語で情報交換を行ったり、コミュニティや Google 社員からのサポートが受けられます。
+
+.. _`Google App Engine`: https://developers.google.com/appengine/
+.. _`Google App Engine Japan グループ`: http://groups.google.com/group/google-app-engine-japan/
+
+App Engine Conference 2012
+--------------------------
+
+`App Engine Conference 2012`_ は 9 月 15 日と 17 日の開催です。15 日には App Engine Python 版の新機能についてのセッションを中心として、実際のユーザーの声が聞けるパネルディスカッションのコーナーや、またコミュニティハングアウトと称して、App Engine に関心のある人が集まって懇親できる場も用意しました。17 日の Sprint では、App Engine Python2.7 を使用したハンズオン形式のコードラボを実施予定です。
+
+プログラム詳細については、`App Engine Conference 2012`_ イベントページで確認できます。
+
+.. _`App Engine Conference 2012`: https://sites.google.com/site/appengineconference2012/
+
 
 Django & Pyramid Con JP 2012 (hirokiky or aodag)
 ================================================
