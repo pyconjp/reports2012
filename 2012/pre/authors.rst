@@ -98,7 +98,7 @@ Twitter: `@shimizukawa <http://twitter.com/shimizukawa>`_
 ========================
 .. image:: /_static/tk0miya.jpg
 
-`株式会社タイムインターメディア <http://www.timedia.co.jp/>` 所属。
+`株式会社タイムインターメディア <http://www.timedia.co.jp/>`_ 所属。
 
 Ruby, Perl, PHP などの経験を経て、最近は Python を使っているギーク見習い。現在 Sphinx-users.jp 会長。
 
