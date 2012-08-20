@@ -56,8 +56,8 @@ Pythonに限らず勉強会などに参加し、そういった活動がきっ�
 Twitter: `@shimizukawa <http://twitter.com/shimizukawa>`_
 
 
-清水
-====
+清水 琢(シミズ タク)
+====================
 .. image:: /_static/osho.jpg
 
 知人がPythonを扱っていたことからPythonを中心としてプログラミングの勉強を始め、勉強会参加をきっかけにしてPyCon JP運営チームに参加した。学ぶことが多すぎて混乱する毎日を過ごしている。
