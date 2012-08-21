@@ -14,6 +14,9 @@
 App Engine Conference 2012
 ==========================
 
+.. image:: /_static/logo_appengine.*
+
+
 Google App Engineの紹介
 -----------------------
 
@@ -42,13 +45,16 @@ App Engine Conference 2012
 Django & Pyramid Con JP 2012 (hirokiky or aodag)
 ================================================
 
+.. image:: /_static/logo_django.*
+
+.. image:: /_static/logo_pylons.*
+
 SphinxCon JP 2012 (小宮 & 清水川)
 ====================================
 
-著者: 小宮(Sphinx-Users.jp 会長), 清水川(Sphinx-Users.jp 副会長)
-
 .. image:: /_static/SphinxConJP2012-logo.png
 
+著者: 小宮(Sphinx-Users.jp 会長), 清水川(Sphinx-Users.jp 副会長)
 
 Sphinxの紹介
 -------------
@@ -73,7 +79,10 @@ Sphinx-users.jp ユーザーグループの紹介
 
 月1回、ユーザー会主催でSphinx+翻訳 Hack-a-thonというイベントを開催しています。このイベントではSphinx をいじってみたり、翻訳をおこなったりします。hack-a-thonは講習会ではないので自分で行動しないといけませんが、Sphinxを普段使う人が集まるため、 初めて参加する人がツールの雰囲気やtipsを知るために質問するのに良い場だと思います。
 
-.. image:: _static/sphinxjp-event.jpg
+.. figure:: _static/sphinxjp-event.jpg
+
+   Sphinx+翻訳 Hack-a-thon の様子
+
 
 また、オープンソースカンファレンスなどのイベントへの参加も行っています。
 イベントの活動履歴については `勉強会`_ をご参照ください。
@@ -94,6 +103,8 @@ SphinxCon JP 2012 発表の概要
 
 NVDA Workshop in Japan (西本)
 =============================
+
+.. image:: /_static/logo_nvda.*
 
 最後まとめ (ほさか)
 ===================
