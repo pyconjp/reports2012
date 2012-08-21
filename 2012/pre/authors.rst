@@ -91,8 +91,6 @@ Twitter: `@shimizukawa <http://twitter.com/shimizukawa>`_
 今津
 ====
 
-松尾
-====
 
 小宮 健 (コミヤ タケシ)
 ========================
