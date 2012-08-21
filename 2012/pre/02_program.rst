@@ -33,7 +33,7 @@ Call for Proposal
 
 最初に紹介するのは15日の14:30-14:55に行われる「 `Beginning Python <http://2012.pycon.jp/program/sessions.html#session-15-1430-room433-ja>`_ 」です。
 
-PyConJPは初心者にも優しいイベントを目指していて、初心者を対象とする枠やが初心者の方が講演するセッションを幾つか用意していますが、これはその内の一つになります。
+PyConJPは初心者にも優しいイベントを目指していて、初心者を対象とする枠や初心者の方が講演するセッションを幾つか用意していますが、これはその内の一つになります。
 
 スピーカーの佐藤健さんは会場となる産業技術大学院大学の学生でPython経験1年未満とのことです。
 
@@ -49,21 +49,19 @@ PyConJPは初心者にも優しいイベントを目指していて、初心者�
 
 次に紹介するのは15日の最後の時間帯16:30-17:15に行われる「 `国産 PaaS、NIFTY Cloud C4SA の中身 <http://2012.pycon.jp/program/sessions.html#session-15-1630-room230-ja>`_ 」です。
 
-今年唯一のPlatinumスポンサーであるNIFTY CLOUDによるスポンサーセッションとなっています。
-
 国産 PaaS である NIFTY Cloud C4SA は、コア部分が Python で作られている Pythonista のための PaaS です。
 このセッションでは、基本的な C4SA の構成の解説から、なぜ rails じゃなくて Python で作ることにしたのかなどの経緯などをお話頂きます。
 
-スピーカーの `大畑貴弘さん <http://realglobe.jp/>`_ に講演の意気込みを聞いてみました。
+NIFTY Cloud C4SA の開発者であり、スピーカーの `大畑貴弘さん <http://realglobe.jp/>`_ に講演の意気込みを聞いてみました。
 
 .. note::
  手前味噌ではありますが、NIFTY Cloud C4SA のアーキテクチャは結構面白いんじゃないかと思っています。
  たっぷり時間をいただきましたので、表面的な話だけでなく、コアな話もするつもりです。
  是非、見に来てください。がんばります。
 
-Python で作られた PaaS なんて非常にに興味深いですね。
+Python で作られた PaaS なんて非常に興味深いですね。
 NIFTY Cloud C4SA に興味がある方は元より、これから開発するシステムにPythonを使うかどうか悩んでる方にもきっと参考になるセッションだと思います。
-また、17日に開催されるSprintでは NIFTY CLOUD C4SA ハッカソンも開催されるようなので、興味のある方は是非そちらにも参加してください！
+また、17日に開催されるSprintでは、今年唯一のPlatinumスポンサーであるNIFTY CLOUDの協賛でNIFTY CLOUD C4SA ハッカソンも開催されるようです。興味のある方は是非そちらにも参加してください！
 
 
 `Python3でここまでできるWebプログラミング <http://2012.pycon.jp/program/sessions.html#session-16-1515-room357-ja>`_
@@ -79,7 +77,7 @@ NIFTY Cloud C4SA に興味がある方は元より、これから開発するシ
  Webアプリケーションの分野では3.2リリースと同時期にPEP3333が公開され、多くのWebアプリケーションフレームワークがPython3対応に意欲的になっています。
  今、Python3でWebアプリケーションをどこまで作れるのか。ライブラリやフレームワークの対応状況と、実際にPython3でWebアプリケーションを作る場合の検討事項を紹介します。
 
-小田切さんは `pyramid1.2 <http://www.pylonsproject.org/>`_ のroute_prefix対応などを行い、今年のEuroPyConでもLT日本を代表するPythonライブラリのコントリビュータです。
+小田切さんは `pyramid1.2 <http://www.pylonsproject.org/>`_ のroute_prefix対応などを行い、今年のEuroPythonでもLTを行った日本を代表するPythonライブラリのコントリビュータです。
 特にPython3対応においては `deform <http://docs.pylonsproject.org/projects/deform/en/latest/?awesome>`_ や `colander <http://docs.pylonsproject.org/projects/colander/en/latest/?awesome>`_ をはじめ幾つものライブラリの対応を行い、その方法について勉強会で発表を行うなど日本における第一人者です。
 
 そんな小田切さんが満を持して講演する「Python3でここまでできるWebプログラミング」。
