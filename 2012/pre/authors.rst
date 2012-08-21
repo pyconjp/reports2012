@@ -46,7 +46,7 @@ Twitter: `@terapyon <http://twitter.com/terapyon>`_
 PyCon JP 2012 副座長。株式会社ビープラウド所属。
 
 2003年にZope2と出会い、それがオープンソース等のコミュニティー活動
-を始めるきっかけとなった。現在 Sphinx-users.jp 副会長をつとめている。
+を始めるきっかけとなった。現在 `Sphinx-users.jp <http://sphinx-users.jp/>`_ 副会長をつとめている。
 
 Pythonに限らず勉強会などに参加し、そういった活動がきっかけで
 2010年に「エキスパートPythonプログラミング」を4人で翻訳・出版させていただいた。
@@ -91,8 +91,6 @@ Twitter: `@shimizukawa <http://twitter.com/shimizukawa>`_
 今津
 ====
 
-松尾
-====
 
 小宮 健 (コミヤ タケシ)
 ========================
@@ -100,12 +98,12 @@ Twitter: `@shimizukawa <http://twitter.com/shimizukawa>`_
 
 `株式会社タイムインターメディア <http://www.timedia.co.jp/>`_ 所属。
 
-Ruby, Perl, PHP などの経験を経て、最近は Python を使っているギーク見習い。現在 Sphinx-users.jp 会長。
+Ruby, Perl, PHP などの経験を経て、最近は Python を使っているギーク見習い。現在 `Sphinx-users.jp <http://sphinx-users.jp/>`_ 会長。
 
 blockdiag, seqdiag などの図作成ツールを開発するかたわら、多種多様な Sphinx 拡張の開発に勤しむ。
 最近の趣味は『継続的デリバリー』の実践。
 
-Twitter: @tk0miya
+Twitter: `@tk0miya <http://twitter.com/tk0miya>`_
 
 hirokiky || aodag
 =================

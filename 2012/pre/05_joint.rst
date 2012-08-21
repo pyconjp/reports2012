@@ -11,14 +11,48 @@
 併設イベントを立てた理由 (寺田)
 ===============================
 
-App Engine Conference 2012 (松尾)
-=================================
+App Engine Conference 2012
+==========================
+
+.. image:: /_static/logo_appengine.*
+
+
+Google App Engineの紹介
+-----------------------
+
+`Google App Engine`_ は Google が提供する、優れた自動スケーリング機能を持つ Web アプリケーションプラットフォームです。App Engine を使うことにより、開発者はインフラストラクチャーの管理をすることなしに、アプリケーションの開発に専念することができるようになります。
+
+2008 年 4 月にプレビューとしてリリースされてから 4 年の間に順調に成長し、現在では 100 万のアクティブなアプリケーションをホストし、1 日に 75 億の Web リクエストを、また月に 2 兆回のデータストアオペレーションを処理するまでになりました。去年の終わりから SLA やプレミアサポートなど、ビジネスでも安心して使えるような体制が整い、さらなる発展が見込まれています。
+
+Google App Engine コミュニティの紹介
+------------------------------------
+
+日本の App Engine コミュニティ(ハッシュタグ #gaeja)は世界的にみても非常に活発で、不定期ですが頻繁に App Engine ja Night というイベントが開催されています。イベントの告知は各種ソーシャルメディアの #gaeja などで行われています。また `Google App Engine Japan グループ`_ では日本語で情報交換を行ったり、コミュニティや Google 社員からのサポートが受けられます。
+
+.. _`Google App Engine`: https://developers.google.com/appengine/
+.. _`Google App Engine Japan グループ`: http://groups.google.com/group/google-app-engine-japan/
+
+App Engine Conference 2012
+--------------------------
+
+`App Engine Conference 2012`_ は 9 月 15 日と 17 日の開催です。15 日には App Engine Python 版の新機能についてのセッションを中心として、実際のユーザーの声が聞けるパネルディスカッションのコーナーや、またコミュニティハングアウトと称して、App Engine に関心のある人が集まって懇親できる場も用意しました。17 日の Sprint では、App Engine Python2.7 を使用したハンズオン形式のコードラボを実施予定です。
+
+プログラム詳細については `App Engine Conference 2012`_ イベントページで確認できます。
+
+.. _`App Engine Conference 2012`: https://sites.google.com/site/appengineconference2012/
+
 
 Django & Pyramid Con JP 2012 (hirokiky or aodag)
 ================================================
 
+.. image:: /_static/logo_django.*
+
+.. image:: /_static/logo_pylons.*
+
 SphinxCon JP 2012 (小宮 & 清水川)
 ====================================
+
+.. image:: /_static/SphinxConJP2012-logo.png
 
 著者: 小宮(Sphinx-Users.jp 会長), 清水川(Sphinx-Users.jp 副会長)
 
@@ -45,6 +79,11 @@ Sphinx-users.jp ユーザーグループの紹介
 
 月1回、ユーザー会主催でSphinx+翻訳 Hack-a-thonというイベントを開催しています。このイベントではSphinx をいじってみたり、翻訳をおこなったりします。hack-a-thonは講習会ではないので自分で行動しないといけませんが、Sphinxを普段使う人が集まるため、 初めて参加する人がツールの雰囲気やtipsを知るために質問するのに良い場だと思います。
 
+.. figure:: _static/sphinxjp-event.jpg
+
+   Sphinx+翻訳 Hack-a-thon の様子
+
+
 また、オープンソースカンファレンスなどのイベントへの参加も行っています。
 イベントの活動履歴については `勉強会`_ をご参照ください。
 
@@ -64,6 +103,8 @@ SphinxCon JP 2012 発表の概要
 
 NVDA Workshop in Japan (西本)
 =============================
+
+.. image:: /_static/logo_nvda.*
 
 最後まとめ (ほさか)
 ===================
