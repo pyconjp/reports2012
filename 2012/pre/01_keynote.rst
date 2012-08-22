@@ -2,6 +2,9 @@
  第一回 PyCon JP 2012 について (8/20締め)
 ==========================================
 
+.. image:: /_static/pyconjp2012_logo_s.*
+   :target: http://2012.pycon.jp/
+
 広報の保坂です。
 
 以前から `演題募集 <http://codezine.jp/article/detail/6644>`_ や `参加者登録開始 <http://codezine.jp/article/detail/6710>`_ のお知らせをしているとおり、 PyCon JP 運営チームでは `PyCon JP 2012 <http://2012.pycon.jp/>`_ を開催します。
