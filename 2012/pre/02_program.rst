@@ -86,7 +86,7 @@ Pythonの未来に感心がある方は必見です！
 `Gunicorn what’s next? The new web challenge <http://2012.pycon.jp/program/sessions.html#session-15-1430-room351a-ja>`_
 -----------------------------------------------------------------------------------------------------------------------
 
-これから2つは英語のセッションです。まず紹介するのは15日の14:30-15:15に行われる「 `Gunicorn what’s next? The new web challenge <http://2012.pycon.jp/program/sessions.html#session-15-1430-room351a-ja>`_ 」です。
+これから2つは英語のセッションです。まず紹介するのは15日の15:30-16:15に行われる「 `Gunicorn what’s next? The new web challenge <http://2012.pycon.jp/program/sessions.html#session-15-1430-room351a-ja>`_ 」です。
 
 `Gunicorn <http://gunicorn.org/>`_ は、 `WSGI <http://www.python.org/dev/peps/pep-0333/>`_ アプリケーションのためのHTTPサーバーです。Linux/Unixで動作し、軽量で高速な動作が特徴です。
 Pythonモジュールの形式であり、ワーカープロセスのクラスを変更したり、サーバー自体の拡張もできます。
@@ -126,6 +126,7 @@ Pythonで記述されたPython処理系でしかも速い、PyPyはPythonistaに
 
 今回はプログラム担当による見所セッションの紹介でした。
 皆様のセッション選別の参考になりましたでしょうか。
+他にも魅力的なセッションは沢山ありますので、 `セッション一覧<http://2012.pycon.jp/program/sessions.html>`_ をご覧ください。
 
 次回は前回 PyCon JP 2011 で盛況だったハンズオンセッションの紹介です。
 Python 初心者から中級者まで幅広い方に参加いただける内容となっていますので、是非チェックしてみてください。
