@@ -67,8 +67,21 @@ Twitter: `@shimizukawa <http://twitter.com/shimizukawa>`_
 - Twitter: `@takuan_osho <https://twitter.com/takuan_osho>`_
 - ブログ: `プログラマ行進曲 <http://d.hatena.ne.jp/kutakutatriangle/>`_
 
-畠
-===
+畠 弥峰(ハタ　ヒロタカ)
+=======================
+.. image:: /_static/flagboy.png
+
+`BeProud <http://www.beproud.jp/>`_ 所属。
+
+過去に100万人規模のソーシャルゲームの開発リーダをしたりもしてたけど、今はどこにでもいる普通のプログラマ。
+ここ何年かはDjangoを主に扱っている。
+「Pythonプロフェッショナルプログラミング (2012年)」の13章を執筆。
+
+PyCon JP の活動は当初お手伝い程度のつもりだったのに、どんどん責任範囲が増えていて若干後悔気味だったり。
+
+- Twitter: `@flag_boy <https://twitter.com/flag_boy>`_
+- ブログ: `ま、そんな日もあるさ <http://d.hatena.ne.jp/flag-boy/>`_
+
 
 鈴木 たかのり(スズキ タカノリ)
 ==============================
