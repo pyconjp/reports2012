@@ -72,10 +72,10 @@ Python で作られた PaaS なんて非常に興味深いですね。
 NIFTY Cloud C4SA に興味がある方は元より、これから開発するシステムにPythonを使うかどうか悩んでる方にもきっと参考になるセッションだと思います。
 また、17日に開催されるSprintでは、今年唯一のPlatinumスポンサーであるNIFTY Cloudの協賛でNIFTY Cloud C4SA ハッカソンも開催されるようです。興味のある方は是非そちらにも参加してください！
 
-`Python3でここまでできるWebプログラミング <http://2012.pycon.jp/program/sessions.html#session-16-1515-room357-ja>`_
+`Python3でここまでできるWebプログラミング <http://2012.pycon.jp/program/sessions.html#session-16-1515-room433-ja>`_
 -------------------------------------------------------------------------------------------------------------------
 
-日本語のセッションで最後に紹介するのは16日の15:15-16:00に行われる「 `Python3でここまでできるWebプログラミング <http://2012.pycon.jp/program/sessions.html#session-16-1515-room357-ja>`_ 」です。
+日本語のセッションで最後に紹介するのは16日の15:15-16:00に行われる「 `Python3でここまでできるWebプログラミング <http://2012.pycon.jp/program/sessions.html#session-16-1515-room433-ja>`_ 」です。
 
 スピーカーの `小田切篤さん <http://aodag.posterous.com/>`_ にセッションの説明をして頂きました。
 
@@ -95,8 +95,8 @@ NIFTY Cloud C4SA に興味がある方は元より、これから開発するシ
 いつPython3に移行出来るのか？というのはPythonistaの関心事の一つだったと思いますが、つい先日DjangoもPython3でのテストが全部通ったとのことですし、Python3への移行も間近なのかもしれません。
 Pythonの未来に感心がある方は必見です！
 
-`Gunicorn what’s next? The new web challenge <http://2012.pycon.jp/program/sessions.html#session-15-1430-room351a-ja>`_
------------------------------------------------------------------------------------------------------------------------
+`Gunicorn what’s next? The new web challenge <http://2012.pycon.jp/program/sessions.html#session-15-1530-room351a-ja>`_
+------------------------------------------------------------------------------------------------------------------------
 
 これから2つは英語のセッションです。まず紹介するのは15日の15:30-16:15に行われる「 `Gunicorn what’s next? The new web challenge <http://2012.pycon.jp/program/sessions.html#session-15-1530-room351a-ja>`_ 」です。
 
