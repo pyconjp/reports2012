@@ -106,6 +106,56 @@ NVDA Workshop in Japan (西本)
 
 .. image:: /_static/logo_nvda.*
 
+著者: 西本(NVDA日本語チーム 代表)
+
+NVDAの紹介
+-------------
+
+`NonVisual Desktop Access (NVDA) <http://www.nvda-project.org/>`_ は視覚に障害のある人がコンピューターを使うための支援技術のひとつで、スクリーンリーダーと呼ばれているソフトウェアです。
+名前が示すように、画面に表示される情報を合成音声で読み上げることが基本機能です。
+NVDA は Python と C++ で実装されたオープンソースソフトウェアで、 Windows に対応しています。ライセンスはGPL v2です。
+
+NVDA の主要な開発者は、視覚障害の当事者でもあるオーストラリア在住の Michael Curran さんと James Teh さんです。
+オープンソース開発を支援するサイトである sourceforge.net は
+`Project of the Month, March 2011 <http://sourceforge.net/blog/potm-201103/>`_ として NVDA
+を取り上げました。
+一般に、スクリーンリーダーは高価なソフトウェアですが、NVDAの開発者は「世界中の視覚障害を持つ人が、晴眼者と同じコストでコンピューターを利用できるようにしたい。政府や福祉団体に要求をするだけでなく、開発者の立場だからできることもある」と考えたようです。
+Linux デスクトップでは GNOME Orca というオープンソースのスクリーンリーダーが実現されています。
+彼らはオープンソースの Windows 対応スクリーンリーダーの開発言語に Python を選びました。
+
+NVDA の最初のリリースは2006年でした。
+以来、アクセシビリティに積極的な企業や団体の支援を受けて、
+NVDA は高価な商用のスクリーンリーダに匹敵するソフトウェアに成長しました。
+`2012年5月の調査 <http://webaim.org/projects/screenreadersurvey4/>`_ では NVDA をよく使っていると回答したユーザーが 43% にのぼっています。
+NVDA の国際化は翻訳ボランティアが行っており、現在は約40の言語に対応しています。
+
+ユーザーの立場から見た NVDA の魅力のひとつは「コミュニティのスピード」です。
+NVDA は1年に3回バージョンアップし、 `WAI-ARIA <http://www.w3.org/WAI/intro/aria.php>`_ や `PDF/UA <http://pdf.editme.com/PDFUA>`_ などのアクセシビリティ標準規格を支援しています。
+Windows 8 やタブレット操作への対応も進んでいます。
+この開発体制を維持するために、非営利組織 `NV Access <http://www.nvaccess.org/>`_ は、企業や公的機関に資金援助を求めるだけでなく、ユーザーにも `寄付の呼びかけ <http://www.nvaccess.org/blog/NVDANeedsYou>`_ を行っています。
+
+日本では `NVDA日本語チーム`_ が、日本語の音声合成やかな漢字変換の読み上げ機能を追加した `派生版(nvdajp) <http://sourceforge.jp/projects/nvdajp/releases/>`_ をリリースしています。点字ディスプレイとよばれる装置に日本語の点字を出力する作業にも取り組んでいます。
+
+日本では、視覚障害を持つ人は、自治体の補助などを利用して商用のスクリーンリーダを購入することが多く、オープンソースのスクリーンリーダーへの関心は高くありません。
+しかし、海外でシェアを高めつつあるオープンソースのスクリーンリーダーが、日本でひろく使われる状態になることは、スクリーンリーダーに配慮した Web サイトやアプリケーションを開発する日本の開発者にとっても、意味のあることです。
+
+NVDA Workshop in Japan 発表の概要
+----------------------------------------------------
+
+2012年5月に NV Access は、 `Taiwan Digital Talking Books Association <http://www.tdtb.org/english/index.html>`_ などと協力して `中国語対応を強化するという発表 <http://www.nvaccess.org/blog/AJointEffortToImproveNVDAForChineseLanguageUsers>`_ を行いました。
+
+今回 NVDA Workshop in Japan では、オーストラリアから NVDA の主要な開発者 Michael Curran さんを、台湾から Jerry Wang さんと Aaron Wu さんをお招きして、中国語を含む東アジア言語への対応についてお話を伺います。
+日本からは西本がNVDAの日本語対応の現状と課題をご報告します。
+最後に DAISY コンソーシアム 前代表の 河村 宏 さんに「グローバルなオープンスタンダード技術によるインクルーシブな社会発展」と題して講演していただきます。
+
+東アジア言語圏のテキストに関する技術資料はあまり英語に翻訳されていません。
+`CJKV Information Processing, 2nd Edition (By Ken Lunde) <http://shop.oreilly.com/product/9780596514471.do>`_ のような書籍はありますが、音声合成、点字、スクリーンリーダーなど、アクセシビリティに関わる技術者の国際的な交流は、日本が世界に取り残されないために必要です。
+アクセシビリティに関する東アジア言語圏の技術情報を海外に伝えていくことは、Windows 以外の OS やデバイスのアクセシビリティを強化していくためにも有用と思います。
+このワークショップを、その足がかりにしたいと考えています。
+
+.. _`NVDA日本語チーム`: http://www.nvda.jp/
+.. _`NVDA Workshop in Japan`: http://workshop.nvda.jp/about
+
 最後まとめ (ほさか)
 ===================
 
