@@ -104,6 +104,10 @@ Pythonモジュールの形式であり、ワーカープロセスのクラス�
 スピーカーのBenoit Chesneauさんはパリ在住のフランス人で、PyCon JPに参加するために来日してくれるそうです。
 Benoit Chesneauさんは `Apache CouchDB <http://couchdb.apache.org/>`_ のコミッターで、Gunicorn の作者でもあります。
 
+.. figure:: https://si0.twimg.com/profile_images/76299981/avatar100x100.png
+
+   Benoit さん
+
 このセッションでは作者自らが Gunicorn の現在の設計と、Webの新しい潮流であるSPDYやWebsockets, Green computing等に対応するにはどんな修正が必要になるのか、そして将来のメジャーリリースで導入される新機能について解説してくれます。
 Gunicornを使っている人も使っていない人もPythonでwebに関わる人は絶対に聞くべき、一般講演で本当に良いんだろうかというくらい贅沢な講演です！
 僕も苦手な英語ですが頑張って聞こうと思っています。
