@@ -69,10 +69,10 @@ Python で作られた PaaS なんて非常に興味深いですね。
 NIFTY Cloud C4SA に興味がある方は元より、これから開発するシステムにPythonを使うかどうか悩んでる方にもきっと参考になるセッションだと思います。
 また、17日に開催されるSprintでは、今年唯一のPlatinumスポンサーであるNIFTY Cloudの協賛でNIFTY Cloud C4SA ハッカソンも開催されるようです。興味のある方は是非そちらにも参加してください！
 
-`Python3でここまでできるWebプログラミング <http://2012.pycon.jp/program/sessions.html#session-16-1515-room433-ja>`_
--------------------------------------------------------------------------------------------------------------------
+`Python 3でここまでできるWebプログラミング <http://2012.pycon.jp/program/sessions.html#session-16-1515-room433-ja>`_
+--------------------------------------------------------------------------------------------------------------------
 
-日本語のセッションで最後に紹介するのは16日の15:15-16:00に行われる「 `Python3でここまでできるWebプログラミング <http://2012.pycon.jp/program/sessions.html#session-16-1515-room433-ja>`_ 」です。
+日本語のセッションで最後に紹介するのは16日の15:15-16:00に行われる「 `Python 3でここまでできるWebプログラミング <http://2012.pycon.jp/program/sessions.html#session-16-1515-room433-ja>`_ 」です。
 
 スピーカーの `小田切篤さん <http://aodag.posterous.com/>`_ にセッションの説明をして頂きました。
 
@@ -80,16 +80,18 @@ NIFTY Cloud C4SA に興味がある方は元より、これから開発するシ
 
    小田切さん
 
-      Python3がリリースされてからすでに3年が経とうとしています。
-      今年は `3.3 <http://python.org/download/releases/3.3.0/>`_ がすでにb2(2012/08/21現在)までリリースされ、PyCon JP 2012開催直後にはfinalリリースが予定されています。
-      Webアプリケーションの分野では3.2リリースと同時期に `PEP3333 <http://www.python.org/dev/peps/pep-3333/>`_ が公開され、多くのWebアプリケーションフレームワークがPython3対応に意欲的になっています。
-      今、Python3でWebアプリケーションをどこまで作れるのか。ライブラリやフレームワークの対応状況と、実際にPython3でWebアプリケーションを作る場合の検討事項を紹介します。
+      Python 3がリリースされてからすでに3年が経とうとしています。
+      今年は `3.3 <http://python.org/download/releases/3.3.0/>`_ がすでにb2(2012/08/21現在)までリリースされ([1]_)、PyCon JP 2012開催直後にはfinalリリースが予定されています。
+      Webアプリケーションの分野では3.2リリースと同時期に `PEP3333 <http://www.python.org/dev/peps/pep-3333/>`_ が公開され、多くのWebアプリケーションフレームワークがPython 3対応に意欲的になっています。
+      今、Python 3でWebアプリケーションをどこまで作れるのか。ライブラリやフレームワークの対応状況と、実際にPython 3でWebアプリケーションを作る場合の検討事項を紹介します。
+
+.. [1] コメントを頂いたときには b2 までのリリースでしたが、現在(2012/08/28)は rc1 がリリースされています。
 
 小田切さんは `pyramid1.2 <http://www.pylonsproject.org/>`_ のroute_prefix対応などを行い、今年のEuroPythonでもLTを行った日本を代表するPythonライブラリのコントリビュータです。
-特にPython3対応においては `deform <http://docs.pylonsproject.org/projects/deform/en/latest/?awesome>`_ や `colander <http://docs.pylonsproject.org/projects/colander/en/latest/?awesome>`_ をはじめ幾つものライブラリの対応を行い、その方法について勉強会で発表を行うなど日本における第一人者です。
+特にPython 3対応においては `deform <http://docs.pylonsproject.org/projects/deform/en/latest/?awesome>`_ や `colander <http://docs.pylonsproject.org/projects/colander/en/latest/?awesome>`_ をはじめ幾つものライブラリの対応を行い、その方法について勉強会で発表を行うなど日本における第一人者です。
 
-そんな小田切さんが満を持して講演する「Python3でここまでできるWebプログラミング」。
-いつPython3に移行出来るのか？というのはPythonistaの関心事の一つだったと思いますが、つい先日DjangoもPython3でのテストが全部通ったとのことですし、Python3への移行も間近なのかもしれません。
+そんな小田切さんが満を持して講演する「Python 3でここまでできるWebプログラミング」。
+いつPython 3に移行出来るのか？というのはPythonistaの関心事の一つだったと思いますが、つい先日DjangoもPython 3でのテストが全部通ったとのことですし、Python 3への移行も間近なのかもしれません。
 Pythonの未来に感心がある方は必見です！
 
 `Gunicorn what’s next? The new web challenge <http://2012.pycon.jp/program/sessions.html#session-15-1530-room351a-ja>`_

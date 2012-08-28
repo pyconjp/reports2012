@@ -49,7 +49,7 @@ Pythonプログラミング未経験または初心者を対象とした「 `Pyt
 
 岡野さんにハンズオン開催にあたっての意気込みを伺いました。
 
-.. image:: /_static/tokibito.jpg
+.. figure:: /_static/tokibito.jpg
 
    岡野さん
 
@@ -90,7 +90,7 @@ Pythonに限らずプログラミングの初学者は「Hello Worldは表示で
 
 磯さんに意気込みを伺いました。
 
-.. image:: /_static/ransui.jpg
+.. figure:: /_static/ransui.jpg
 
    磯さん
 
@@ -123,7 +123,7 @@ Pythonに限らずプログラミングの初学者は「Hello Worldは表示で
 
 石本さんに意気込みを伺いました。
 
-.. image:: /_static/atsuo.jpg
+.. figure:: /_static/atsuo.jpg
 
    石本さん
 
