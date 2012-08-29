@@ -119,9 +119,9 @@ Pythonに限らずプログラミングの初学者は「"Hello, World!"は表�
 * デバッガを使ったデバッグ実習
 * プロファイラによるパフォーマンス測定
 
-など
-
-講師の `石本敦夫 <http://twitter.com/atsuoishimoto>`_ さんは日本で唯一PEPを提出したことがあり、去年のPyCon mini JPで基調講演をして頂いた日本におけるPython界の第一人者です。
+講師の `石本敦夫 <http://twitter.com/atsuoishimoto>`_ さんは日本で唯一PEPを提出したことがあり、去年の
+`PyCon mini JP <https://sites.google.com/site/pyconminijp/>`_
+で基調講演をして頂いた日本におけるPython界の第一人者です。
 
 石本さんに意気込みを伺いました。
 
