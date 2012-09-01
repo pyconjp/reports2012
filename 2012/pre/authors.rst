@@ -98,8 +98,16 @@ PyCon JP の活動は当初お手伝い程度のつもりだったのに、ど�
 - Twitter： `@takanory <https://twitter.com/takanory>`_
 - ブログ： http://takanory.net/takalog/
 
-アニキ
-======
+小坂 健二郎(コサカ ケンジロウ)
+==============================
+.. image:: /_static/inoshiro.jpg
+
+プログラマ。独学でPythonを使い始めて1年ほど。
+
+趣味はボルダリングで、 `Pythonボルダリング部 <http://connpass.com/series/64/>`_ というPythonとはまったく関係のないコミュニティの副部長を務める。特技は猫とコミュニケーションすること。
+
+- Twitter: `@inoshiro <https://twitter.com/inoshiro>`_
+- ブログ: `inoshiro's blog <http://inoshiro.hatenablog.com/>`_
 
 今津
 ====
