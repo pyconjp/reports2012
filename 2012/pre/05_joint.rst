@@ -27,7 +27,7 @@ Google App Engineの紹介
 Google App Engine コミュニティの紹介
 ------------------------------------
 
-日本の App Engine コミュニティ(ハッシュタグ #gaeja)は世界的にみても非常に活発で、不定期ですが頻繁に App Engine ja Night というイベントが開催されています。イベントの告知は各種ソーシャルメディアの #gaeja などで行われています。また `Google App Engine Japan グループ`_ では日本語で情報交換を行ったり、コミュニティや Google 社員からのサポートが受けられます。
+日本の App Engine コミュニティ(ハッシュタグ `#gaeja <https://twitter.com/search?q=%23gaeja>`_)は世界的にみても非常に活発で、不定期ですが頻繁に App Engine ja Night というイベントが開催されています。イベントの告知は各種ソーシャルメディアの #gaeja などで行われています。また `Google App Engine Japan グループ`_ では日本語で情報交換を行ったり、コミュニティや Google 社員からのサポートが受けられます。
 
 .. _`Google App Engine`: https://developers.google.com/appengine/
 .. _`Google App Engine Japan グループ`: http://groups.google.com/group/google-app-engine-japan/
@@ -175,7 +175,7 @@ Linux デスクトップでは GNOME Orca というオープンソースのス�
 
 NVDA の最初のリリースは2006年でした。
 以来、アクセシビリティに積極的な企業や団体の支援を受けて、
-NVDA は高価な商用のスクリーンリーダに匹敵するソフトウェアに成長しました。
+NVDA は高価な商用のスクリーンリーダーに匹敵するソフトウェアに成長しました。
 `2012年5月の調査 <http://webaim.org/projects/screenreadersurvey4/>`_ では NVDA をよく使っていると回答したユーザーが 43% にのぼっています。
 NVDA の国際化は翻訳ボランティアが行っており、現在は約40の言語に対応しています。
 
