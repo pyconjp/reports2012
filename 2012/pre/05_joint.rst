@@ -42,12 +42,62 @@ App Engine Conference 2012
 .. _`App Engine Conference 2012`: https://sites.google.com/site/appengineconference2012/
 
 
-Django & Pyramid Con JP 2012 (hirokiky or aodag)
-================================================
+Django & Pyramid Con JP 2012
+============================
 
 .. image:: /_static/logo_django.*
 
 .. image:: /_static/logo_pylons.*
+
+Django の紹介
+-------------
+
+Django_ はオープンソースの Web フレームワークです。見通しのよい MVC 分離、洗練された O/R マッピング API、そして汎用性の高い強力なテンプレートエンジンを備え、高い柔軟性とパフォーマンスを同時に要求される Web アプリケーション開発をサポートします。
+
+元来はニュースサイトを管理する目的で開発され、 2008 年 9 月に 1.0 がリリースされました。現在は Instagram_ や Pinterest_ といった大規模コミュニティサイトでも利用されており、最新安定版は 1.4 です。
+
+.. _Django: https://www.djangoproject.com/
+.. _Instagram: http://instagram.com/
+.. _Pinterest: http://pinterest.com/
+
+Pyramid の紹介
+--------------
+
+Pyramid_ はオープンソースの Web フレームワークです。スピードや軽いフットプリントのような効率性、徹底したドキュメンテーションおよびテストコードによる信頼性に加えて、前身である repoze.bfg と Pylons ウェブフレームワークから継承した、 Zope や WSGI の拡張性を重視する文化を特徴としています。
+
+2012 年 3 月に Python 2 系に加えて Python 3 系にも対応したバージョン 1.3 がリリースされました。
+
+.. _Pyramid: http://www.pylonsproject.org/
+
+djangoproject.jp コミュニティの紹介
+-----------------------------------
+
+`djangoproject.jp`_ は日本の Django ユーザ有志でつくられたユーザコミュニティで、2006 年 2 月に結成されました。
+`django-ja メーリングリスト`_ などで情報交換を行い、現在は Django 1.4 ドキュメント翻訳を進めています。
+
+.. _`djangoproject.jp`: http://djangoproject.jp/
+.. _`django-ja メーリングリスト`: http://groups.google.com/group/django-ja/
+
+Pylons Project JP コミュニティの紹介
+------------------------------------
+
+`Pylons Project JP`_ は、オープンソースの Python ウェブアプリケーション開発フレームワーク Pyramid とその関連技術の日本での普及を目的としたコミュニティです。
+
+興味のある方は `Facebook グループ pylonsproject.jp`_ に参加してください。また、 Pylons/Pyraminはっかそん などを不定期に開催しています。
+
+.. _`Pylons Project JP`: http://www.pylonsproject.jp/
+.. _`Facebook グループ pylonsproject.jp`: http://www.facebook.com/groups/pylonsja/
+
+Django & Pyramid Con JP 2012 の概要
+-----------------------------------
+
+Django & Pyramid Con JP 2012 では、 2 日間にわたって 1 トラックを占有し、 Django & Pyramid の様々な講演を提供します。
+
+Django, Pyramid の概要に始まり、注目すべき最新機能の紹介、さらに Pylons から Pyramid への移行ガイド、 M2M サーバやリアルタイム処理の実例、業務で得られた経験談などを予定しています。初心者から上級者まで、また業務で Django や Pyramid を使っている方にも満足していただけることでしょう。
+
+発表のタイムテーブルは `Django & Pyramid Con JP 2012`_ イベントページでご確認ください。また、 17日には Django Sprint を行います。
+
+.. _`Django & Pyramid Con JP 2012`: http://djangoproject.jp/weblog/2012/07/26/django_pyramid_con_jp/
 
 SphinxCon JP 2012 (小宮 & 清水川)
 ====================================
