@@ -118,8 +118,20 @@ blockdiag, seqdiag などの図作成ツールを開発するかたわら、多�
 
 Twitter: `@tk0miya <http://twitter.com/tk0miya>`_
 
-hirokiky || aodag
-=================
+道須利一 (ミチス トシカズ)
+==========================
+.. image:: /_static/michisu.png
+
+`株式会社マリーチ <http://www.marici.co.jp/>`_ 代表。 Django, Google App Engine などを使って独自製品・サービスを開発しながら、Python 以外には Java や PHP での開発も請け負っている。
+
+主に Django 1.4 ドキュメント翻訳で `djangoproject.jp <http://djangoproject.jp/>`_ に関わる。
+
+昨年 15 年ぶりに少林寺拳法を再開したが、頭と身体がついていかない。
+
+Twitter： `@michisu <http://twitter.com/michisu>`_
+
+aodag
+=====
 
 西本卓也（にしもとたくや）
 ==========================
