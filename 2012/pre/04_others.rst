@@ -55,7 +55,7 @@ Pythonista の採用を考えている企業の方も、Python での仕事を�
 `PyCon JP ジョブ・ボード <http://2012.pycon.jp/sponsor/jobs.html>`_
 のページを参照してください。
 
-.. figure:: /_images/job-board.jpg
+.. figure:: /_static/job-board.jpg
    :alt: 2011年のジョブ・ボード
    :width: 600
 
