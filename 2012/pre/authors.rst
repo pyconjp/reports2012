@@ -153,5 +153,15 @@ Twitter： `@24motz <http://twitter.com/24motz>`_
 
 ブログ： http://d.nishimotz.com/
 
+清田史和（きよたふみかず）
+==========================
+.. image:: https://twimg0-a.akamaihd.net/profile_images/1118871949/kiyota_fumikazu.jpg
+
+`SnapDish <http://snapdi.sh/>`_ を作ってます。
+`コーヒー屋 <http://www.naturalcoffee.jp/>`_ を経営しています。
+
+現在、スタートアップ企業をやっています。SnapDishというサービスを作っています。料理の世界をもっと楽しくするために、日夜、開発を楽しくやっています。
+
+Twitter： `@kiyotaman <http://twitter.com/kiyotaman>`_
 
 
