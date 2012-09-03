@@ -165,3 +165,15 @@ Twitter： `@24motz <http://twitter.com/24motz>`_
 Twitter： `@kiyotaman <http://twitter.com/kiyotaman>`_
 
 
+今津 りこ (イマヅ リコ)
+=======================
+
+.. figure:: /_static/imazu.jpg
+   :width: 30%
+
+
+入社した会社が Python で開発してたこともあって Python に興味をもつ。でもプログラマじゃない。あとデータ解析と統計には夢がつまってると思ってる。
+ジビエ好きをこじらして狩猟免許取得のため勉強中。いつか美味しい鹿と猪をご馳走します。
+
+Twitter : `RicoImazu <https://twitter.com/RicoImazu>`_
+
