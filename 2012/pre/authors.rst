@@ -109,10 +109,6 @@ PyCon JP の活動は当初お手伝い程度のつもりだったのに、ど�
 - Twitter: `@inoshiro <https://twitter.com/inoshiro>`_
 - ブログ: `inoshiro's blog <http://inoshiro.hatenablog.com/>`_
 
-今津
-====
-
-
 小宮 健 (コミヤ タケシ)
 ========================
 .. image:: /_static/tk0miya.jpg
