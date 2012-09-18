@@ -6,6 +6,7 @@
 .. toctree::
 
   01_program
-  02_others
-  03_generalization
+  02_otherprograms
+  03_backend
+  04_generalization
   authors
