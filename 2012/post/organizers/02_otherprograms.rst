@@ -52,6 +52,7 @@ Python 関連コミュニティ紹介
 - `Python Taiwan User Group <http://www.python.org.tw/>`_
   (`@yungyuc <http://twitter.com/yungyuc>`_)
 - `Python Malaysia <http://www.python.my/>`_
+  (Liew Beng Keat)
 - `Imagination <http://shiroyuki.com/work/project-imagination>`_
   (`@shiroyuki <http://twitter.com/shiroyuki>`_)
 - koma.py
