@@ -5,7 +5,7 @@
 今回のPyCon JP 2012 ではYouTube Live によってすべてのセッションが生放送された上、セッションの録画がいつでもYouTube で見ることができるようになっています。
 
 *********
- KeyNote
+ Keynote
 *********
 ##################################################################
  Armin Ronacher (`@mitsuhiko <https://twitter.com/mitsuhiko>`_)氏
@@ -45,12 +45,15 @@ SAML 2.0 はXMLをベースにした認証情報提供者と、サービス提�
 -----------------------------------
 小飼氏はまず、Perl 開発者であるLarry Wall 氏が提唱した"The Three Virtues of a Programmer" にPerl, Ruby, Python を当てはめて、"Laziness" はPerl 、"Impatience" はRuby、そして"Hubris" はPython であると述べられました。
 
-Python がHubris である理由を"Zen of Python" に絡めてKeyNote の主題としてお話になりました。
+Python がHubris である理由を"Zen of Python" に絡めてKeynote の主題としてお話になりました。
 
 ---------------
  Zen of Python
 ---------------
 Zen of Python とは、"Python らしさ" を示した19行の短い詩です。Python のインタプリタを立ちあげ、"import this" を実行することでいつでも全文を読むことができます。
+
+また、以下のように PEP(Python Extension Proposal) としても登録されています。
+`The Zen of Python (PEP20) <http://www.python.org/dev/peps/pep-0020/>`_
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  Beautiful is better than ugly.
@@ -61,7 +64,7 @@ Zen of Python とは、"Python らしさ" を示した19行の短い詩です。
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  Explicit is better than implicit.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-次に、小飼氏はPython で文字列を表現する際のuリテラルを取り上げました。Python 2系では文字列を表すのに、str 型とunicode 型が存在します。ただのクオートでくくられたものはstr 、uリテラル付きクオート(u"" 無いし, u'') でくくられたものはunicode 型として扱われています。小飼氏はまず、この表現は明示的でよい、とおっしゃいました。
+次に、小飼氏はPython で文字列を表現する際のuリテラルを取り上げました。Python 2系では文字列を表すのに、str 型とunicode 型が存在します。ただのクオートでくくられたものはstr 、uリテラル付きクオート(u"" ないし, u'') でくくられたものはunicode 型として扱われています。小飼氏はまず、この表現は明示的でよい、とおっしゃいました。
 一方、Python 3では文字列を表すものはPython 2のunicode 型が名を変えたstr 型のみになりました。この変更に伴い、Python 3系ではuリテラルが廃止されました。しかし、Python 3.3 ではこのu リテラルが復活し、ただのクオートとuリテラル付きクオートが同じものとして扱われる事になりました。この過去からのimport について、小飼氏は"わけがわからないよ" とおっしゃっていました。
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
