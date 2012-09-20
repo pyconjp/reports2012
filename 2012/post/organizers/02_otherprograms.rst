@@ -39,20 +39,33 @@ Python 関連コミュニティ紹介
 
 以下、私が覚えている範囲での参加コミュニティの一覧です。漏れがあったらすいません。
 
-- #kabepy(@takanory)
-- Python mini Hack-a-thon(@terapyon)
-- pypyja(@rokjyouhitoma)
-- NVDA Taiwan
-- Python Seattle(@briandorsey)
-- Python Taiwan(Yung-Yu Chen)
+- `Python Bouldering Club: #kabepy <http://connpass.com/series/64/>`_
+  (`@takanory <http://twitter.com/takanory>`_)
+- `Python mini Hack-a-thon <http://connpass.com/series/14/>`_
+  (`@terapyon <http://twitter.com/terapyon>`_)
+- pypyja
+  (`@rokjyouhitoma <http://twitter.com/rokjyouhitoma>`_)
+- `NVDA Taiwan <http://tw.myblog.yahoo.com/nvda_taiwan>`_
+  (Aaron Wu)
+- Python Seattle
+  (`@briandorsey <http://twitter.com/briandorsey>`_)
+- Python Taiwan
+  (`@yungyuc <http://twitter.com/yungyuc>`_)
 - Python Malaysia
-- shiroyuki のなんかOSSプロダクト紹介(@shiroyuki)
-- koma.py(@jbking)
-- TokyoMercurial & Bitbucket勉強会(@troter)
-- NVDA(@24motz)
-- plone研究会(retsu)
-- 北海道のもろもろ(@nakayoshix)
-- エキスパートPythonプログラミング読書会(@tfmagician)
+- `Imagination <http://shiroyuki.com/work/project-imagination>`_
+  (`@shiroyuki <http://twitter.com/shiroyuki>`_)
+- koma.py
+  (`@jbking <http://twitter.com/jbking>`_)
+- TokyoMercurial & Bitbucket勉強会
+  (`@troter <http://twitter.com/troter>`_)
+- `NVDA日本語チーム <http://www.nvda.jp>`_
+  (`@24motz <http://twitter.com/24motz>`_)
+- `plone研究会 <http://www.plone.jp>`_
+  (retsu)
+- Python札幌他
+  (`@nakayoshix <http://twitter.com/nakayoshix>`_)
+- `エキスパートPythonプログラミング読書会 <http://connpass.com/series/31/>`_
+  (`@tfmagician <http://twitter.com/tfmagician>`_)
 - Windows Azure User Group(クラウディアさん)
 
 直前に決めて準備ゼロで開催したわりには、なかなか面白いイベントだったと思います。来年もどこかのタイミングで開催できると面白いかなと思います。オープンスペースとか使ってみてもいいかも知れません。
