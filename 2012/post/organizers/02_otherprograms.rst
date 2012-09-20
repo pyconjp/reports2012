@@ -47,11 +47,11 @@ Python 関連コミュニティ紹介
   (`@rokjyouhitoma <http://twitter.com/rokjyouhitoma>`_)
 - `NVDA Taiwan <http://tw.myblog.yahoo.com/nvda_taiwan>`_
   (Aaron Wu)
-- Python Seattle
+- `the Seattle Python Interest Group<http://seapig.org/>`_
   (`@briandorsey <http://twitter.com/briandorsey>`_)
-- Python Taiwan
+- `Python Taiwan User Group <http://www.python.org.tw/>`_
   (`@yungyuc <http://twitter.com/yungyuc>`_)
-- Python Malaysia
+- `Python Malaysia <http://www.python.my/>`_
 - `Imagination <http://shiroyuki.com/work/project-imagination>`_
   (`@shiroyuki <http://twitter.com/shiroyuki>`_)
 - koma.py
