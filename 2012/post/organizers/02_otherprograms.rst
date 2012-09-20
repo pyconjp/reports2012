@@ -43,11 +43,11 @@ Python 関連コミュニティ紹介
   (`@takanory <http://twitter.com/takanory>`_)
 - `Python mini Hack-a-thon <http://connpass.com/series/14/>`_
   (`@terapyon <http://twitter.com/terapyon>`_)
-- pypyja
+- `pypyja <https://sites.google.com/site/pypyja/>`_
   (`@rokjyouhitoma <http://twitter.com/rokjyouhitoma>`_)
 - `NVDA Taiwan <http://tw.myblog.yahoo.com/nvda_taiwan>`_
   (Aaron Wu)
-- `the Seattle Python Interest Group<http://seapig.org/>`_
+- `the Seattle Python Interest Group <http://seapig.org/>`_
   (`@briandorsey <http://twitter.com/briandorsey>`_)
 - `Python Taiwan User Group <http://www.python.org.tw/>`_
   (`@yungyuc <http://twitter.com/yungyuc>`_)
@@ -56,17 +56,18 @@ Python 関連コミュニティ紹介
   (`@shiroyuki <http://twitter.com/shiroyuki>`_)
 - koma.py
   (`@jbking <http://twitter.com/jbking>`_)
-- TokyoMercurial & Bitbucket勉強会
+- `TokyoMercurial <http://connpass.com/series/86/>`_ &
+  `Bitbucket勉強会 <http://connpass.com/event/623/>`_
   (`@troter <http://twitter.com/troter>`_)
 - `NVDA日本語チーム <http://www.nvda.jp>`_
   (`@24motz <http://twitter.com/24motz>`_)
 - `plone研究会 <http://www.plone.jp>`_
   (retsu)
-- Python札幌他
+- `Python札幌 <https://groups.google.com/forum/?hl=ja&fromgroups#!forum/python-sapporo>`_ 他
   (`@nakayoshix <http://twitter.com/nakayoshix>`_)
 - `エキスパートPythonプログラミング読書会 <http://connpass.com/series/31/>`_
   (`@tfmagician <http://twitter.com/tfmagician>`_)
-- Windows Azure User Group(クラウディアさん)
+- `Japan Windows Azure User Group <http://r.jazug.jp/>`_ (クラウディアさん)
 
 直前に決めて準備ゼロで開催したわりには、なかなか面白いイベントだったと思います。来年もどこかのタイミングで開催できると面白いかなと思います。オープンスペースとか使ってみてもいいかも知れません。
 
