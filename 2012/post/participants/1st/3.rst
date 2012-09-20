@@ -7,6 +7,18 @@
 *********************
 Mathias Stearn 氏によるPython からMongoDB を扱う方法を解説するセッションです。Mathias Stearn 氏はMongoDB を開発している10gen のエンジニアで、彼自身MongoDB サーバーコアの開発やMongoDB のC++ ドライバーのメンテナンスを行なっています。
 
+.. figure:: /_static/mongodb.*
+   :width: 640px
+
+   Mathias Stearn 氏
+
+
+.. figure:: /_static/mongodb_banner.*
+   :width: 640px
+
+   MongoDB の開発元である 10gen は PyCon JP 2012 のスポンサーでもある
+
+
 #########
  MongoDB
 #########
