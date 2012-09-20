@@ -76,7 +76,7 @@ PyCon JP 2012 開催2日目の9/16(日)に行われた小飼弾氏の基調講�
 今回小飼弾氏が行った基調講演の発表資料、生放送のアーカイブは以下のリンクからたどれますので、是非御覧になってください。
 
 - `発表資料 <http://www.dan.co.jp/~dankogai/pyconjp2012/python.html>`_
-- `YouTube 生放送アーカイブ <http://www.youtube.com/watch?v=H8zcRv_XyeQ#t=5m10s>`_
+- `YouTubeLiveアーカイブ <http://www.youtube.com/watch?v=H8zcRv_XyeQ#t=5m10s>`_
 
 運営として取り組んだことなど
 ----------------------------
