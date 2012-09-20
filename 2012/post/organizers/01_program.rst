@@ -23,7 +23,7 @@ PyCon JP 2012の余韻を楽しみつつ、参加できなかった方にもど�
 基調講演 (清水)
 ===============
 
-副座長の清水です。ここではPyCon JP 2012で行われた基調講演の様子や運営として取り組んだことを紹介したいと思います。
+PyCon JP 2012 副座長の清水です。ここではPyCon JP 2012で行われた基調講演の様子や運営として取り組んだことを紹介したいと思います。
 
 Armin Ronacher氏の基調講演の様子
 --------------------------------
@@ -38,6 +38,7 @@ PyCon JP 2012 開催初日の9/15(土)に行われたArmin Ronacher氏の基調�
 Armin Ronacher氏の基調講演は"Happiness Through Ignorance"という題で、「幸せ、幸福」という観点から開発に関わること全般について語って頂きました。
 
 .. figure:: /_static/mitsuhiko.jpg
+   :height: 450px
 
    Armin Ronacher氏
 
@@ -45,8 +46,8 @@ Armin Ronacher氏の基調講演は"Happiness Through Ignorance"という題で�
 
 Armin Ronacher氏の基調講演の発表資料や生放送のアーカイブは以下のリンクからたどれますので、是非御覧になってください。
 
-- `発表資料 <https://speakerdeck.com/u/mitsuhiko/p/happiness-through-ignorance>`_ (`PDF <http://dev.pocoo.org/~mitsuhiko/happiness.pdf>`_)
-- `YouTube <http://www.youtube.com/watch?feature=player_detailpage&v=EDlFk1hc8kc#t=737s>`_
+- `発表資料 <https://speakerdeck.com/u/mitsuhiko/p/happiness-through-ignorance>`_
+- `YouTubeLiveアーカイブ <http://www.youtube.com/watch?v=EDlFk1hc8kc#t=12m17s>`_
 
 「英語基調講演の同時通訳」という新しい試み
 ------------------------------------------
@@ -55,6 +56,27 @@ Armin Ronacher氏の基調講演の発表資料や生放送のアーカイブは
 
 小飼弾氏の基調講演の様子
 ------------------------
+
+PyCon JP 2012 開催2日目の9/16(日)に行われた小飼弾氏の基調講演は、初日の基調講演で使用できた中央ホールが2日目は使用できなかったため、各セッションを行っていた教室のスクリーンに映像を流し、基調講演を行っている教室に入りきれなかった人にも参加してもらうという、いわゆるライブストリーミング形式を活用して行いました。
+
+.. figure:: /_static/2nd_keynote_1.jpg
+   :width: 600px
+
+   基調講演を行った会場の様子
+
+.. figure:: /_static/2nd_keynote_2.jpg
+   :width: 600px
+
+   各教室に届いている基調講演の映像
+
+今回小飼弾氏が行った基調講演は"Python as a Foreign Language"というもので、Perl文化・コミュニティの中で活躍している氏から見たPythonはどう見えるのか？ということを中心に話されていました。普段各方面で講演している氏らしく、聴衆の笑いを取りながら講演しているのはさすがだなと思いました。
+
+今回のPyCon JP ではPerlで有名な小飼弾氏を基調講演者として招くという、結構挑戦的な試みを行いました。私は小飼弾氏の基調講演をライブストリーミングで見ることしかできなかったのですが、Twitterなどでの反応や会場にいた人に後で聞いたところによると、小飼弾氏の講演内容への反応が非常に活発だったそうなので、基調講演者として招待してよかったと思います。
+
+今回小飼弾氏が行った基調講演の発表資料、生放送のアーカイブは以下のリンクからたどれますので、是非御覧になってください。
+
+- `発表資料 <http://www.dan.co.jp/~dankogai/pyconjp2012/python.html>`_
+- `YouTube 生放送アーカイブ <http://www.youtube.com/watch?v=H8zcRv_XyeQ#t=5m10s>`_
 
 運営として取り組んだことなど
 ----------------------------
