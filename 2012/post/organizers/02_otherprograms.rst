@@ -49,22 +49,23 @@ Python 関連コミュニティ紹介
   (Aaron Wu)
 - `the Seattle Python Interest Group <http://seapig.org/>`_
   (`@briandorsey <http://twitter.com/briandorsey>`_)
+- `OSC <http://www.ospn.jp/>`_
+  (Toru Miyahara)
 - `Python Taiwan User Group <http://www.python.org.tw/>`_
   (`@yungyuc <http://twitter.com/yungyuc>`_)
 - `Python Malaysia <http://www.python.my/>`_
   (Liew Beng Keat)
 - `Imagination <http://shiroyuki.com/work/project-imagination>`_
   (`@shiroyuki <http://twitter.com/shiroyuki>`_)
-- koma.py
+- 駒.py
   (`@jbking <http://twitter.com/jbking>`_)
-- `TokyoMercurial <http://connpass.com/series/86/>`_ &
-  `Bitbucket勉強会 <http://connpass.com/event/623/>`_
+- `mercurial-ja <http://groups.google.com/group/mercurial-ja>`_ & `TokyoMercurial <http://connpass.com/series/86/>`_
   (`@troter <http://twitter.com/troter>`_)
 - `NVDA日本語チーム <http://www.nvda.jp>`_
   (`@24motz <http://twitter.com/24motz>`_)
-- `plone研究会 <http://www.plone.jp>`_
+- `Plone Users Group Japan & Plone研究会 <http://www.plone.jp>`_
   (retsu)
-- `Python札幌 <https://groups.google.com/forum/?hl=ja&fromgroups#!forum/python-sapporo>`_ 他
+- `Python札幌 <https://groups.google.com/forum/?hl=ja&fromgroups#!forum/python-sapporo>`_ 、数学勉強会@札幌、クラウド研究会@札幌
   (`@nakayoshix <http://twitter.com/nakayoshix>`_)
 - `エキスパートPythonプログラミング読書会 <http://connpass.com/series/31/>`_
   (`@tfmagician <http://twitter.com/tfmagician>`_)
@@ -99,7 +100,7 @@ PyCon JP 2011 ではスポンサーメリットはあまりはっきりしてい
 
    PyCon JP Patron
 
-以下
+以下スポンサー関連について詳細を記述します。
 
 スポンサー企業について
 ----------------------
