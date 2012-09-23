@@ -5,5 +5,5 @@
 .. toctree::
 
   1st
-  2nd/index.rst
+  2nd
   3rd/index.rst
