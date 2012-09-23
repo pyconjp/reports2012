@@ -4,6 +4,6 @@
 
 .. toctree::
 
-  1st/index.rst
+  1st
   2nd/index.rst
   3rd/index.rst
