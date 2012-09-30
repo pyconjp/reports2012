@@ -6,4 +6,4 @@
 
   1st
   2nd
-  3rd/index.rst
+  3rd
