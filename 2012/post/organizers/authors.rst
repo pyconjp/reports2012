@@ -131,13 +131,33 @@ Twitter： `@24motz <http://twitter.com/24motz>`_
 入社した会社が Python で開発してたこともあって Python に興味をもつ。でもプログラマじゃない。あとデータ解析と統計には夢がつまってると思ってる。
 ジビエ好きをこじらして狩猟免許取得のため勉強中。いつか美味しい鹿と猪をご馳走します。
 
-Twitter : `RicoImazu <https://twitter.com/RicoImazu>`_
+Twitter : `@RicoImazu <https://twitter.com/RicoImazu>`_
 
-きのふみさん
-============
+木下文史（キノシタ フミチカ）
+=============================
 
-ナツさん
-========
+.. figure:: /_static/kinofumi.*
+
+
+水戸にあるデザイン事務所にて日々色々作っています。
+Pythonとの出会いは仕事でPloneを使うようになってから、かれこれ6年ほど。
+そこそこインフラ構築もコードも書けてデザインもできる人になるべく日々鍛練中。
+
+Twitter: `@kinofumi <http://twitter.com/kinofumi>`_
+
+ナツ
+====
+
+.. figure:: /_static/natsu_bm.*
+   :width: 128px
+
+BeProud所属。
+細かいところが気になる性分から、気付いた時にはテストエンジニアになっていました。自身はPython 使いではありませんが、彼らの作ったプログラムに突っ込みを入れる日々を過ごしています。
+最近では「Pythonプロフェッショナルプログラミング」の13章を執筆しました。
+PyConJPの活動は、末席に加わるつもりが気付いた時には主担当を引き受けていたけれど、いい経験でした。
+
+Twitter: `@natsu_bm <http://twitter.com/natsu_bm>`_
+
 
 松崎さん
 ========
