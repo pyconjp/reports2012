@@ -123,6 +123,6 @@ PyCon JP の運営については `PyCon JP 運営サイト <http://www.pycon.jp
 最後に
 ------
 
-引き続きPyCon JPへ参加は、ご支援、ご協力をお願い致します。
+引き続きPyCon JPへ参加、ご支援、ご協力をお願い致します。
 来年の PyCon APAC in JP 2013 でお会いしましょう。
 
